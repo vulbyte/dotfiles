@@ -1,3 +1,10 @@
+# these are my zsh path thingys, 
+# this is made for macOS,
+# ordered by application alphabetically
+
+# bc 
+export BC_ENV_ARGS="-l"
+
 # bin
 export PATH="/usr/local/bin:$PATH"
 
