@@ -1,25 +1,31 @@
--- Pull in the wezterm API
 local wezterm = require 'wezterm'
+local config = {}
 
--- This will hold the configuration.
-local config = wezterm.config_builder()
-
--- This is where you actually apply your config choices
--- For example, changing the color scheme:
-config.color_scheme = 'Adventure'
-
--- config.window_background_image = {
---     source = {
---         File = '~/.config/nvim/images/loona7.png'
---     },
---     width = "contain",  -- Replace with the actual width of your image
---     height = "contain", -- Replace with the actual height of your image
--- }
-
-config.window_background_image_hsb = {
-    brightness = 0.008,
+--config.window_background_image = "./Users/insert/loona7.png"
+local dimmed = {
+    brightness = 0.02,
     hue = 1.0,
     saturation = 1.0,
 }
+
+config.enable_scroll_bar = true
+
+config.background = {
+    {
+        source = {
+            File = "/Users/insert/dotfiles/.config/nvim/images/loona7.png" --'/.config/nvim/images/loona7.png'
+        },
+        --brightness = 0.008,
+        --hue = 1.0,
+        --saturation = 1.0,
+        horizontal_align = "Left",
+        vertical_align = "Top",
+        height = "100%",
+
+        hsb = dimmed
+    }
+}
+
+config.font = wezterm.font('New Font')
 
 return config
