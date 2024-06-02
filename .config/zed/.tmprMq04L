@@ -64,3 +64,7 @@
 {"signed_in":false,"milliseconds_since_first_event":0,"type":"Cpu","usage_as_percentage":0.017296486,"core_count":10}
 {"signed_in":false,"milliseconds_since_first_event":240068,"type":"Memory","memory_in_bytes":48709632,"virtual_memory_in_bytes":443597258752}
 {"signed_in":false,"milliseconds_since_first_event":240068,"type":"Cpu","usage_as_percentage":0.01715137,"core_count":10}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Memory","memory_in_bytes":51445760,"virtual_memory_in_bytes":443598405632}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Cpu","usage_as_percentage":0.028082402,"core_count":10}
+{"signed_in":false,"milliseconds_since_first_event":240075,"type":"Memory","memory_in_bytes":37912576,"virtual_memory_in_bytes":443597258752}
+{"signed_in":false,"milliseconds_since_first_event":240075,"type":"Cpu","usage_as_percentage":0.0122160185,"core_count":10}
