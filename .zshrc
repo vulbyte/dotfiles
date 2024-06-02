@@ -12,15 +12,42 @@
 
 # for more on customization go here: https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html#Prompt-Expansion
 
-BG='%K{#000000}'                                            # background color
-FG='%F{#ff0051}'                                            # foreground color
-CLEAR='%k%f'                                                # clear the colors
-UN='🦊 '                                                    # username
-DIR='%3~ '                                                  # directory + depth
-PASSFAIL='%(?.✔️ .𝕏 )% '                                     # shows the left symbol if pass, right if fail
-PERMS='%# '                                                 # if has elevated permissions will show a 
-PROMPT="${UN}@ ${BG}${FG}${DIR}$CLEAR${PASSFAIL}${PERMS}"   # put it all together
+BG1='%K{#ff0051}'                                               # background color
+FG1='%F{#ffffff}'                                               # foreground color
+FG2='%F{#ff0051}'                                               # background color
+BG2='%K{#ffffff}'                                               # foreground color
+CLEAR='%k%f'                                                    # clear the colors
+UN='￮'                                                          # username
+DIR='%3~/'                                                      # directory + depth
+PASSFAIL='%(?.✔ .✖ )%'                                         # shows the left symbol if pass, right if fail
+PERMS='%# '                                                     # if has elevated permissions will show a 
+NEW_L="\n"
 
+function find_git_branch(){
+  branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
+  if [[ $branch == "" ]];
+  then
+      echo '- '
+  else
+    echo '- ('$branch')'
+  fi
+}
+
+function database(){
+    db=$()
+    echo " - (NULL)"
+}
+
+# THE PROMPT IS HERE
+setopt PROMPT_SUBST
+PROMPT='${BG1}${FG1} ${UN} | ${DIR} | LAST_CMD: ${PASSFAIL} |  $(find_git_branch) ${CLEAR}${FG2}▋▋▌▍▎▏${CLEAR}'   # put it all together
+#  $(database) |
+#  ${PERMS}
+
+#RANDOM SYMBOLS:
+# █▉▊▋▌▍▎▏
+# ￮
+# ▶ ◤
 
 # bc 
 export BC_ENV_ARGS="-l"
@@ -63,5 +90,6 @@ esac
 # export PATH="$HOME/.cargo/bin:$PATH"
 # export PATH="$Path:/Users/insert/.cargo/bin"
 export PATH="$PATH:/opt/homebrew/bin/cargo"
+export PATH="$PATH:/Users/insert/.cargo/bin"
 # cargo 2 electic boogaloo
 # export PATH="/Users/insert/.cargo/bin:$PATH"
