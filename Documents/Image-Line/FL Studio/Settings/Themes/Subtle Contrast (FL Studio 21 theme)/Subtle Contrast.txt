@@ -1,0 +1,4 @@
+' background gradient colors
+Background=$FF6B747C,$FF575C64
+' logo, size, colors
+Caption=O,150,$FF000000
