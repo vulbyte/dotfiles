@@ -6,6 +6,7 @@ ExportClipboard:	0
 AutoSaveFrequency:	5
 RevisionsToRetain:	0
 UndoRedoLimitToSave:	0
+SaveEditorState:	1
 WarnScriptUnsaved:	0
 UsePlugins:	1
 NewCharset:	ISO8859-1
@@ -81,14 +82,14 @@ AntiAlias:	1
 DefaultFVShowHmetrics:	0
 DefaultFVShowVmetrics:	0
 DefaultFVSize:	48
-DefaultFVRowCount:	14
-DefaultFVColCount:	34
+DefaultFVRowCount:	12
+DefaultFVColCount:	17
 DefaultFVGlyphLabel:	0
 SaveToDir:	1
 OnlyCopyDisplayed:	0
 PalettesDocked:	1
-DefaultCVWidth:	540
-DefaultCVHeight:	540
+DefaultCVWidth:	1041
+DefaultCVHeight:	917
 CVVisible0:	1
 CVVisible1:	1
 BVVisible0:	1
@@ -112,7 +113,7 @@ AlmostHVBound:	3
 CheckSelfIntersects:	1
 ShowDebugChanges:	1
 DefaultScreenDpiSystem:	0
-DefaultOutputFormat:	22
+DefaultOutputFormat:	18
 DefaultBitmapFormat:	10
 SaveValidate:	1
 SaveFontLogAsk:	0
@@ -123,7 +124,7 @@ PageHeight:	0
 PrintType:	-1
 RegularStar:	1
 PolyStar:	0
-RectEllipse:	0
+RectEllipse:	1
 RectCenterOut:	0
 EllipseCenterOut:	1
 PolyStartPointCnt:	6
@@ -156,6 +157,7 @@ CV_CB2Tool:	5
 XUID-Base:	1021 362 2144377394
 ShowKerningPane:	1
 PluginStartupMode:	Ask
+Recent:	/Volumes/970p2tb/projects/0125-test09-font/test09-v1r31.sfd
 Recent:	/Users/insert/school/cnc/y1s2/WEGD-151-101/activity4/../fontForgeFile.sfd
 Recent:	/Users/reineyurkowski/school/fonts/Untitled1.sfd
 Recent:	/Users/reineyurkowski/Untitled1.sfd

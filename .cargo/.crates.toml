@@ -2,5 +2,6 @@
 "create-tauri-app 3.7.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-create-tauri-app"]
 "fyrox-template 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["fyrox-template"]
 "lulz 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["lulz"]
+"mdcat 2.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = ["mdcat"]
 "tauri-cli 1.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-tauri"]
 "trunk 0.17.2 (registry+https://github.com/rust-lang/crates.io-index)" = ["trunk"]
