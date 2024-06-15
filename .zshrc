@@ -52,26 +52,48 @@
     # ▶ ◤
 
 # aliases
-    # quick git commit
-    
+    # quick git commit     
+    function qgit {                    
+        datetime=$(date +'%Y-%m-%d %H:%M:%S')
 
-    
-    gitq_o = ''; # qgit -o (for origin)
-    gitq_m = ''; # qgit -m (for message)
-    alias qgit = function git_commit(){
-        while getopts 'abd:v' flag; 
-        do 
+        gitq_m="qgit @: $datetime"  # Default commit message
+        gitq_o='origin'             # Default origin
+        gitq_y='false'              # Default skip confirms
+
+        while getopts 'moy' flag; do 
             case "${flag}" in 
-                gitq_o='origin';
-                if (gitq_m == ''){
-                    datetime = $(date +'%Y-%m-%d %H:%M:%S')
-                    gitq_m=$(echo 'qgit @: ' $datetime)
-                }
-                fi
+                m) gitq_m = "";;
+                o) gitq_o = 'origin';;
+                y) gitq_y = '';;
+                *) error "unexpected option ${flag}";;                 
+            esac
+        done
 
-        $(git add .);
-        $(git commit -m `gitq_m`);
-        $(git push -u `gitq_o`)
+        # if -y flag applied, then hard send
+        if ["$qgit_y" = 'true']; then 
+            git add .
+            git commit -m "$gitq_m" 
+            git push -u "$gitq_o"            
+        else
+
+            read -p "would you like to commit to: ${gitq_o} with the meddage: ${datetime} (y/n)" yn
+
+            case $yn in
+                [Yy]* ) 
+                    git add .
+                    git commit -m "$gitq_m" 
+                    git push -u "$gitq_o"
+                    ;;
+                Nn) 
+                    echo "exiting"
+                    ;;
+                    #exit n;;
+                *) 
+                    echo "incorrect input detected" 
+                    #exit n;;
+                    ;;
+            esac
+        fi
     }
 
 # bc 
