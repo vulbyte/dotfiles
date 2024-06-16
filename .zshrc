@@ -56,7 +56,9 @@
     function qgit {                    
         datetime=$(date +'%Y-%m-%d %H:%M:%S')
 
-        qgit_m="qgit @: $datetime"  # Default commit message
+        qgit_un=$(git config user.name)
+
+        qgit_m="qgit @: $datetime, from user ${qgit_un}"  # Default commit message
         qgit_o="origin"             # Default origin
         qgit_y="false"              # Default skip confirms
 
