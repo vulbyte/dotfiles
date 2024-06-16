@@ -70,7 +70,7 @@
         done
 
         # if -y flag applied, then hard send
-        if [ "$qgit_y"='true' ]; then 
+        if [ "$qgit_y" = 'true' ]; then 
             git add .
             git commit -m "$qgit_m" 
             git push -u "$qgit_o"            
