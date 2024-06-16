@@ -57,8 +57,8 @@
         datetime=$(date +'%Y-%m-%d %H:%M:%S')
 
         gitq_m="qgit @: $datetime"  # Default commit message
-        gitq_o='origin'             # Default origin
-        gitq_y='false'              # Default skip confirms
+        gitq_o="origin"             # Default origin
+        gitq_y="false"              # Default skip confirms
 
         while getopts 'moy' flag; do 
             case "${flag}" in 
