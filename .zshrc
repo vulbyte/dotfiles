@@ -60,7 +60,7 @@
         qgit_o="origin"             # Default origin
         qgit_y="false"              # Default skip confirms
 
-        while getopts 'm:o:y:' flag; do 
+        while getopts 'm:o:y' flag; do 
             case "${flag}" in 
                 m)  qgit_m="${OPTARG}" ;;
                 o)  qgit_o="${OPTARG}" ;;
