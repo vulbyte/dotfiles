@@ -75,7 +75,12 @@
             git commit -m "$qgit_m" 
             git push -u "$qgit_o"            
         else
-            echo -n "Would you like to commit to: '${qgit_o}' \nwith the message: '${qgit_m}' (y/n) "
+            QGIT_FG2='\033[38;5;197m'  # Set foreground color to a shade of pink
+            QGIT_BG2='\033[48;5;231m'  # Set background color to a shade of white
+            QGIT_CLEAR='\033[0m'       # Clear colors
+
+            QGIT_PROMPT="Would you like to commit to: ${QGIT_FG2}${qgit_o}${QGIT_CLEAR}\nwith the message: ${QGIT_FG2}${qgit_m}${QGIT_CLEAR} (y/n)"
+            echo "${QGIT_PROMPT}"
             read yn
 
             case $yn in
