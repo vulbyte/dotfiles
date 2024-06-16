@@ -56,45 +56,39 @@
     function qgit {                    
         datetime=$(date +'%Y-%m-%d %H:%M:%S')
 
-        gitq_m="qgit @: $datetime"  # Default commit message
-        gitq_o="origin"             # Default origin
-        gitq_y="false"              # Default skip confirms
+        qgit_m="qgit @: $datetime"  # Default commit message
+        qgit_o="origin"             # Default origin
+        qgit_y="false"              # Default skip confirms
 
-        while getopts 'moy' flag; do 
+        while getopts 'm:o:y' flag; do 
             case "${flag}" in 
-                m) 
-                    echo -n "Enter commit message: "
-                    read gitq_m
-                    ;;
-                o) 
-                    echo -n "Enter remote name: "
-                    read gitq_o
-                    ;;
-                y) gitq_y='true' ;;
+                m)  qgit_m="${OPTARG}" ;;
+                o)  qgit_o="${OPTARG}";;
+                y)  qgit_y='true' ;;
                 *) echo "unexpected option ${flag}"; return 1;;                 
             esac
         done
 
         # if -y flag applied, then hard send
-        if [ "$gitq_y" = 'true' ]; then 
+        if [ "$qgit_y"='true' ]; then 
             git add .
-            git commit -m "$gitq_m" 
-            git push -u "$gitq_o"            
+            git commit -m "$qgit_m" 
+            git push -u "$qgit_m"            
         else
-            echo -n "Would you like to commit to: ${gitq_o} with the message: '${gitq_m}' (y/n) "
+            echo -n "Would you like to commit to: '${qgit_o}' \nwith the message: '${qgit_m}' (y/n) "
             read yn
 
             case $yn in
                 [Yy]* ) 
                     git add .
-                    git commit -m "$gitq_m" 
-                    git push -u "$gitq_o"
+                    git commit -m "$qgit_m" 
+                    git push -u "$qgit_m"
                     ;;
                 [Nn]*) 
                     echo "Exiting"
                     ;;
                 *) 
-                    echo "Incorrect input detected" 
+                    echo "Incorrect input detected, exiting" 
                     ;;
             esac
         fi
