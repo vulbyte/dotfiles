@@ -64,7 +64,7 @@
             case "${flag}" in 
                 m)  qgit_m="${OPTARG}" ;;
                 o)  qgit_o="${OPTARG}" ;;
-                y)  qgit_y='true' ;;
+                y)  qgit_y="${OPTARG}" ;;
                 *) echo "unexpected option ${flag}"; return 1;;                 
             esac
         done
@@ -73,7 +73,7 @@
         if [ "$qgit_y"='true' ]; then 
             git add .
             git commit -m "$qgit_m" 
-            git push -u "$qgit_m"            
+            git push -u "$qgit_o"            
         else
             echo -n "Would you like to commit to: '${qgit_o}' \nwith the message: '${qgit_m}' (y/n) "
             read yn
