@@ -82,7 +82,7 @@
                 [Yy]* ) 
                     git add .
                     git commit -m "$qgit_m" 
-                    git push -u "$qgit_m"
+                    git push -u "$qgit_o"
                     ;;
                 [Nn]*) 
                     echo "Exiting"
