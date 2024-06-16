@@ -62,21 +62,27 @@
 
         while getopts 'moy' flag; do 
             case "${flag}" in 
-                m) gitq_m = "";;
-                o) gitq_o = 'origin';;
-                y) gitq_y = '';;
-                *) error "unexpected option ${flag}";;                 
+                m) 
+                    echo -n "Enter commit message: "
+                    read gitq_m
+                    ;;
+                o) 
+                    echo -n "Enter remote name: "
+                    read gitq_o
+                    ;;
+                y) gitq_y='true' ;;
+                *) echo "unexpected option ${flag}"; return 1;;                 
             esac
         done
 
         # if -y flag applied, then hard send
-        if ["$qgit_y" = 'true']; then 
+        if [ "$gitq_y" = 'true' ]; then 
             git add .
             git commit -m "$gitq_m" 
             git push -u "$gitq_o"            
         else
-
-            read -p "would you like to commit to: ${gitq_o} with the meddage: ${datetime} (y/n)" yn
+            echo -n "Would you like to commit to: ${gitq_o} with the message: '${gitq_m}' (y/n) "
+            read yn
 
             case $yn in
                 [Yy]* ) 
@@ -84,13 +90,11 @@
                     git commit -m "$gitq_m" 
                     git push -u "$gitq_o"
                     ;;
-                Nn) 
-                    echo "exiting"
+                [Nn]*) 
+                    echo "Exiting"
                     ;;
-                    #exit n;;
                 *) 
-                    echo "incorrect input detected" 
-                    #exit n;;
+                    echo "Incorrect input detected" 
                     ;;
             esac
         fi
