@@ -63,7 +63,7 @@
         while getopts 'm:o:y:' flag; do 
             case "${flag}" in 
                 m)  qgit_m="${OPTARG}" ;;
-                o)  qgit_o="${OPTARG}";;
+                o)  qgit_o="${OPTARG}" ;;
                 y)  qgit_y='true' ;;
                 *) echo "unexpected option ${flag}"; return 1;;                 
             esac
