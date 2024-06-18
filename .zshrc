@@ -52,6 +52,8 @@
     # ▶ ◤
 
 # aliases
+    alias nvim="nvim ./"
+
     # quick git commit     
     function qgit {                    
         datetime=$(date +'%Y-%m-%d %H:%M:%S')
