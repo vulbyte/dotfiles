@@ -52,7 +52,7 @@
     # ▶ ◤
 
 # aliases
-    alias nvim="nvim ./"
+    # alias nvim="nvim ./"
 
     # quick git commit     
     function qgit {                    
