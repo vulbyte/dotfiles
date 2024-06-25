@@ -53,6 +53,7 @@
 
 # aliases
     # alias nvim="nvim ./"
+    alias factors_of="/Volumes/970p2tb/projects/0000-mathStuff/factors_of.out";
 
     # quick git commit     
     function qgit {                    
