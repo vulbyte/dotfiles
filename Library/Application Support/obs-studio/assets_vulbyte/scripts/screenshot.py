@@ -17,6 +17,7 @@ from PIL import Image
 # obs inputs vars
 # ######################################################################
 
+
 def script_properties():
     props = obs.obs_properties_create()
     # p = obs.obs_properties_add_list(
@@ -56,6 +57,8 @@ def script_properties():
                 500,  # step
             )
 
+
+
     sources = obs.obs_enum_sources()
     if sources is not None:
         for source in sources:
@@ -90,6 +93,26 @@ def get_pixel_value(monitor, x, y):
             return pixel_value
         else:
             raise ValueError(f"Coordinates ({x}, {y}) are out of screen bounds ({screenshot.width}, {screenshot.height})")
+
+
+def read_pixels():
+    try:
+        arr.append(get_pixel_value(monitor_input, 1000, 1000))
+        arr.append(get_pixel_value(monitor_input, 1000, 1500))
+        arr.append(get_pixel_value(monitor_input, 1000, 2000))
+
+        arr.append(get_pixel_value(monitor_input, 2000, 1000))
+        arr.append(get_pixel_value(monitor_input, 2000, 1500))
+        arr.append(get_pixel_value(monitor_input, 2000, 2000))
+
+        arr.append(get_pixel_value(monitor_input, 3000, 1000))
+        arr.append(get_pixel_value(monitor_input, 3000, 1500))
+        arr.append(get_pixel_value(monitor_input, 3000, 2000))
+    except ValueError as e:
+        print(e)
+
+# Print pixel values
+    print(arr)
 
 
 # def script_load(monitor_number, perfect_from_edge):
@@ -131,20 +154,6 @@ monitor_input = 0
 
 arr = []
 
-try:
-    arr.append(get_pixel_value(monitor_input, 1000, 1000))
-    arr.append(get_pixel_value(monitor_input, 1000, 1500))
-    arr.append(get_pixel_value(monitor_input, 1000, 2000))
 
-    arr.append(get_pixel_value(monitor_input, 2000, 1000))
-    arr.append(get_pixel_value(monitor_input, 2000, 1500))
-    arr.append(get_pixel_value(monitor_input, 2000, 2000))
-
-    arr.append(get_pixel_value(monitor_input, 3000, 1000))
-    arr.append(get_pixel_value(monitor_input, 3000, 1500))
-    arr.append(get_pixel_value(monitor_input, 3000, 2000))
-except ValueError as e:
-    print(e)
-
-# Print pixel values
-print(arr)
+# while(enabled)
+print(read_pixels())
