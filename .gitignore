@@ -1,3 +1,7 @@
 */global.ini
 ./Library/Application\ Support/obs-studio/global.ini
 ./Library/Application\ Support/obs-studio/global.ini
+.DS_Store
+.vscode
+conpresor.lock
+package.lock

@@ -5,3 +5,6 @@ find . -type f \( -name '.DS_Store' -or -name '*text*' \) -delete;
 
 # commit the stow
 stow .;
+
+# add global git ignore
+git config --global core.excludesfile ~/.gitignore
