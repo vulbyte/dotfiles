@@ -113,15 +113,114 @@
 			</div>
 			<div>
 				<input type="checkbox">
-				<span># vtuber is on and working</span>
+				<span># vtuber is on and working @
+					<a
+						hre="file:///Users/insert/Library/Application Support/Steam/steamapps/common/VTube Studio/start_without_steam">/Users/insert/Library/Application
+						Support/Steam/steamapps/common/VTube Studio/start_without_steam'</a></span>
 			</div>
 			<div>
 				<input type="checkbox">
 				<span># make sure audio channels are seperated</span>
 			</div>
-			<div>
+			<div id="recording_settings">
+				<style>
+					#recording_settings>ul>li>details>summary {
+						color: lightpink;
+						font-weight: bolder !important;
+						text-decoration: wavy !important;
+						text-decoration-color: blue;
+					}
+				</style>
 				<input type="checkbox">
-				<span># is the recording directory set properly</span>
+				<span># is the recording directory set properly?</span>
+				<ul>
+					<li>
+						<details>
+							<summary style="display:flex; justify-content:space-between"><span>channel_0: Void</span><span>-∞dB</span>
+							</summary>
+							this channel is a null channel (tracks with absolutely 0 recording)
+						</details>
+					</li>
+					<li>
+						<details>
+							<summary style="display:flex; justify-content:space-between"><span>channel_1:
+									Master</span><span>-∞dBa</span> </summary>
+							<div>
+								<h3>tldr:</h3>
+								a catch all channel, should be effectsless and not directly recorded too
+							</div>
+							<div>
+								<h4>filters:</h4>
+								<ol>
+									<li>1. Gain </li>
+									<li>2. Noise Supression</li>
+									<li>3. 3-Band Correction</li>
+									<li>4. Compressor <br>
+										<div>
+									<li>ratio: 3.00:1</li>
+									<li>threshold: -12dBa</li>
+									<li>attack: 3ms</li>
+									<li>release: 128ms</li>
+									<li>output gain: ~4dB</li>
+									<li>sidechain: none</li>
+									<li>5. 3-Band Flavor</li>
+									<li>6. Limiter<br>
+										<ul>
+											<li>threshold: 0.00dB</li>
+
+											<li>
+												Release: ~60ms
+											</li>
+										</ul>
+									<li></li>
+							</div>
+						</details>
+					</li>
+					<li>
+						<details>
+							<summary style="display:flex; justify-content:space-between"><span>channel_2: Microphone</span>
+								<span>-3dB</span>
+							</summary>
+							just for the main host
+						</details>
+					</li>
+					<li>
+						<details>
+							<summary style="display:flex; justify-content:space-between"><span>channel_3:
+									Co-Hosts</span><span>-14dB</span></summary>
+							channel for any and all other participants in the call
+						</details>
+					</li>
+					<li>
+						<details>
+							<summary style="display:flex; justify-content:space-between"><span>channel_4: Application
+									Capture</span><span>-18dB</span>
+							</summary>
+							for the game, or whatever other content is on screen
+						</details>
+					</li>
+					<li>
+						<details>
+							<summary style="display:flex; justify-content:space-between">
+								<span>channel_5: Stream Iterations</span>
+								<span>-30dBa</span>
+							</summary>
+							for anything
+						</details>
+					</li>
+					<li>
+						<details>
+							<summary style="display:flex; justify-content:space-between">
+								<span> channel_6: Other </span>
+								<span> -40dBa </span>
+							</summary>
+							for anything that doens't fit in the above
+						</details>
+					</li>
+					<li>
+						<sub> click on any of the above to expand </sub>
+					</li>
+				</ul>
 			</div>
 		</form>
 		<hr>
