@@ -1,17 +1,20 @@
  # nvim Config 
+## requirements
 .simply add this to ~/.config/nvim 
 with nvim installed via brew on macOS 12 for a garuntee d good time .( ... . .... ....) ...
 - packages used in this project:
-- tpope/fugitive - https://github.com/tpope/vim-fugitive
-- theprimeagen/harpoon - https://github.com/ThePrimeagen/harpoon
-- VonHeikemen/lsp-zero - https://github.com/VonHeikemen/lsp-zero.nvim
-- wbthomasons/packer - https://github.com/wbthomason/packer.nvim
-- nvim-telescope/telescope - https://github.com/nvim-telescope/telescope.nvim 
-- nvim-treesitter/nvim-treesitter - https://github.com/nvim-treesitter/nvim-treesitter. 
-- requires: No deJs. 
-- bbill/undo tree - https://github.com/mbbill/undotree. 
+- tpope/fugitive                    - https://github.com/tpope/vim-fugitive
+- theprimeagen/harpoon              - https://github.com/ThePrimeagen/harpoon
+- VonHeikemen/lsp-zero              - https://github.com/VonHeikemen/lsp-zero.nvim
+- wbthomasons/packer                - https://github.com/wbthomason/packer.nvim
+- nvim-telescope/telescope          - https://github.com/nvim-telescope/telescope.nvim 
+- nvim-treesitter/nvim-treesitter   - https://github.com/nvim-treesitter/nvim-treesitter. 
+- mbbill/undo tree                   - https://github.com/mbbill/undotree. 
 
-# Startup 
+- requires: NodeJs                  - https://nodejs.org/en
+### installation . while you're at it install this too: https://github.com/sharkdp/fd
+
+## Startup 
 1. cd into the proper place, which is within y our .config folder in your hole or user folder. on macOS: 
 ``cd  ~./.config/``, 
 on  linux  it's generally: 
@@ -25,10 +28,7 @@ and the project folder should be added their named `nvimConfig`, rename this to 
 
 4. check that ``:Mason`` is also working , if it's working should be all good ..
 
-# Troubleshooting:
+## Troubleshooting:
 
 - CC1 :  if you are having issues errors  caused from  "missing the cc1 file/di rectory" it' s because you're missing a file used to compile  code for gcc . to fix this run: ```yum install gcc-c++```, if you don't h ave yum go install it... 
-- GREP SEARCH NOT WO RKING: . if this isn't working you need to install rip grep via: https://github.com/BurntSushi/ripgrep
-
-# installation . while you're at it install this too: https://github.com/sharkdp/fd
-# installation..
+- GREP SEARCH NOT WORKING: . if this isn't working you need to install rip grep via: https://github.com/BurntSushi/ripgrep
