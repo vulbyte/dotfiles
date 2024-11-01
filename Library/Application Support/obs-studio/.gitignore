@@ -1,9 +1,0 @@
-# ignore all log files
-*.log
-
-# #ignore all files in these directories
-logs/
-plugin_config/
-updates/
-plugins/
-profiler_data/
