@@ -148,3 +148,6 @@
     export PATH="$PATH:/Users/insert/.cargo/bin"
     # cargo 2 electic boogaloo
     # export PATH="/Users/insert/.cargo/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/insert/.cache/lm-studio/bin"
