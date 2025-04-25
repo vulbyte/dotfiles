@@ -4,6 +4,7 @@ export PATH=/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bi
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/Cellar:$PATH"
 export PATH="/Library/Frameworks/Mono.framework/Versions/Current/Commands/msbuild:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 

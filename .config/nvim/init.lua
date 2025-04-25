@@ -55,4 +55,33 @@ vim.cmd('filetype on')
 vim.cmd('filetype plugin on')
 vim.cmd('filetype indent on')
 
+-- harper_ls config
+local harper_ls = require('lspconfig')
+
+harper_ls.harper_ls.setup {
+    settings = {
+        ["harper-ls"] = {
+            linters = {
+                spell_check = true,
+                spelled_numbers = false,
+                an_a = true,
+                sentence_capitalization = false, -- Set this to `false` if you want to disable the warning
+                unclosed_quotes = true,
+                wrong_quotes = false,
+                long_sentences = true,
+                repeated_words = true,
+                spaces = false,
+                matcher = true,
+                correct_number_suffix = true,
+                number_suffix_capitalization = true,
+                multiple_sequential_pronouns = true,
+                linking_verbs = false,
+                avoid_curses = true,
+                terminating_conjunctions = true,
+            }
+        }
+    }
+}
+
 return printLoadingAndLoaded
+

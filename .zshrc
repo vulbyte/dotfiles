@@ -76,7 +76,7 @@
 
         # if -y flag applied, then hard send
         if [ "$qgit_y" = 'true' ]; then 
-            git add .
+            git add . -p
             git commit -m "$qgit_m" 
             git push -u "$qgit_o"            
         else
@@ -110,6 +110,10 @@
 # bin
     export PATH="/usr/local/bin:$PATH"
 
+#cpath 
+export CPATH=/opt/homebrew/include
+export LIBRARY_PATH=/opt/homebrew/lib
+
 # cpp
 # BELOW WILL BREAK .ZSHRC
 # export CPPFLAGS="-I/usr/local/opt/openjdk/include"
@@ -133,7 +137,6 @@
 # pyenv
     export PYENV_ROOT="/opt/homebrew/bin/pyenv"
 
-
 # pnpm
     export PNPM_HOME="~/Library/pnpm"
     case ":$PATH:" in
@@ -149,5 +152,48 @@
     # cargo 2 electic boogaloo
     # export PATH="/Users/insert/.cargo/bin:$PATH"
 
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/insert/.cache/lm-studio/bin"
+# #molten-vk
+# export VK_ICD_FILENAMES=$(brew --prefix molten-vk)/etc/vulkan/icd.d/MoltenVK_icd.json
+# 
+# # vulkan
+# # Sets up required variables for Vulkan
+# 
+# SCRIPT_DIR=`dirname "$0"`
+# MOLTENVK_VERSION="vulkansdk-macos-1.1.154.0"
+# # MOLTENVK_VERSION="vulkansdk-macos-1.1.101.0"
+# 
+# # Path to SDK, once this is setup you can load vulkan in cmake with find_package(vulkan REQUIRED)
+# # Later need to link project with "Vulkan::Vulkan"
+# export VULKAN_SDK=$SCRIPT_DIR/LunarG-Vulkan-SDK/$MOLTENVK_VERSION/macOS
+# echo "Setting VULKAN_SDK=`echo $VULKAN_SDK`"
+# 
+# # MoltenVK framework path
+# export MOLTEN_VK=$SCRIPT_DIR/LunarG-Vulkan-SDK/$MOLTENVK_VERSION/MoltenVK
+# echo "Setting MOLTEN_VK=`echo $MOLTEN_VK`"
+# 
+# # Path to vulkan binaries
+# export PATH=$VULKAN_SDK/bin:$PATH
+# 
+# # Path to ICD
+# export VK_ICD_FILENAMES=$VULKAN_SDK/share/vulkan/icd.d/MoltenVK_icd.json
+# echo "Setting VK_ICD_FILENAMES=`echo $VK_ICD_FILENAMES`"
+# 
+# # Path to layers
+# export VK_LAYER_PATH=$VULKAN_SDK/share/vulkan/explicit_layer.d
+# echo "Setting VK_LAYER_PATH=`echo $VK_LAYER_PATH`"
+# 
+# # Path to Dynamic library
+# export DYLD_LIBRARY_PATH=$VULKAN_SDK/lib:$DYLD_LIBRARY_PATH
+# echo "Setting DYLD_LIBRARY_PATH=`echo $DYLD_LIBRARY_PATH`"
+# 
+# # Access to MoltenVK framework?
+# export VULKAN_FRAMEWORK_PATH=$VULKAN_SDK/Frameworks
+# echo "Setting VULKAN_FRAMEWORK_PATH=`echo $VULKAN_FRAMEWORK_PATH`"
+# 
+# # Path to Dynamic framworks
+# export DYLD_FRAMEWORK_PATH=$VULKAN_FRAMEWORK_PATH:$DYLD_FRAMEWORK_PATH
+# echo "Setting DYLD_FRAMEWORK_PATH=`echo $DYLD_FRAMEWORK_PATH`"
+# 
+# # Added by LM Studio CLI (lms)
+# export PATH="$PATH:/Users/insert/.cache/lm-studio/bin"
+# export PATH="/usr/local/sbin:$PATH"

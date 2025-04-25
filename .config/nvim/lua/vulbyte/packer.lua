@@ -119,9 +119,9 @@ local function setupPacker()
 
         --adds harpoon, a tool that lets you save upto 4 scripts,
         --then you can use h n t or s to bounce between them
-        if (printLoadingAndLoaded == true) then print("LOADING: harpoon") end
-        use('theprimeagen/harpoon')
-        if (printLoadingAndLoaded == true) then print("LOADED: harpoon") end
+        -- if (printLoadingAndLoaded == true) then print("LOADING: harpoon") end
+        -- use('theprimeagen/harpoon')
+        -- if (printLoadingAndLoaded == true) then print("LOADED: harpoon") end
 
         -- I
 
@@ -155,9 +155,19 @@ local function setupPacker()
                 -- autocompletion
                 { 'hrsh7th/nvim-cmp' },     -- required
                 { 'hrsh7th/cmp-nvim-lsp' }, -- required
-                { 'l3mon4d3/luasnip' },     -- required
+                --{ 'l3mon4d3/luasnip' },     -- required
             },
         }
+	
+        --if (printLoadingAndLoaded == true) then ("LOADING: L3MON4D3/LuaSnip") end
+	use({
+		"L3MON4D3/LuaSnip",
+		-- follow latest release.
+		tag = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
+		-- install jsregexp (optional!:).
+		run = "make install_jsregexp"
+	})
+        --if (printLoadingAndLoaded == true) then ("LOADED: L3MON4D3/LuaSnip") end
 
         -- M
 
