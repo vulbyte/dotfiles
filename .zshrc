@@ -152,6 +152,17 @@ export LIBRARY_PATH=/opt/homebrew/lib
     # cargo 2 electic boogaloo
     # export PATH="/Users/insert/.cargo/bin:$PATH"
 
+#ti84 plus ce
+	export PATH=~/CEdev/bin:$PATH
+	# Suppress message about using zsh
+	
+# z88dk
+#export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# Export z88dk path and environment
+export PATH=${PATH}:${HOME}/z88dk/bin
+export ZCCCFG=${HOME}/z88dk/lib/config
+
 # #molten-vk
 # export VK_ICD_FILENAMES=$(brew --prefix molten-vk)/etc/vulkan/icd.d/MoltenVK_icd.json
 # 
