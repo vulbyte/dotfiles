@@ -60,6 +60,14 @@ require 'nvim-treesitter.configs'.setup {
 		"zig",
 	},
 
+	folds = {
+	  enable = true,
+	    -- disable default vim fold when treesitter is active
+	    disable = function(buf)
+	    return vim.api.nvim_buf_get_option(buf, "buftype") ~= ""
+	    end,
+	  },
+
 	-- Install parsers synchronously (only applied to `ensure_installed`)
 	sync_install = false,
 
