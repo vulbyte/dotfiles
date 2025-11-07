@@ -136,6 +136,7 @@ export LIBRARY_PATH=/opt/homebrew/lib
 
 # pyenv
     export PYENV_ROOT="/opt/homebrew/bin/pyenv"
+    # export PATH="/Users/insert/Library/Python/3.11/bin"
 
 # pnpm
     export PNPM_HOME="~/Library/pnpm"

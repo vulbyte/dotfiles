@@ -3,5 +3,6 @@
 	email = vulbyt3@gmail.com
 [core]
 	exludesfile = /Users/insert/.gitignore
+	excludesfile = /Users/insert/.gitignore
 [http]
 	postBuffer = 157286400

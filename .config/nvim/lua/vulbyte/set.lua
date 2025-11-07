@@ -18,7 +18,7 @@ vim.opt.smartindent = true   -- automagicly indent
 vim.opt.wrap = true          -- should words wrap, if false will go off screen
 vim.opt.linebreak = true     -- should they wrap on first char, or based on word?
 
-vim.opt.foldmethod = "marker"
+vim.opt.foldmethod = "syntax"
 -- set fold method to marker, what this will do is cheack for  {{{1 }}}1 and fold everything with matching syntax
 
 vim.opt.swapfile = true                                --use swapfile for changes? (if true, wll create a swap file will be used which can be nice in the case of crashes)

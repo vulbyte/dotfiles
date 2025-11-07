@@ -48,11 +48,11 @@ format_on_save.setup({
         }),
 
         -- Concatenate formatters
-        python = {
-            formatters.remove_trailing_whitespace,
-            formatters.shell({ cmd = "tidy-imports" }),
-            formatters.black,
-        },
+        -- python = {
+        --     formatters.remove_trailing_whitespace,
+        --     formatters.shell({ cmd = "tidy-imports" }),
+        --     formatters.black,
+        -- },
 
         -- Use a tempfile instead of stdin
         go = {
