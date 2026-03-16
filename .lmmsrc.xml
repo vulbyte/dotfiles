@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-config-file>
+<lmms version="1.2.2">
+  <MidiJack device="lmms"/>
+  <app nomsgaftersetup="0" disablebackup="0" nommpz="0" language="en" configured="1" displaydbfs="0" nanhandler="1" openlastproject="0"/>
+  <audiojack channels="2" clientname="lmms"/>
+  <audioportaudio device="" backend=""/>
+  <audiosdl device=""/>
+  <mixer framesperaudiobuffer="256" hqaudio="0" mididev="Apple MIDI" audiodev="SDL (Simple DirectMedia Layer)"/>
+  <paths defaultsf2="" backgroundartwork="" vstdir="/Users/insert/Documents/lmms/plugins/vst/" gigdir="/Users/insert/Documents/lmms/samples/gig/" workingdir="/Users/insert/Documents/lmms/" sf2dir="/Users/insert/Documents/lmms/samples/soundfonts/" stkdir="/Applications/LMMS.app/Contents/MacOS/../share/stk/rawwaves/" laddir="/Users/insert/Documents/lmms/plugins/ladspa/" artwork="data:/themes/default/"/>
+  <tooltips disabled="0"/>
+  <ui enableautosave="1" saveinterval="2" displaywaveform="0" printnotelabels="0" syncvstplugins="1" vstalwaysontop="0" disableautoquit="1" oneinstrumenttrackwindow="0" enablerunningautosave="0" vstembedmethod="qt" smoothscroll="0" compacttrackbuttons="0" animateafp="1"/>
+  <recentfiles>
+    <file path="data:/projects/templates/default.mpt"/>
+  </recentfiles>
+</lmms>
