@@ -1,0 +1,116 @@
+15:14:12.948: [macOS] Permission for audio device access granted.
+15:14:12.954: [macOS] Permission for video device access granted.
+15:14:12.954: [macOS] Permission for input monitoring granted.
+15:14:12.967: [macOS] Permission for screen capture granted.
+15:14:12.967: CPU Name: Apple M1 Max
+15:14:12.967: Physical Cores: 10, Logical Cores: 10
+15:14:12.967: Physical Memory: 32768MB Total
+15:14:12.967: Model Identifier: MacBookPro18,2
+15:14:12.967: OS Name: macOS
+15:14:12.969: OS Version: Version 26.4.1 (Build 25E253)
+15:14:12.969: Rosetta translation used: false
+15:14:12.969: Kernel Version: 25.4.0
+15:14:12.969: hotkeys-cocoa: Using keyboard layout 'com.apple.keylayout.Canadian'
+15:14:12.970: Current Date/Time: 2026-05-09, 15:14:12
+15:14:12.970: Browser Hardware Acceleration: true
+15:14:12.970: Qt Version: 6.8.3 (runtime), 6.8.3 (compiled)
+15:14:12.970: Portable mode: false
+15:14:13.165: OBS 32.1.2 (mac)
+15:14:13.165: ---------------------------------
+15:14:13.169: ---------------------------------
+15:14:13.169: audio settings reset:
+15:14:13.169: 	samples per sec: 48000
+15:14:13.169: 	speakers:        2
+15:14:13.169: 	max buffering:   960 milliseconds
+15:14:13.169: 	buffering type:  dynamically increasing
+15:14:13.170: ---------------------------------
+15:14:13.170: Initializing OpenGL...
+15:14:13.234: Loading up OpenGL on adapter Apple Apple M1 Max
+15:14:13.234: OpenGL loaded successfully, version 4.1 Metal - 90.5, shading language 4.10
+15:14:13.506: ---------------------------------
+15:14:13.506: video settings reset:
+15:14:13.506: 	base resolution:   1920x1080
+15:14:13.506: 	output resolution: 1280x720
+15:14:13.506: 	downscale filter:  Bicubic
+15:14:13.506: 	fps:               30/1
+15:14:13.506: 	format:            NV12
+15:14:13.506: 	YUV mode:          Rec. 709/Partial
+15:14:13.506: NV12 texture support enabled
+15:14:13.506: P010 texture support not available
+15:14:13.510: Audio monitoring device:
+15:14:13.510: 	name: Default
+15:14:13.510: 	id: default
+15:14:13.513: ---------------------------------
+15:14:13.519: No AJA devices found, skipping loading AJA UI plugin
+15:14:13.519: Failed to initialize module 'aja-output-ui'
+15:14:13.523: No AJA devices found, skipping loading AJA plugin
+15:14:13.523: Failed to initialize module 'aja'
+15:14:13.527: Failed to load 'en-US' text for module: 'decklink-captions'
+15:14:13.529: Failed to load 'en-US' text for module: 'decklink-output-ui'
+15:14:13.531: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:14:13.532: Failed to initialize module 'decklink'
+15:14:13.838: [obs-browser]: Version 2.26.8
+15:14:13.838: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.0.0-6533-fix-stutter.3039+g2b7d20b+chromium-127.0.6533.120 (compiled)
+15:14:13.862: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.3 | RPC Version: 1)
+15:14:13.863: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.3 | Qt version (run-time): 6.8.3
+15:14:13.863: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+15:14:13.866: [obs-websocket] [obs_module_load] Module loaded.
+15:14:13.880: os_dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib->/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib): dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib, 0x0106): tried: '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64'))
+15:14:13.880: 
+15:14:13.880: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+15:14:13.880: ---------------------------------
+15:14:13.880:   Loaded Modules:
+15:14:13.880:     vlc-video
+15:14:13.880:     text-freetype2
+15:14:13.880:     rtmp-services
+15:14:13.880:     obs-x264
+15:14:13.880:     obs-websocket
+15:14:13.880:     obs-webrtc
+15:14:13.880:     obs-vst
+15:14:13.880:     obs-transitions
+15:14:13.880:     obs-outputs
+15:14:13.880:     obs-filters
+15:14:13.880:     obs-ffmpeg
+15:14:13.880:     obs-browser
+15:14:13.880:     mac-virtualcam
+15:14:13.880:     mac-videotoolbox
+15:14:13.880:     mac-syphon
+15:14:13.880:     mac-capture
+15:14:13.880:     mac-avcapture
+15:14:13.880:     mac-avcapture-legacy
+15:14:13.880:     image-source
+15:14:13.881:     frontend-tools
+15:14:13.881:     decklink-output-ui
+15:14:13.881:     decklink-captions
+15:14:13.881:     coreaudio-encoder
+15:14:13.881: ---------------------------------
+15:14:13.887: [VideoToolbox encoder]: Added VideoToolbox encoders
+15:14:13.888: ---------------------------------
+15:14:13.888: Available Encoders:
+15:14:13.888:   Video Encoders:
+15:14:13.888: 	- ffmpeg_aom_av1 (AOM AV1)
+15:14:13.888: 	- obs_x264 (x264)
+15:14:13.888: 	- com.apple.videotoolbox.videoencoder.prores-422 (Apple VT ProRes Software Encoder)
+15:14:13.888: 	- com.apple.videotoolbox.videoencoder.appleproreshw.422 (Apple VT ProRes Hardware Encoder)
+15:14:13.888: 	- com.apple.videotoolbox.videoencoder.ave.avc (Apple VT H264 Hardware Encoder)
+15:14:13.888: 	- com.apple.videotoolbox.videoencoder.h264 (Apple VT H264 Software Encoder)
+15:14:13.888: 	- com.apple.videotoolbox.videoencoder.ave.hevc (Apple VT HEVC Hardware Encoder)
+15:14:13.888: 	- com.apple.videotoolbox.videoencoder.hevc.vcp (Apple VT HEVC Software Encoder)
+15:14:13.888:   Audio Encoders:
+15:14:13.888: 	- CoreAudio_AAC (CoreAudio AAC)
+15:14:13.888: 	- ffmpeg_aac (FFmpeg AAC)
+15:14:13.888: 	- ffmpeg_opus (FFmpeg Opus)
+15:14:13.888: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+15:14:13.888: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+15:14:13.888: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+15:14:13.888: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+15:14:13.888: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+15:14:13.888: ==== Startup complete ===============================================
+15:14:13.941: All scene data cleared
+15:14:13.941: ------------------------------------------------
+15:14:13.947: Switched to scene 'Scene'
+15:14:13.947: ------------------------------------------------
+15:14:13.947: Loaded scenes:
+15:14:13.947: - scene 'Scene':
+15:14:13.947: ------------------------------------------------
+15:14:14.537: [mac-virtualcam] mac-camera-extension: OBS cannot install the virtual camera if it's not in "/Applications". Please move OBS to the "/Applications" directory.
