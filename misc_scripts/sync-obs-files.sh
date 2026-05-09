@@ -3,6 +3,7 @@
 # 1. Detect Operating System
 OS_TYPE=$(uname)
 DOTFILES_DIR="$HOME/dotfiles"
+GIT_BRANCH="main"
 
 if [ "$OS_TYPE" == "Darwin" ]; then
     # macOS Path
@@ -23,7 +24,7 @@ mkdir -p "$DOTFILES_DEST"
 echo "Detected $OS_TYPE. Syncing OBS configuration..."
 
 # 3. Sync files while excluding sensitive and bloated data
-# Using --delete ensures files removed in OBS are removed in dotfiles
+# Using --delete ensures files removed in OBS are also removed in your dotfiles
 rsync -av --delete \
     --exclude='logs/' \
     --exclude='crashes/' \
@@ -38,18 +39,22 @@ rsync -av --delete \
     --exclude='service.json' \
     "$OBS_SRC" "$DOTFILES_DEST"
 
-# 4. Git Logic
-echo "Checking for changes to push to Git..."
+# 4. Git Backup Logic
+echo "Checking for changes to backup to Git..."
 cd "$DOTFILES_DIR" || exit
 
-# Add all changes in the dotfiles repo
+# Stage all changes (including the newly synced OBS files)
 git add .
 
-# Only commit and push if there are actual changes
+# Check if there are changes worth committing
 if ! git diff-index --quiet HEAD; then
+    echo "Changes detected. Committing and pushing..."
     git commit -m "obs: auto-sync $(date +'%Y-%m-%d %H:%M:%S')"
-    git push origin main
-    echo "Changes pushed to origin successfully."
+    git push origin "$GIT_BRANCH"
+    echo "Backup to Git origin complete."
 else
-    echo "No changes detected. Git is already up to date."
+    echo "No changes detected. Git repository is already up to date."
 fi
+
+echo "---------------------------------------------------"
+echo "Process finished."
