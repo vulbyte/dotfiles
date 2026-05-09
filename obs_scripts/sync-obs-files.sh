@@ -25,6 +25,9 @@ echo "Detected $OS_TYPE. Syncing OBS configuration..."
 
 # 3. Sync files while excluding sensitive and bloated data
 # Using --delete ensures files removed in OBS are also removed in your dotfiles
+# ... (rest of the script remains the same)
+
+# The trailing slashes on both paths are the fix!
 rsync -av --delete \
     --exclude='logs/' \
     --exclude='crashes/' \
@@ -37,8 +40,9 @@ rsync -av --delete \
     --exclude='SafeModeFinished' \
     --exclude='*.bak' \
     --exclude='service.json' \
-    "$OBS_SRC" "$DOTFILES_DEST"
+    "$OBS_SRC/" "$DOTFILES_DEST/"
 
+# ... (rest of the script)
 # 4. Git Backup Logic
 echo "Checking for changes to backup to Git..."
 cd "$DOTFILES_DIR" || exit
