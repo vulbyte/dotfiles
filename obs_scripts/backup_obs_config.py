@@ -1,26 +1,34 @@
 import obspython as obs
-import subprocess
 import os
+import subprocess
 
-# --- CONFIGURATION ---
-# This points to the Bash script we just made
-BASH_SCRIPT_PATH = os.path.expanduser("~/dotfiles/misc_scripts/sync-obs-files.sh")
+# Path to your stow/commit script
+SH_SCRIPT_PATH = os.path.expanduser("~/dotfiles/config_and_commit_stow.sh")
 
-def run_backup():
-    if os.path.exists(BASH_SCRIPT_PATH):
-        print(f"Triggering OBS backup: {BASH_SCRIPT_PATH}")
-        # We use Popen so the bash script runs in the background 
-        # and doesn't get killed when OBS finishes closing.
-        subprocess.Popen(["/bin/bash", BASH_SCRIPT_PATH])
+def run_backup_script():
+    """Executes the shell script in a detached process."""
+    if os.path.exists(SH_SCRIPT_PATH):
+        try:
+            # We use Popen so OBS can finish closing while the script pushes to Git
+            subprocess.Popen(
+                ["/bin/bash", SH_SCRIPT_PATH],
+                start_new_session=True,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL
+            )
+        except Exception as e:
+            print(f"Failed to run backup script: {e}")
     else:
-        print(f"Error: Bash script not found at {BASH_SCRIPT_PATH}")
+        print(f"Error: {SH_SCRIPT_PATH} not found.")
 
-def script_unload():
-    """
-    This function is called automatically by OBS when 
-    the script is removed or when OBS closes.
-    """
-    run_backup()
+def on_event(event):
+    """Listens for the OBS exit signal."""
+    if event == obs.OBS_FRONTEND_EVENT_EXIT:
+        run_backup_script()
+
+def script_load(settings):
+    """Called when the script is loaded into OBS."""
+    obs.obs_frontend_add_event_callback(on_event)
 
 def script_description():
-    return "Automatically runs sync-obs-files.sh when OBS closes."
+    return "Runs ~/dotfiles/config_and_commit_stow.sh automatically when OBS closes."

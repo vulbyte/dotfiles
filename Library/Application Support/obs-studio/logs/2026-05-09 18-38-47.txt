@@ -1,0 +1,193 @@
+18:38:47.153: [macOS] Permission for audio device access granted.
+18:38:47.158: [macOS] Permission for video device access granted.
+18:38:47.158: [macOS] Permission for input monitoring granted.
+18:38:47.168: [macOS] Permission for screen capture granted.
+18:38:47.169: CPU Name: Apple M1 Max
+18:38:47.169: Physical Cores: 10, Logical Cores: 10
+18:38:47.169: Physical Memory: 32768MB Total
+18:38:47.169: Model Identifier: MacBookPro18,2
+18:38:47.169: OS Name: macOS
+18:38:47.169: OS Version: Version 26.4.1 (Build 25E253)
+18:38:47.169: Rosetta translation used: false
+18:38:47.169: Kernel Version: 25.4.0
+18:38:47.170: hotkeys-cocoa: Using keyboard layout 'com.apple.keylayout.Canadian'
+18:38:47.170: Current Date/Time: 2026-05-09, 18:38:47
+18:38:47.170: Browser Hardware Acceleration: true
+18:38:47.170: Qt Version: 6.8.3 (runtime), 6.8.3 (compiled)
+18:38:47.170: Portable mode: false
+18:38:47.369: OBS 32.1.2 (mac)
+18:38:47.369: ---------------------------------
+18:38:47.371: ---------------------------------
+18:38:47.371: audio settings reset:
+18:38:47.371: 	samples per sec: 48000
+18:38:47.371: 	speakers:        2
+18:38:47.371: 	max buffering:   960 milliseconds
+18:38:47.371: 	buffering type:  dynamically increasing
+18:38:47.374: ---------------------------------
+18:38:47.374: Initializing OpenGL...
+18:38:47.420: Loading up OpenGL on adapter Apple Apple M1 Max
+18:38:47.420: OpenGL loaded successfully, version 4.1 Metal - 90.5, shading language 4.10
+18:38:47.663: ---------------------------------
+18:38:47.663: video settings reset:
+18:38:47.663: 	base resolution:   1920x1080
+18:38:47.663: 	output resolution: 1280x720
+18:38:47.663: 	downscale filter:  Bicubic
+18:38:47.663: 	fps:               30/1
+18:38:47.663: 	format:            NV12
+18:38:47.663: 	YUV mode:          Rec. 709/Partial
+18:38:47.663: NV12 texture support enabled
+18:38:47.663: P010 texture support not available
+18:38:47.666: Audio monitoring device:
+18:38:47.666: 	name: Default
+18:38:47.666: 	id: default
+18:38:47.669: ---------------------------------
+18:38:47.683: No AJA devices found, skipping loading AJA UI plugin
+18:38:47.683: Failed to initialize module 'aja-output-ui'
+18:38:47.696: No AJA devices found, skipping loading AJA plugin
+18:38:47.696: Failed to initialize module 'aja'
+18:38:47.699: Failed to load 'en-US' text for module: 'decklink-captions'
+18:38:47.702: Failed to load 'en-US' text for module: 'decklink-output-ui'
+18:38:47.704: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:38:47.704: Failed to initialize module 'decklink'
+18:38:47.926: [obs-browser]: Version 2.26.8
+18:38:47.926: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.0.0-6533-fix-stutter.3039+g2b7d20b+chromium-127.0.6533.120 (compiled)
+18:38:47.963: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.3 | RPC Version: 1)
+18:38:47.963: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.3 | Qt version (run-time): 6.8.3
+18:38:47.963: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+18:38:47.969: [obs-websocket] [obs_module_load] Module loaded.
+18:38:47.982: os_dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib->/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib): dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib, 0x0106): tried: '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64'))
+18:38:47.982: 
+18:38:47.982: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+18:38:47.982: ---------------------------------
+18:38:47.982:   Loaded Modules:
+18:38:47.982:     vlc-video
+18:38:47.982:     text-freetype2
+18:38:47.982:     rtmp-services
+18:38:47.982:     obs-x264
+18:38:47.982:     obs-websocket
+18:38:47.982:     obs-webrtc
+18:38:47.982:     obs-vst
+18:38:47.982:     obs-transitions
+18:38:47.982:     obs-outputs
+18:38:47.982:     obs-filters
+18:38:47.982:     obs-ffmpeg
+18:38:47.982:     obs-browser
+18:38:47.982:     mac-virtualcam
+18:38:47.982:     mac-videotoolbox
+18:38:47.982:     mac-syphon
+18:38:47.982:     mac-capture
+18:38:47.982:     mac-avcapture
+18:38:47.982:     mac-avcapture-legacy
+18:38:47.982:     image-source
+18:38:47.982:     frontend-tools
+18:38:47.982:     decklink-output-ui
+18:38:47.982:     decklink-captions
+18:38:47.982:     coreaudio-encoder
+18:38:47.982: ---------------------------------
+18:38:47.982: [VideoToolbox encoder]: Added VideoToolbox encoders
+18:38:47.983: ---------------------------------
+18:38:47.983: Available Encoders:
+18:38:47.983:   Video Encoders:
+18:38:47.983: 	- ffmpeg_aom_av1 (AOM AV1)
+18:38:47.983: 	- obs_x264 (x264)
+18:38:47.983: 	- com.apple.videotoolbox.videoencoder.prores-422 (Apple VT ProRes Software Encoder)
+18:38:47.983: 	- com.apple.videotoolbox.videoencoder.appleproreshw.422 (Apple VT ProRes Hardware Encoder)
+18:38:47.983: 	- com.apple.videotoolbox.videoencoder.ave.avc (Apple VT H264 Hardware Encoder)
+18:38:47.983: 	- com.apple.videotoolbox.videoencoder.h264 (Apple VT H264 Software Encoder)
+18:38:47.983: 	- com.apple.videotoolbox.videoencoder.ave.hevc (Apple VT HEVC Hardware Encoder)
+18:38:47.983: 	- com.apple.videotoolbox.videoencoder.hevc.vcp (Apple VT HEVC Software Encoder)
+18:38:47.983:   Audio Encoders:
+18:38:47.983: 	- CoreAudio_AAC (CoreAudio AAC)
+18:38:47.983: 	- ffmpeg_aac (FFmpeg AAC)
+18:38:47.983: 	- ffmpeg_opus (FFmpeg Opus)
+18:38:47.983: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+18:38:47.983: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+18:38:47.983: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+18:38:47.983: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+18:38:47.983: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+18:38:47.983: ==== Startup complete ===============================================
+18:38:48.037: All scene data cleared
+18:38:48.037: ------------------------------------------------
+18:38:48.153: Downmix enabled: 1 to 2 channels.
+18:38:48.174: coreaudio: Device 'MacBook Pro Microphone' [48000 Hz] initialized
+18:38:48.174: [Loaded global audio device]: 'Mic/Aux'
+18:38:48.175: Switched to scene 'intro'
+18:38:48.175: ------------------------------------------------
+18:38:48.175: Loaded scenes:
+18:38:48.175: - scene 'Scene':
+18:38:48.175: - scene 'intro':
+18:38:48.175: ------------------------------------------------
+18:38:48.208: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mic/Aux)
+18:38:48.208: 
+18:38:48.556: [mac-virtualcam] mac-camera-extension: OBS cannot install the virtual camera if it's not in "/Applications". Please move OBS to the "/Applications" directory.
+18:46:25.524: ==== Shutting down ==================================================
+18:46:25.543: All scene data cleared
+18:46:25.543: ------------------------------------------------
+18:46:25.561: Tried to call obs_frontend_remove_event_callback with no callbacks!
+18:46:25.649: [obs-websocket] [obs_module_unload] Shutting down...
+18:46:25.649: Tried to call obs_frontend_remove_event_callback with no callbacks!
+18:46:25.649: [obs-websocket] [obs_module_unload] Finished shutting down.
+18:46:25.650: [Scripting] Total detached callbacks: 0
+18:46:25.650: Freeing OBS context data
+18:46:25.679: == Profiler Results =============================
+18:46:25.679: run_program_init: 1354.87 ms
+18:46:25.679:  ┣OBSApp::AppInit: 22.374 ms
+18:46:25.679:  ┃ ┗OBSApp::InitLocale: 1.676 ms
+18:46:25.679:  ┗OBSApp::OBSInit: 1151.4 ms
+18:46:25.680:    ┣obs_startup: 1.802 ms
+18:46:25.680:    ┗OBSBasic::OBSInit: 949.799 ms
+18:46:25.680:      ┣OBSBasic::InitBasicConfig: 1.417 ms
+18:46:25.680:      ┣OBSBasic::ResetAudio: 0.289 ms
+18:46:25.680:      ┣OBSBasic::ResetVideo: 294.787 ms
+18:46:25.680:      ┃ ┗obs_init_graphics: 291.283 ms
+18:46:25.680:      ┃   ┗shader compilation: 242.958 ms
+18:46:25.680:      ┣OBSBasic::InitOBSCallbacks: 0.023 ms
+18:46:25.680:      ┣OBSBasic::InitHotkeys: 0.015 ms
+18:46:25.680:      ┣obs_load_all_modules2: 313.144 ms
+18:46:25.680:      ┃ ┣obs_init_module(aja-output-ui): 1.795 ms
+18:46:25.680:      ┃ ┣obs_init_module(aja): 1.622 ms
+18:46:25.680:      ┃ ┣obs_init_module(coreaudio-encoder): 0.001 ms
+18:46:25.680:      ┃ ┣obs_init_module(decklink-captions): 0 ms
+18:46:25.680:      ┃ ┣obs_init_module(decklink-output-ui): 0 ms
+18:46:25.680:      ┃ ┣obs_init_module(decklink): 0.061 ms
+18:46:25.680:      ┃ ┣obs_init_module(frontend-tools): 4.315 ms
+18:46:25.680:      ┃ ┣obs_init_module(image-source): 0.017 ms
+18:46:25.680:      ┃ ┣obs_init_module(mac-avcapture-legacy): 110.309 ms
+18:46:25.680:      ┃ ┣obs_init_module(mac-avcapture): 0.002 ms
+18:46:25.680:      ┃ ┣obs_init_module(mac-capture): 0.023 ms
+18:46:25.680:      ┃ ┣obs_init_module(mac-syphon): 0.002 ms
+18:46:25.680:      ┃ ┣obs_init_module(mac-videotoolbox): 0.006 ms
+18:46:25.680:      ┃ ┣obs_init_module(mac-virtualcam): 0.001 ms
+18:46:25.680:      ┃ ┣obs_init_module(obs-browser): 77.78 ms
+18:46:25.680:      ┃ ┣obs_init_module(obs-ffmpeg): 3.214 ms
+18:46:25.680:      ┃ ┣obs_init_module(obs-filters): 0.039 ms
+18:46:25.680:      ┃ ┣obs_init_module(obs-outputs): 0.017 ms
+18:46:25.680:      ┃ ┣obs_init_module(obs-transitions): 0.005 ms
+18:46:25.680:      ┃ ┣obs_init_module(obs-vst): 0.001 ms
+18:46:25.680:      ┃ ┣obs_init_module(obs-webrtc): 0.002 ms
+18:46:25.680:      ┃ ┣obs_init_module(obs-websocket): 6.061 ms
+18:46:25.680:      ┃ ┣obs_init_module(obs-x264): 0.001 ms
+18:46:25.680:      ┃ ┣obs_init_module(rtmp-services): 0.768 ms
+18:46:25.680:      ┃ ┣obs_init_module(text-freetype2): 0.022 ms
+18:46:25.680:      ┃ ┗obs_init_module(vlc-video): 0.763 ms
+18:46:25.680:      ┣OBSBasic::InitService: 2.124 ms
+18:46:25.680:      ┣OBSBasic::ResetOutputs: 16.175 ms
+18:46:25.680:      ┣OBSBasic::CreateHotkeys: 0.04 ms
+18:46:25.680:      ┣OBSBasic::InitPrimitives: 0.058 ms
+18:46:25.680:      ┗OBSBasic::Load: 170.272 ms
+18:46:25.680: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=1.475 ms, 99th percentile=0.001 ms, 100% below 25 ms
+18:46:25.680: audio_thread(Audio): min=0.004 ms, median=0.027 ms, max=30.521 ms, 99th percentile=0.841 ms
+18:46:25.680: obs_graphics_thread(33.3333 ms): min=0.106 ms, median=4.028 ms, max=38.909 ms, 99th percentile=13.287 ms, 99.9782% below 33.333 ms
+18:46:25.680:  ┣tick_sources: min=0 ms, median=0.009 ms, max=2.446 ms, 99th percentile=0.085 ms
+18:46:25.680:  ┣output_frame: min=0.086 ms, median=0.336 ms, max=5.976 ms, 99th percentile=1.199 ms
+18:46:25.680:  ┃ ┗gs_context(video->graphics): min=0.085 ms, median=0.335 ms, max=5.975 ms, 99th percentile=1.195 ms
+18:46:25.680:  ┃   ┣render_video: min=0.02 ms, median=0.058 ms, max=5.656 ms, 99th percentile=0.332 ms
+18:46:25.680:  ┃   ┃ ┗render_main_texture: min=0.018 ms, median=0.053 ms, max=5.083 ms, 99th percentile=0.317 ms
+18:46:25.680:  ┃   ┗gs_flush: min=0.063 ms, median=0.267 ms, max=5.909 ms, 99th percentile=0.982 ms
+18:46:25.680:  ┗render_displays: min=0 ms, median=3.593 ms, max=38.486 ms, 99th percentile=12.835 ms
+18:46:25.680: =================================================
+18:46:25.680: == Profiler Time Between Calls ==================
+18:46:25.680: obs_hotkey_thread(25 ms): min=25.013 ms, median=29.59 ms, max=62.917 ms, 0.792986% within ±2% of 25 ms (0% lower, 99.207% higher)
+18:46:25.680: obs_graphics_thread(33.3333 ms): min=22.701 ms, median=33.331 ms, max=44.029 ms, 75.1801% within ±2% of 33.333 ms (11.9805% lower, 12.8394% higher)
+18:46:25.680: =================================================
+18:46:25.708: Number of memory leaks: 0
