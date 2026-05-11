@@ -2078,20 +2078,20 @@
                         "id": 5,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1548.0,
+                            "y": 75.0
                         },
                         "pos_rel": {
-                            "x": -2.0,
-                            "y": -1.0
+                            "x": -0.5666666626930237,
+                            "y": -0.9305555820465088
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.6203703880310059,
+                            "y": 0.6203703880310059
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.6203703880310059,
+                            "y": 0.6203703880310059
                         },
                         "bounds": {
                             "x": 0.0,
@@ -4127,8 +4127,8 @@
             "name": "reference-window_capture"
         }
     ],
-    "current_scene": "scene-chatting",
-    "current_program_scene": "scene-chatting",
+    "current_scene": "reference-background_with_err",
+    "current_program_scene": "reference-background_with_err",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 300,
