@@ -140,7 +140,7 @@
                 "application": "",
                 "display_uuid": "00A62730-E754-49A4-9F73-E3E57E43B975",
                 "type": 1,
-                "window": 735,
+                "window": 11659,
                 "show_cursor": false
             },
             "mixers": 255,
@@ -203,7 +203,7 @@
             "versioned_id": "screen_capture",
             "settings": {
                 "type": 1,
-                "window": 737,
+                "window": 11661,
                 "show_cursor": false
             },
             "mixers": 255,
@@ -236,7 +236,7 @@
             "versioned_id": "screen_capture",
             "settings": {
                 "type": 1,
-                "window": 665
+                "window": 12198
             },
             "mixers": 255,
             "sync": 0,
@@ -466,8 +466,8 @@
             "id": "macos-avcapture",
             "versioned_id": "macos-avcapture",
             "settings": {
-                "device": "B647AF1D-BBF2-49B7-82BD-19794E79E06C",
-                "device_name": "insert’s iPhone"
+                "device_name": "insert’s iPhone",
+                "device": "B647AF1D-BBF2-49B7-82BD-19794E79E06C"
             },
             "mixers": 255,
             "sync": 0,
@@ -703,13 +703,68 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 1,
+                "id_counter": 2,
                 "custom_size": false,
                 "items": [
                     {
+                        "name": "err_bg",
+                        "source_uuid": "9259eb51-91db-4de6-860f-21ec64c63f71",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 4320.0,
+                            "y": 2160.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 480.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.5555555820465088,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "camera",
                         "source_uuid": "748cf4d6-1d46-4a09-960b-ab180540ddbb",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -777,7 +832,9 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": []
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2409,7 +2466,7 @@
                     {
                         "name": "reference-camera_capture",
                         "source_uuid": "5e624b9e-d993-4746-bc77-d1bfd1288db8",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3360,9 +3417,64 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 1,
+                "id_counter": 2,
                 "custom_size": false,
                 "items": [
+                    {
+                        "name": "err_bg",
+                        "source_uuid": "9259eb51-91db-4de6-860f-21ec64c63f71",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 4320.0,
+                            "y": 2160.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 480.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.5555555820465088,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
+                        },
+                        "private_settings": {}
+                    },
                     {
                         "name": "screen_capture",
                         "source_uuid": "08415c89-8b00-4c6d-9bfd-0af9dd767a2d",
@@ -3434,7 +3546,9 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": []
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -4216,8 +4330,8 @@
             "name": "reference-window_capture"
         }
     ],
-    "current_scene": "scene-ds_sideways",
-    "current_program_scene": "scene-ds_sideways",
+    "current_scene": "reference-vtuber_reference",
+    "current_program_scene": "reference-vtuber_reference",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 300,

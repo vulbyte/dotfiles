@@ -24,11 +24,39 @@ end
 -- 4. Your Plugin Setup
 lazy.setup({
   -- UI: Carbonfox Theme
-  {
+{
     "EdenEast/nightfox.nvim",
     lazy = false,
     priority = 1000,
     config = function()
+      require("nightfox").setup({
+        options = {
+          -- Transparent might not be enough; we want to force pure black
+          transparent = false, 
+          styles = {
+            comments = "italic",
+            keywords = "bold",
+            types = "italic,bold",
+          }
+        },
+        palettes = {
+          -- This overrides the specific 'carbonfox' palette
+          carbonfox = {
+            bg1 = "#000000", -- The main editor background
+            bg0 = "#000000", -- Statusline and floating windows background
+            bg3 = "#161616", -- Subtle contrast for things like line numbers
+            sel0 = "#262626", -- Selection color
+          },
+        },
+        specs = {
+          carbonfox = {
+            syntax = {
+              bracket = "#78a9ff", -- Optional: make brackets pop more against black
+            },
+          },
+        },
+      })
+
       vim.cmd("colorscheme carbonfox")
     end,
   },
@@ -106,7 +134,7 @@ lazy.setup({
     dependencies = { "nvim-lua/plenary.nvim" },
     config = function()
       local builtin = require('telescope.builtin')
-      vim.keymap.set('n', '<leader>f', builtin.find_files, {})
+      vim.keymap.set('n', '<leader>pf', builtin.find_files, {})
     end,
   },
 
