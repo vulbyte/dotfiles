@@ -1,0 +1,370 @@
+22:53:10.029: [macOS] Permission for audio device access granted.
+22:53:10.033: [macOS] Permission for video device access granted.
+22:53:10.033: [macOS] Permission for input monitoring granted.
+22:53:10.041: [macOS] Permission for screen capture granted.
+22:53:10.041: CPU Name: Apple M1 Max
+22:53:10.041: Physical Cores: 10, Logical Cores: 10
+22:53:10.041: Physical Memory: 32768MB Total
+22:53:10.041: Model Identifier: MacBookPro18,2
+22:53:10.041: OS Name: macOS
+22:53:10.041: OS Version: Version 26.4.1 (Build 25E253)
+22:53:10.041: Rosetta translation used: false
+22:53:10.041: Kernel Version: 25.4.0
+22:53:10.041: hotkeys-cocoa: Using keyboard layout 'com.apple.keylayout.Canadian'
+22:53:10.042: Current Date/Time: 2026-05-15, 22:53:10
+22:53:10.042: Browser Hardware Acceleration: true
+22:53:10.042: Qt Version: 6.8.3 (runtime), 6.8.3 (compiled)
+22:53:10.042: Portable mode: false
+22:53:10.178: OBS 32.1.2 (mac)
+22:53:10.178: ---------------------------------
+22:53:10.180: ---------------------------------
+22:53:10.180: audio settings reset:
+22:53:10.180: 	samples per sec: 48000
+22:53:10.180: 	speakers:        2
+22:53:10.180: 	max buffering:   960 milliseconds
+22:53:10.180: 	buffering type:  dynamically increasing
+22:53:10.182: ---------------------------------
+22:53:10.182: Initializing OpenGL...
+22:53:10.227: Loading up OpenGL on adapter Apple Apple M1 Max
+22:53:10.227: OpenGL loaded successfully, version 4.1 Metal - 90.5, shading language 4.10
+22:53:10.452: ---------------------------------
+22:53:10.452: video settings reset:
+22:53:10.452: 	base resolution:   4320x2160
+22:53:10.452: 	output resolution: 4320x2160
+22:53:10.452: 	downscale filter:  Bicubic
+22:53:10.452: 	fps:               30/1
+22:53:10.452: 	format:            NV12
+22:53:10.452: 	YUV mode:          Rec. 709/Partial
+22:53:10.452: NV12 texture support enabled
+22:53:10.452: P010 texture support not available
+22:53:10.456: Audio monitoring device:
+22:53:10.456: 	name: Default
+22:53:10.456: 	id: default
+22:53:10.459: ---------------------------------
+22:53:10.464: No AJA devices found, skipping loading AJA UI plugin
+22:53:10.464: Failed to initialize module 'aja-output-ui'
+22:53:10.467: No AJA devices found, skipping loading AJA plugin
+22:53:10.467: Failed to initialize module 'aja'
+22:53:10.470: Failed to load 'en-US' text for module: 'decklink-captions'
+22:53:10.472: Failed to load 'en-US' text for module: 'decklink-output-ui'
+22:53:10.474: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+22:53:10.474: Failed to initialize module 'decklink'
+22:53:10.676: [obs-browser]: Version 2.26.8
+22:53:10.676: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.0.0-6533-fix-stutter.3039+g2b7d20b+chromium-127.0.6533.120 (compiled)
+22:53:10.697: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.3 | RPC Version: 1)
+22:53:10.697: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.3 | Qt version (run-time): 6.8.3
+22:53:10.697: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+22:53:10.701: [obs-websocket] [obs_module_load] Module loaded.
+22:53:10.709: os_dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib->/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib): dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib, 0x0106): tried: '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64'))
+22:53:10.709: 
+22:53:10.709: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+22:53:10.709: ---------------------------------
+22:53:10.709:   Loaded Modules:
+22:53:10.709:     vlc-video
+22:53:10.709:     rtmp-services
+22:53:10.709:     obs-x264
+22:53:10.709:     obs-websocket
+22:53:10.709:     obs-webrtc
+22:53:10.709:     obs-vst
+22:53:10.709:     obs-transitions
+22:53:10.709:     obs-outputs
+22:53:10.709:     obs-filters
+22:53:10.709:     obs-ffmpeg
+22:53:10.709:     obs-browser
+22:53:10.709:     mac-virtualcam
+22:53:10.709:     mac-videotoolbox
+22:53:10.709:     mac-syphon
+22:53:10.709:     mac-capture
+22:53:10.709:     mac-avcapture
+22:53:10.709:     mac-avcapture-legacy
+22:53:10.709:     image-source
+22:53:10.709:     frontend-tools
+22:53:10.709:     decklink-output-ui
+22:53:10.709:     decklink-captions
+22:53:10.709:     coreaudio-encoder
+22:53:10.709: ---------------------------------
+22:53:10.709: [VideoToolbox encoder]: Added VideoToolbox encoders
+22:53:10.709: ---------------------------------
+22:53:10.709: Available Encoders:
+22:53:10.709:   Video Encoders:
+22:53:10.709: 	- ffmpeg_aom_av1 (AOM AV1)
+22:53:10.709: 	- obs_x264 (x264)
+22:53:10.709: 	- com.apple.videotoolbox.videoencoder.prores-422 (Apple VT ProRes Software Encoder)
+22:53:10.709: 	- com.apple.videotoolbox.videoencoder.appleproreshw.422 (Apple VT ProRes Hardware Encoder)
+22:53:10.709: 	- com.apple.videotoolbox.videoencoder.ave.avc (Apple VT H264 Hardware Encoder)
+22:53:10.709: 	- com.apple.videotoolbox.videoencoder.h264 (Apple VT H264 Software Encoder)
+22:53:10.709: 	- com.apple.videotoolbox.videoencoder.ave.hevc (Apple VT HEVC Hardware Encoder)
+22:53:10.709: 	- com.apple.videotoolbox.videoencoder.hevc.vcp (Apple VT HEVC Software Encoder)
+22:53:10.709:   Audio Encoders:
+22:53:10.709: 	- CoreAudio_AAC (CoreAudio AAC)
+22:53:10.709: 	- ffmpeg_aac (FFmpeg AAC)
+22:53:10.709: 	- ffmpeg_opus (FFmpeg Opus)
+22:53:10.709: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+22:53:10.710: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+22:53:10.710: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+22:53:10.710: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+22:53:10.710: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+22:53:10.710: ==== Startup complete ===============================================
+22:53:10.727: Cannot open file '/theme:Dark/sources/text.svg', because: No such file or directory
+22:53:10.727: Cannot open file '/theme:Dark/sources/text.svg', because: No such file or directory
+22:53:10.761: All scene data cleared
+22:53:10.761: ------------------------------------------------
+22:53:10.798: [obs-scripting]: Loaded python script: backup_obs_config.py
+22:53:10.799: Failed to open file '/Users/insert/Documents/stream_stuff/tech_issues.jpg': No such file or directory
+22:53:10.799: gs_image_file_init_internal: Failed to load file '/Users/insert/Documents/stream_stuff/tech_issues.jpg'
+22:53:10.799: [image_source: 'err'] failed to load texture '/Users/insert/Documents/stream_stuff/tech_issues.jpg'
+22:53:10.799: [Media Source 'intro_video']: settings:
+22:53:10.799: 	input:                   /Users/insert/Documents/stream_stuff/pre_stream/intro_music.mp4
+22:53:10.799: 	input_format:            (null)
+22:53:10.799: 	speed:                   100
+22:53:10.799: 	is_looping:              yes
+22:53:10.799: 	is_linear_alpha:         no
+22:53:10.799: 	is_hw_decoding:          yes
+22:53:10.799: 	is_clear_on_media_end:   no
+22:53:10.799: 	restart_on_activate:     yes
+22:53:10.799: 	close_when_inactive:     no
+22:53:10.799: 	full_decode:             no
+22:53:10.799: 	ffmpeg_options:          
+22:53:10.801: [Media Source 'background_bubbles']: settings:
+22:53:10.801: 	input:                   /Users/insert/Documents/stream_stuff/stream_background/stream_background.mov
+22:53:10.801: 	input_format:            (null)
+22:53:10.801: 	speed:                   100
+22:53:10.801: 	is_looping:              no
+22:53:10.801: 	is_linear_alpha:         no
+22:53:10.801: 	is_hw_decoding:          yes
+22:53:10.801: 	is_clear_on_media_end:   no
+22:53:10.801: 	restart_on_activate:     yes
+22:53:10.801: 	close_when_inactive:     no
+22:53:10.801: 	full_decode:             no
+22:53:10.801: 	ffmpeg_options:          
+22:53:10.976: [Media Source 'bg-mid_bitrate.m4v']: settings:
+22:53:10.976: 	input:                   /Users/insert/dotfiles/obs-studio/media_assets/bg-mid_bitrate.m4v
+22:53:10.976: 	input_format:            (null)
+22:53:10.976: 	speed:                   100
+22:53:10.976: 	is_looping:              no
+22:53:10.976: 	is_linear_alpha:         no
+22:53:10.976: 	is_hw_decoding:          no
+22:53:10.976: 	is_clear_on_media_end:   yes
+22:53:10.976: 	restart_on_activate:     yes
+22:53:10.976: 	close_when_inactive:     no
+22:53:10.976: 	full_decode:             no
+22:53:10.976: 	ffmpeg_options:          
+22:53:10.977: Switched to scene 'reference-background'
+22:53:10.977: ------------------------------------------------
+22:53:10.977: Loaded scenes:
+22:53:10.977: - scene 'intro':
+22:53:10.977:     - source: 'err' (image_source)
+22:53:10.977:     - source: 'persistent' (group)
+22:53:10.977:         - source: 'background_bubbles' (ffmpeg_source)
+22:53:10.977:             - filter: 'Color Correction' (color_filter_v2)
+22:53:10.977:     - source: 'intro_video' (ffmpeg_source)
+22:53:10.977:         - filter: 'Luma Key' (luma_key_filter_v2)
+22:53:10.977: - scene 'main':
+22:53:10.977: - scene '--------REFERENCE_SCENES--------':
+22:53:10.977: - scene 'reference-vtuber':
+22:53:10.977: - scene 'reference-background':
+22:53:10.977:     - source: 'tech_issues.jpg' (image_source)
+22:53:10.977:     - source: 'bg-mid_bitrate.m4v' (ffmpeg_source)
+22:53:10.977: ------------------------------------------------
+22:53:11.358: [mac-virtualcam] mac-camera-extension: OBS cannot install the virtual camera if it's not in "/Applications". Please move OBS to the "/Applications" directory.
+22:54:01.089: Source ID 'text_ft2_source' not found
+22:54:01.089: Failed to create source 'Preview spacing label 0'!
+22:54:01.089: Source ID 'text_ft2_source' not found
+22:54:01.089: Failed to create source 'Preview spacing label 1'!
+22:54:01.090: Source ID 'text_ft2_source' not found
+22:54:01.090: Failed to create source 'Preview spacing label 2'!
+22:54:01.090: Source ID 'text_ft2_source' not found
+22:54:01.090: Failed to create source 'Preview spacing label 3'!
+22:54:06.955: User switched to scene 'reference-vtuber'
+22:54:08.919: User switched to scene 'main'
+22:54:10.786: User switched to scene 'intro'
+22:54:30.820: User switched to scene 'reference-vtuber'
+22:54:31.787: User switched to scene 'reference-background'
+22:54:33.937: User switched to scene 'reference-vtuber'
+22:54:35.228: User switched to scene 'main'
+22:54:35.753: User switched to scene 'intro'
+22:54:46.878: [obs-scripting]: Unloaded python script: backup_obs_config.py
+22:55:17.283: User Removed source 'err' (image_source) from scene 'intro'
+22:55:49.741: User switched to scene '--------REFERENCE_SCENES--------'
+22:55:58.839: User added scene 'reference-window_capture'
+22:55:58.840: User switched to scene 'reference-window_capture'
+22:56:22.241: User added scene 'reference-capture_card'
+22:56:22.243: User switched to scene 'reference-capture_card'
+22:56:27.356: User switched to scene 'reference-vtuber'
+22:56:30.126: User switched to scene 'reference-background'
+22:56:35.011: User switched to scene 'reference-capture_card'
+22:57:06.068: User added source 'Video Capture Device' (macos-avcapture) to scene 'reference-capture_card'
+22:57:06.205: Video Capture Device: No device selected
+22:57:20.762: User switched to scene 'reference-vtuber'
+22:57:21.848: User switched to scene 'reference-window_capture'
+22:57:22.390: User switched to scene 'reference-background'
+22:57:24.529: User switched to scene 'reference-vtuber'
+22:57:25.905: User switched to scene 'reference-background'
+22:57:26.296: User switched to scene 'reference-capture_card'
+22:57:27.322: User added source 'tech_issues.jpg' (image_source) to scene 'reference-capture_card'
+22:57:43.082: User switched to scene 'reference-vtuber'
+22:57:44.499: User switched to scene 'reference-background'
+22:57:45.517: User switched to scene 'reference-vtuber'
+22:57:46.740: User switched to scene 'reference-window_capture'
+22:57:47.396: User added source 'tech_issues.jpg' (image_source) to scene 'reference-window_capture'
+22:59:46.594: User switched to scene 'reference-vtuber'
+23:01:15.567: User switched to scene 'reference-capture_card'
+23:01:17.447: User switched to scene 'reference-vtuber'
+23:01:32.421: User switched to scene 'reference-window_capture'
+23:01:32.769: User switched to scene 'reference-vtuber'
+23:01:37.313: User switched to scene 'reference-window_capture'
+23:01:39.132: User switched to scene 'reference-vtuber'
+23:01:39.990: User added source 'tech_issues.jpg' (image_source) to scene 'reference-vtuber'
+23:01:56.863: User added source 'tech_issues.jpg' (image_source) to scene 'reference-vtuber'
+23:02:05.572: User Removed source 'tech_issues.jpg' (image_source) from scene 'reference-vtuber'
+23:02:07.090: User switched to scene 'reference-window_capture'
+23:02:09.100: User switched to scene 'reference-capture_card'
+23:02:09.584: User switched to scene 'reference-background'
+23:02:11.765: User added source 'tech_issues.jpg' (image_source) to scene 'reference-background'
+23:02:27.851: User Removed source 'tech_issues.jpg' (image_source) from scene 'reference-background'
+23:02:43.952: User switched to scene 'main'
+23:02:45.102: User switched to scene 'intro'
+23:02:49.805: User switched to scene 'reference-window_capture'
+23:02:51.363: User switched to scene 'reference-vtuber'
+23:02:51.956: User switched to scene 'reference-capture_card'
+23:02:53.185: User switched to scene 'reference-vtuber'
+23:07:22.124: [ mac-screencapture ]: init_screen_stream: Invalid target display ID:  0
+23:07:22.124: 
+23:07:22.127: User added source 'macos-veado_tube_mini' (screen_capture) to scene 'reference-vtuber'
+23:07:25.850: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  0
+23:07:25.850: 
+23:07:29.009: adding 64 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: macos-veado_tube_mini)
+23:07:29.009: 
+23:08:22.643: User added filter 'Chroma Key' (chroma_key_filter_v2) to source 'macos-veado_tube_mini'
+23:09:05.261: User added filter 'Image Mask/Blend' (mask_filter_v2) to source 'macos-veado_tube_mini'
+23:09:14.965: User removed filter 'Image Mask/Blend' (mask_filter_v2) from source 'macos-veado_tube_mini'
+23:09:29.088: User Removed source 'tech_issues.jpg' (image_source) from scene 'reference-vtuber'
+23:10:17.133: User switched to scene 'reference-background'
+23:10:17.881: User switched to scene 'reference-capture_card'
+23:10:18.365: User switched to scene 'reference-background'
+23:10:19.064: User switched to scene 'main'
+23:10:20.649: User switched to scene 'intro'
+23:10:22.353: User switched to scene 'main'
+23:10:40.481: User added source 'reference-background' (scene) to scene 'main'
+23:10:55.588: User added source 'reference-vtuber' (scene) to scene 'main'
+23:11:46.911: User added source 'reference-window_capture' (scene) to scene 'main'
+23:11:48.571: User switched to scene 'reference-background'
+23:11:49.221: User switched to scene 'reference-vtuber'
+23:11:49.571: User switched to scene 'reference-window_capture'
+23:11:54.081: User switched to scene 'intro'
+23:11:54.615: User switched to scene 'main'
+23:12:47.593: User added scene 'reference-tib_stuff'
+23:12:47.595: User switched to scene 'reference-tib_stuff'
+23:13:11.451: [ mac-screencapture ]: init_screen_stream: Invalid target display ID:  0
+23:13:11.451: 
+23:13:11.453: User added source 'chat_capture' (screen_capture) to scene 'reference-tib_stuff'
+23:13:16.244: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  0
+23:13:16.244: 
+23:14:30.730: User added filter 'Chroma Key' (chroma_key_filter_v2) to source 'chat_capture'
+23:16:01.353: User switched to scene 'main'
+23:16:16.121: User added source 'reference-tib_stuff' (scene) to scene 'main'
+23:16:27.538: User switched to scene 'reference-tib_stuff'
+23:19:05.897: [ mac-screencapture ]: init_screen_stream: Invalid target display ID:  0
+23:19:05.897: 
+23:19:05.899: User added source 'event_capture' (screen_capture) to scene 'reference-tib_stuff'
+23:19:12.275: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  0
+23:19:12.275: 
+23:19:13.537: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  0
+23:19:13.537: 
+23:19:31.118: User switched to scene 'reference-vtuber'
+23:19:31.848: User switched to scene 'reference-tib_stuff'
+23:21:54.676: User switched to scene 'main'
+23:21:58.277: User switched to scene 'reference-vtuber'
+23:21:59.075: User switched to scene 'reference-tib_stuff'
+23:21:59.525: User switched to scene 'reference-capture_card'
+23:22:00.057: User switched to scene 'intro'
+23:22:00.557: User switched to scene 'main'
+23:23:35.829: User switched to scene 'reference-window_capture'
+23:23:37.480: User switched to scene 'reference-vtuber'
+23:23:41.863: User switched to scene 'reference-tib_stuff'
+23:23:52.847: User switched to scene 'reference-capture_card'
+23:23:55.299: User switched to scene 'reference-background'
+23:23:56.881: User switched to scene 'main'
+23:24:07.131: User switched to scene 'reference-background'
+23:24:10.715: User switched to scene 'main'
+23:24:11.281: User switched to scene 'intro'
+23:24:11.866: User switched to scene 'main'
+23:24:40.800: User switched to scene 'reference-tib_stuff'
+23:24:46.033: User switched to scene 'reference-window_capture'
+23:24:46.519: User switched to scene 'reference-background'
+23:24:49.486: User switched to scene 'reference-capture_card'
+23:24:49.967: User switched to scene 'reference-tib_stuff'
+23:24:51.287: User added source 'tech_issues.jpg' (image_source) to scene 'reference-tib_stuff'
+23:26:53.456: User switched to scene 'main'
+23:26:59.425: User switched to scene 'reference-tib_stuff'
+23:27:03.109: User switched to scene 'main'
+23:27:10.124: ==== Shutting down ==================================================
+23:27:10.193: All scene data cleared
+23:27:10.193: ------------------------------------------------
+23:27:10.220: Tried to call obs_frontend_remove_event_callback with no callbacks!
+23:27:10.322: [obs-websocket] [obs_module_unload] Shutting down...
+23:27:10.322: Tried to call obs_frontend_remove_event_callback with no callbacks!
+23:27:10.322: [obs-websocket] [obs_module_unload] Finished shutting down.
+23:27:10.327: [Scripting] Total detached callbacks: 1
+23:27:10.327: Freeing OBS context data
+23:27:10.340: == Profiler Results =============================
+23:27:10.340: run_program_init: 1254 ms
+23:27:10.340:  ┣OBSApp::AppInit: 18.089 ms
+23:27:10.340:  ┃ ┗OBSApp::InitLocale: 1.511 ms
+23:27:10.340:  ┗OBSApp::OBSInit: 1087.38 ms
+23:27:10.340:    ┣obs_startup: 0.787 ms
+23:27:10.340:    ┗OBSBasic::OBSInit: 948.974 ms
+23:27:10.340:      ┣OBSBasic::InitBasicConfig: 1.265 ms
+23:27:10.340:      ┣OBSBasic::ResetAudio: 0.085 ms
+23:27:10.340:      ┣OBSBasic::ResetVideo: 275.886 ms
+23:27:10.340:      ┃ ┗obs_init_graphics: 271.351 ms
+23:27:10.340:      ┃   ┗shader compilation: 224.84 ms
+23:27:10.340:      ┣OBSBasic::InitOBSCallbacks: 0.007 ms
+23:27:10.340:      ┣OBSBasic::InitHotkeys: 0.014 ms
+23:27:10.340:      ┣obs_load_all_modules2: 250.153 ms
+23:27:10.340:      ┃ ┣obs_init_module(aja-output-ui): 1.046 ms
+23:27:10.340:      ┃ ┣obs_init_module(aja): 0.552 ms
+23:27:10.340:      ┃ ┣obs_init_module(coreaudio-encoder): 0 ms
+23:27:10.340:      ┃ ┣obs_init_module(decklink-captions): 0 ms
+23:27:10.340:      ┃ ┣obs_init_module(decklink-output-ui): 0 ms
+23:27:10.340:      ┃ ┣obs_init_module(decklink): 0.041 ms
+23:27:10.340:      ┃ ┣obs_init_module(frontend-tools): 67.514 ms
+23:27:10.340:      ┃ ┣obs_init_module(image-source): 0.008 ms
+23:27:10.340:      ┃ ┣obs_init_module(mac-avcapture-legacy): 89.253 ms
+23:27:10.340:      ┃ ┣obs_init_module(mac-avcapture): 0.001 ms
+23:27:10.340:      ┃ ┣obs_init_module(mac-capture): 0.011 ms
+23:27:10.340:      ┃ ┣obs_init_module(mac-syphon): 0.001 ms
+23:27:10.340:      ┃ ┣obs_init_module(mac-videotoolbox): 0.004 ms
+23:27:10.340:      ┃ ┣obs_init_module(mac-virtualcam): 0.001 ms
+23:27:10.340:      ┃ ┣obs_init_module(obs-browser): 23.575 ms
+23:27:10.340:      ┃ ┣obs_init_module(obs-ffmpeg): 0.066 ms
+23:27:10.340:      ┃ ┣obs_init_module(obs-filters): 0.025 ms
+23:27:10.340:      ┃ ┣obs_init_module(obs-outputs): 0.006 ms
+23:27:10.340:      ┃ ┣obs_init_module(obs-transitions): 0.004 ms
+23:27:10.340:      ┃ ┣obs_init_module(obs-vst): 0.001 ms
+23:27:10.340:      ┃ ┣obs_init_module(obs-webrtc): 0.002 ms
+23:27:10.340:      ┃ ┣obs_init_module(obs-websocket): 3.543 ms
+23:27:10.340:      ┃ ┣obs_init_module(obs-x264): 0.001 ms
+23:27:10.340:      ┃ ┣obs_init_module(rtmp-services): 0.156 ms
+23:27:10.340:      ┃ ┗obs_init_module(vlc-video): 0.822 ms
+23:27:10.340:      ┣OBSBasic::InitService: 1.64 ms
+23:27:10.340:      ┣OBSBasic::ResetOutputs: 11.51 ms
+23:27:10.340:      ┣OBSBasic::CreateHotkeys: 0.023 ms
+23:27:10.340:      ┣OBSBasic::InitPrimitives: 0.044 ms
+23:27:10.340:      ┗OBSBasic::Load: 256 ms
+23:27:10.340: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=3.469 ms, 99th percentile=0.002 ms, 100% below 25 ms
+23:27:10.340: audio_thread(Audio): min=0.003 ms, median=0.036 ms, max=19.877 ms, 99th percentile=1.481 ms
+23:27:10.340: obs_graphics_thread(33.3333 ms): min=0.108 ms, median=4.091 ms, max=472.991 ms, 99th percentile=17.126 ms, 99.9657% below 33.333 ms
+23:27:10.340:  ┣tick_sources: min=0 ms, median=0.1 ms, max=192.646 ms, 99th percentile=1.758 ms
+23:27:10.340:  ┣output_frame: min=0.068 ms, median=0.93 ms, max=12.514 ms, 99th percentile=4.932 ms
+23:27:10.340:  ┃ ┗gs_context(video->graphics): min=0.066 ms, median=0.929 ms, max=12.506 ms, 99th percentile=4.928 ms
+23:27:10.340:  ┃   ┣render_video: min=0.011 ms, median=0.409 ms, max=11.735 ms, 99th percentile=4.306 ms
+23:27:10.340:  ┃   ┃ ┗render_main_texture: min=0.011 ms, median=0.404 ms, max=11.732 ms, 99th percentile=4.3 ms
+23:27:10.340:  ┃   ┗gs_flush: min=0.023 ms, median=0.382 ms, max=9.136 ms, 99th percentile=2.36 ms
+23:27:10.340:  ┗render_displays: min=0 ms, median=2.621 ms, max=472.517 ms, 99th percentile=13.284 ms
+23:27:10.340: =================================================
+23:27:10.340: == Profiler Time Between Calls ==================
+23:27:10.340: obs_hotkey_thread(25 ms): min=25.008 ms, median=29.133 ms, max=61.435 ms, 3.81634% within ±2% of 25 ms (0% lower, 96.1837% higher)
+23:27:10.341: obs_graphics_thread(33.3333 ms): min=5.471 ms, median=33.334 ms, max=472.995 ms, 77.7494% within ±2% of 33.333 ms (11.1923% lower, 11.0582% higher)
+23:27:10.341: =================================================
+23:27:10.394: Number of memory leaks: 0
