@@ -614,10 +614,10 @@
             "name": "main"
         },
         {
-            "name": "--------REFERENCE_SCENES--------"
+            "name": "reference-vtuber"
         },
         {
-            "name": "reference-vtuber"
+            "name": "--------REFERENCE_SCENES--------"
         }
     ],
     "current_scene": "--------REFERENCE_SCENES--------",

@@ -1,21 +1,33 @@
-# just a file to deal with the same annoying things then commit the stow
+#!/bin/bash
 
-# delete macOS .DS_Store files because they create commit conflicts with stow
-find . -type f \( -name '.DS_Store' -or -name '*text*' \) -delete;
+# 1. Save the starting directory
+START_DIR=$(pwd)
 
-# clear the current obs config 
-rm -rf ~/Library/Application\ Support/obs-studio
-rm -rf ~/.config/obs-studio
+# 2. Move to the dotfiles root to perform the work
+# Using the specific nested folder where your 'Library' and '.config' actually live
+cd "$HOME/dotfiles/obs-studio" || { echo "Could not find dotfiles directory"; exit 1; }
 
-# commit the stow
-stow .;
+# 3. Clean macOS junk and conflicts
+find . -type f \( -name '.DS_Store' -or -name '*text*' \) -delete
 
-# add global git ignore
-git config --global core.excludesfile ~/.gitignore
+# 4. Clear the current system-level links
+rm -rf "$HOME/Library/Application Support/obs-studio"
+rm -rf "$HOME/.config/obs-studio"
 
-# back up to be safe
-git add *;
-git commit -m "automatic backup after obs was closed";
-git push -u origin;
+# 5. Run stow from the package root
+# This ensures Library/ maps to ~/Library/
+stow --target="$HOME" .
 
-echo "stow has been backup";
+# 6. Global Git Config
+git config --global core.excludesfile "$HOME/.gitignore"
+
+# 7. Git Sync (moving up to the repo root to capture all changes)
+cd "$HOME/dotfiles"
+git add .
+git commit -m "automatic backup after obs was closed"
+git push -u origin main
+
+# 8. Return to the original directory
+cd "$START_DIR"
+
+echo "Stow refreshed and backed up. Returned to $START_DIR"
