@@ -24,43 +24,55 @@ end
 -- 4. Your Plugin Setup
 lazy.setup({
   -- UI: Carbonfox Theme
-{
-    "EdenEast/nightfox.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      require("nightfox").setup({
-        options = {
-          -- Transparent might not be enough; we want to force pure black
-          transparent = false, 
-          styles = {
-            comments = "italic",
-            keywords = "bold",
-            types = "italic,bold",
-          }
-        },
-        palettes = {
-          -- This overrides the specific 'carbonfox' palette
-          carbonfox = {
-            bg1 = "#000000", -- The main editor background
-            bg0 = "#000000", -- Statusline and floating windows background
-            bg3 = "#161616", -- Subtle contrast for things like line numbers
-            sel0 = "#262626", -- Selection color
-          },
-        },
-        specs = {
-          carbonfox = {
-            syntax = {
-              bracket = "#78a9ff", -- Optional: make brackets pop more against black
-            },
-          },
-        },
-      })
 
-      vim.cmd("colorscheme carbonfox")
-    end,
-  },
+	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+	{
+	  "EdenEast/nightfox.nvim",
+	  lazy = false,
+	  priority = 1000,
+	  config = function()
+	    require("nightfox").setup({
+	      options = {
+		transparent = false, 
+		styles = {
+		  comments = "italic",
+		  keywords = "bold",
+		  types = "italic,bold",
+		}
+	      },
+	      palettes = {
+		carbonfox = {
+		  bg1 = "#000000",
+		  bg0 = "#000000",
+		  bg3 = "#161616",
+		  sel0 = "#002200",
+		},
+		dayfox = {
+		  sel0 = "#000000", -- Selection background: Black
+		  sel1 = "#ffffff", -- Selection text color: White
+		},
+	      },
+	      specs = {
+		carbonfox = {
+		  syntax = {
+		    bracket = "#ffff00",
+		  },
+		},
+	      },
+	      groups = {
+		dayfox = {
+		  Cursor = { bg = "#00ff00", fg = "#000000" }, 
+		},
+	      },
+	    })
 
+	    -- 🔴 ADD THIS LINE RIGHT HERE:
+	    -- This forces all modes (a) to look like a block and respect the 'Cursor' highlight group.
+	    vim.opt.guicursor = "a:block-Cursor"
+
+	    vim.cmd("colorscheme carbonfox")
+	  end,
+	},
   -- UI: Lualine (Statusline)
   {
     "nvim-lualine/lualine.nvim",

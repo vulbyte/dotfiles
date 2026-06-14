@@ -31,6 +31,8 @@ vim.keymap.set("n", "gD", "<cmd>tab split | lua vim.lsp.buf.definition()<CR>", {
 -- Go to File (under cursor) in a new tab
 vim.keymap.set("n", "gF", "<C-w>gf", { desc = "Go to File in new tab" })
 
+vim.keymap.set({'n', 'v'}, '<Leader>Y', '"+y', { desc = "Yank to system clipboard" })
+
 -- Move selected lines up and down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")

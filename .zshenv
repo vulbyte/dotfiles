@@ -1,4 +1,5 @@
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
+export PATH="$HOME/.cargo/bin:$PATH"
 
 export PATH=/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/System/Library/Frameworks/Python:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/opt/homebrew/bin:/opt/homebrew/bin
 export PATH="/opt/homebrew/bin:$PATH"
