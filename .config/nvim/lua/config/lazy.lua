@@ -1,211 +1,166 @@
--- 1. Bootstrap: Clone lazy.nvim if it's not already there
+-- 1. Bootstrap Lazy
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
-  vim.fn.system({
-    "git",
-    "clone",
-    "--filter=blob:none",
-    "https://github.com/folke/lazy.nvim.git",
-    "--branch=stable",
-    lazypath,
-  })
+	vim.fn.system({
+		"git",
+		"clone",
+		"--filter=blob:none",
+		"https://github.com/folke/lazy.nvim.git",
+		"--branch=stable",
+		lazypath,
+	})
 end
-
--- 2. Add lazy.nvim to the runtime path so Neovim can find the 'lazy' module
 vim.opt.rtp:prepend(lazypath)
 
--- 3. Load lazy safely
-local ok, lazy = pcall(require, "lazy")
-if not ok then
-  vim.api.nvim_echo({ { "Failed to load lazy.nvim!", "ErrorMsg" } }, true, {})
-  return
-end
-
--- 4. Your Plugin Setup
-lazy.setup({
-  -- UI: Carbonfox Theme
-
-	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+-- 2. Setup Lazy
+require("lazy").setup({
+	-- Theme
 	{
-	  "EdenEast/nightfox.nvim",
-	  lazy = false,
-	  priority = 1000,
-	  config = function()
-	    require("nightfox").setup({
-	      options = {
-		transparent = false, 
-		styles = {
-		  comments = "italic",
-		  keywords = "bold",
-		  types = "italic,bold",
-		}
-	      },
-	      palettes = {
-		carbonfox = {
-		  bg1 = "#000000",
-		  bg0 = "#000000",
-		  bg3 = "#161616",
-		  sel0 = "#002200",
-		},
-		dayfox = {
-		  sel0 = "#000000", -- Selection background: Black
-		  sel1 = "#ffffff", -- Selection text color: White
-		},
-	      },
-	      specs = {
-		carbonfox = {
-		  syntax = {
-		    bracket = "#ffff00",
-		  },
-		},
-	      },
-	      groups = {
-		dayfox = {
-		  Cursor = { bg = "#00ff00", fg = "#000000" }, 
-		},
-	      },
-	    })
-
-	    -- 🔴 ADD THIS LINE RIGHT HERE:
-	    -- This forces all modes (a) to look like a block and respect the 'Cursor' highlight group.
-	    vim.opt.guicursor = "a:block-Cursor"
-
-	    vim.cmd("colorscheme carbonfox")
-	  end,
+		"EdenEast/nightfox.nvim",
+		lazy = false,
+		priority = 1000,
+		config = function()
+			require("nightfox").setup({
+				options = {
+					transparent = false,
+					styles = { comments = "italic", keywords = "bold", types = "italic,bold" },
+				},
+				palettes = {
+					carbonfox = { bg1 = "#000000", bg0 = "#000000", bg3 = "#161616", sel0 = "#002200" },
+				},
+				specs = {
+					carbonfox = { syntax = { bracket = "#ffff00" } },
+				},
+			})
+			vim.opt.guicursor = "a:block-Cursor"
+			vim.cmd("colorscheme carbonfox")
+		end,
 	},
-  -- UI: Lualine (Statusline)
-  {
-    "nvim-lualine/lualine.nvim",
-    dependencies = { "nvim-tree/nvim-web-devicons" },
-    config = function()
-      require('lualine').setup({
-        options = { theme = 'auto' },
-        -- You can drop your "evil_lualine" config here
-      })
-    end,
-  },
 
-  -- Utility: Colorizer
--- Utility: Colorizer (Swapped to maintained fork)
-  {
-    "NvChad/nvim-colorizer.lua",
-    config = function()
-      require("colorizer").setup({
-        user_default_options = {
-          mode = "background",
-          -- These ensure it picks up all color types
-          RGB = true,
-          RRGGBB = true,
-          names = true,
-          RRGGBBAA = true,
-          rgb_fn = true,
-          hsl_fn = true,
-          css = true,
-          css_fn = true,
-        },
-      })
-    end,
-  },
+	-- UI: Lualine
+	{
+		"nvim-lualine/lualine.nvim",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
+		opts = { options = { theme = "auto" } },
+	},
 
-  -- Utility: Undotree
-  { "mbbill/undotree", config = function()
-      vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle)
-  end },
+	-- Utility: Colorizer
+	{
+		"NvChad/nvim-colorizer.lua",
+		config = function()
+			require("colorizer").setup({ user_default_options = { mode = "background" } })
+		end,
+	},
 
--- Syntax: Treesitter
-{
-    "nvim-treesitter/nvim-treesitter",
-    build = ":TSUpdate",
-    -- 'main' tells lazy which module to call .setup() on. 
-    -- If 'nvim-treesitter.configs' fails, we use the core module.
-    main = "nvim-treesitter.configs",
-    opts = {
-      ensure_installed = { 
-        "lua", "rust", "javascript", "typescript", 
-        "bash", "html", "css", "ron", "toml" 
-      },
-      highlight = { 
-        enable = true,
-        additional_vim_regex_highlighting = false,
-      },
-      indent = { enable = true },
-    },
-    -- This safety net prevents the error from stopping your startup
-    config = function(_, opts)
-      local status_ok, ts_config = pcall(require, "nvim-treesitter.configs")
-      if not status_ok then
-        return
-      end
-      ts_config.setup(opts)
-    end,
-  },
+	-- Utility: Undotree
+	{
+		"mbbill/undotree",
+		keys = { { "<leader>u", vim.cmd.UndotreeToggle } },
+	},
 
-  -- Navigation: Telescope
-  {
-    "nvim-telescope/telescope.nvim",
-    dependencies = { "nvim-lua/plenary.nvim" },
-    config = function()
-      local builtin = require('telescope.builtin')
-      vim.keymap.set('n', '<leader>pf', builtin.find_files, {})
-    end,
-  },
+	-- Syntax: Treesitter
+	{
+		"nvim-treesitter/nvim-treesitter",
+		build = ":TSUpdate",
+		config = function()
+			local status, ts_config = pcall(require, "nvim-treesitter.configs")
+			if not status then
+				vim.notify("nvim-treesitter not found.", vim.log.levels.WARN)
+				return
+			end
+			ts_config.setup({
+				ensure_installed = {
+					"bash",
+					"css",
+					"html",
+					"javascript",
+					"lua",
+					"markdown",
+					"ron",
+					"rust",
+					"svelte",
+					"toml",
+					"typescript",
+				},
+				highlight = { enable = true, additional_vim_regex_highlighting = false },
+				indent = { enable = true },
+			})
+		end,
+	},
 
-  -- Editing
-  { "olrtg/nvim-emmet" },
-  { "kylechui/nvim-surround", version = "*", config = true },
+	-- Tool Installer
+	{
+		"williamboman/mason.nvim",
+		build = ":MasonUpdate",
+		dependencies = {
+			"williamboman/mason-lspconfig.nvim",
+			"WhoIsSethDaniel/mason-tool-installer.nvim",
+		},
+		config = function()
+			require("mason").setup()
+			require("mason-tool-installer").setup({
+				ensure_installed = { "stylua", "black", "prettierd", "clang-format", "alejandra" },
+			})
+		end,
+	},
 
--- Formatting
-  {
-    "stevearc/conform.nvim",
-    event = { "BufWritePre" },
-    cmd = { "ConformInfo" },
-    opts = {
-      formatters_by_ft = {
-        lua = { "stylua" },
-        rust = { "rustfmt" },
-        python = { "black" },
-        javascript = { "prettierd", "prettier", stop_after_first = true },
-        typescript = { "prettierd", "prettier", stop_after_first = true },
-        javascriptreact = { "prettierd", "prettier", stop_after_first = true },
-        typescriptreact = { "prettierd", "prettier", stop_after_first = true },
-        html = { "prettier" },
-        css = { "prettier" },
-        c = { "clang-format" },
-        cpp = { "clang-format" },
-        nix = { "alejandra" },
-      },
-      format_on_save = {
-        timeout_ms = 500,
-        lsp_fallback = true,
-      },
-    },
-  },
+	-- Navigation: Telescope
+	{
+		"nvim-telescope/telescope.nvim",
+		dependencies = { "nvim-lua/plenary.nvim" },
+		keys = { { "<leader>pf", "<cmd>Telescope find_files<cr>" } },
+	},
 
-  -- Tool Installer
-  {
-    "williamboman/mason.nvim",
-    cmd = "Mason",
-    build = ":MasonUpdate",
-    opts = {
-      ensure_installed = {
-        "stylua",
-        "black",
-        "prettierd",
-        "clang-format",
-        "alejandra",
-      },
-    },
-    config = function(_, opts)
-      require("mason").setup(opts)
-      -- This little loop ensures the tools are installed automatically
-      local mr = require("mason-registry")
-      for _, tool in ipairs(opts.ensure_installed) do
-        local p = mr.get_package(tool)
-        if not p:is_installed() then
-          p:install()
-        end
-      end
-    end,
-  },
+	-- Editing
+	{ "olrtg/nvim-emmet" },
+	{ "kylechui/nvim-surround", version = "*", config = true },
+
+	-- Formatting
+
+	{
+		"stevearc/conform.nvim",
+		event = { "BufWritePre" },
+		opts = {
+			formatters_by_ft = {
+				lua = { "stylua" },
+				rust = { "rustfmt" },
+				javascript = { "prettierd", "prettier", stop_after_first = false },
+				-- ... rest of your ft list
+			},
+
+			-- In your conform.nvim block:
+			formatters_by_ft = {
+				lua = { "stylua" },
+				rust = { "rustfmt" },
+				-- Switch from prettierd to prettier to avoid daemon argument crashes
+				javascript = { "prettier" },
+				typescript = { "prettier" },
+				javascriptreact = { "prettier" },
+				typescriptreact = { "prettier" },
+				html = { "prettier" },
+				css = { "prettier" },
+				c = { "clang-format" },
+				cpp = { "clang-format" },
+				nix = { "alejandra" },
+			},
+
+			formatters = {
+				prettier = {
+					-- Use the absolute path to the Mason binary
+					command = vim.fn.stdpath("data") .. "/mason/bin/prettier",
+					-- Pass the config file strictly via the --config flag
+					args = {
+						"--config",
+						vim.fn.stdpath("config") .. "/prettier-global.json",
+						"--stdin-filepath",
+						"$FILENAME",
+					},
+				},
+			},
+			format_on_save = {
+				timeout_ms = 2000,
+				lsp_fallback = true,
+			},
+		},
+	},
 })
-

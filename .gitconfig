@@ -6,3 +6,9 @@
 	excludesfile = /Users/insert/.gitignore
 [http]
 	postBuffer = 157286400
+[alias]
+	pullall = pull --recurse-submodules
+	cloneall = clone --recursive
+	statusall = status -submodule=summary
+	pushall = push --recurse-submodules=check
+	syncall = submodule update --init --recursive

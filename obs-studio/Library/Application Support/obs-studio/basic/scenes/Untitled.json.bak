@@ -2053,8 +2053,8 @@
             "name": "reference-window_capture"
         }
     ],
-    "current_scene": "reference-vulbyte",
-    "current_program_scene": "reference-vulbyte",
+    "current_scene": "main",
+    "current_program_scene": "main",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 350,

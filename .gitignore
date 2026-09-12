@@ -1,8 +1,3 @@
 */global.ini
 ./Library/Application\ Support/obs-studio/global.ini
 ./Library/Application\ Support/obs-studio/global.ini
-./.config/nvim/.git
-.DS_Store
-.vscode
-conpresor.lock
-package.lock

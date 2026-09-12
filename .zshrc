@@ -209,3 +209,7 @@ export ZCCCFG=${HOME}/z88dk/lib/config
 # # Added by LM Studio CLI (lms)
 # export PATH="$PATH:/Users/insert/.cache/lm-studio/bin"
 # export PATH="/usr/local/sbin:$PATH"
+
+# Added by Antigravity IDE
+export PATH="/Users/insert/.antigravity-ide/antigravity-ide/bin:$PATH"
+eval "$(/opt/homebrew/bin/brew shellenv)"

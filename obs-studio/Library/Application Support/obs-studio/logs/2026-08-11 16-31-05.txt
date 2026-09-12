@@ -1,0 +1,2246 @@
+16:31:05.931: [macOS] Permission for audio device access granted.
+16:31:05.935: [macOS] Permission for video device access granted.
+16:31:05.935: [macOS] Permission for input monitoring granted.
+16:31:05.943: [macOS] Permission for screen capture granted.
+16:31:05.943: CPU Name: Apple M1 Max
+16:31:05.943: Physical Cores: 10, Logical Cores: 10
+16:31:05.943: Physical Memory: 32768MB Total
+16:31:05.943: Model Identifier: MacBookPro18,2
+16:31:05.943: OS Name: macOS
+16:31:05.944: OS Version: Version 26.6 (Build 25G72)
+16:31:05.944: Rosetta translation used: false
+16:31:05.944: Kernel Version: 25.6.0
+16:31:05.949: hotkeys-cocoa: Using keyboard layout 'com.apple.keylayout.Canadian'
+16:31:05.949: Current Date/Time: 2026-08-11, 16:31:05
+16:31:05.949: Browser Hardware Acceleration: true
+16:31:05.949: Qt Version: 6.11.1 (runtime), 6.11.1 (compiled)
+16:31:05.949: Portable mode: false
+16:31:06.166: OBS 32.2.1 (mac)
+16:31:06.166: ---------------------------------
+16:31:06.170: ---------------------------------
+16:31:06.170: audio settings reset:
+16:31:06.170: 	samples per sec: 48000
+16:31:06.170: 	speakers:        2
+16:31:06.170: 	max buffering:   960 milliseconds
+16:31:06.170: 	buffering type:  dynamically increasing
+16:31:06.192: ---------------------------------
+16:31:06.192: Initializing OpenGL...
+16:31:06.241: Loading up OpenGL on adapter Apple Apple M1 Max
+16:31:06.241: OpenGL loaded successfully, version 4.1 Metal - 90.5, shading language 4.10
+16:31:06.456: ---------------------------------
+16:31:06.456: video settings reset:
+16:31:06.456: 	base resolution:   4320x2160
+16:31:06.456: 	output resolution: 2160x1080
+16:31:06.456: 	downscale filter:  Bicubic
+16:31:06.456: 	fps:               60/1
+16:31:06.456: 	format:            NV12
+16:31:06.456: 	YUV mode:          Rec. 709/Partial
+16:31:06.456: NV12 texture support enabled
+16:31:06.456: P010 texture support not available
+16:31:06.461: Audio monitoring device:
+16:31:06.461: 	name: Default
+16:31:06.461: 	id: default
+16:31:06.465: ---------------------------------
+16:31:06.509: No AJA devices found, skipping loading AJA UI plugin
+16:31:06.509: Failed to initialize module 'aja-output-ui'
+16:31:06.548: No AJA devices found, skipping loading AJA plugin
+16:31:06.548: Failed to initialize module 'aja'
+16:31:06.562: Failed to load 'en-US' text for module: 'decklink-captions'
+16:31:06.571: Failed to load 'en-US' text for module: 'decklink-output-ui'
+16:31:06.578: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+16:31:06.578: Failed to initialize module 'decklink'
+16:31:08.806: [obs-browser]: Version 2.26.9
+16:31:08.806: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.0.0-6533-fix-stutter.3039+g2b7d20b+chromium-127.0.6533.120 (compiled)
+16:31:09.028: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.4 | RPC Version: 1)
+16:31:09.028: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.1
+16:31:09.028: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+16:31:09.032: [obs-websocket] [obs_module_load] Module loaded.
+16:31:09.089: os_dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib->/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib): dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib, 0x0106): tried: '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64'))
+16:31:09.089: 
+16:31:09.089: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+16:31:09.089: ---------------------------------
+16:31:09.089:   Loaded Modules:
+16:31:09.089:     vlc-video
+16:31:09.089:     text-freetype2
+16:31:09.089:     rtmp-services
+16:31:09.089:     obs-x264
+16:31:09.089:     obs-websocket
+16:31:09.089:     obs-webrtc
+16:31:09.089:     obs-vst
+16:31:09.089:     obs-transitions
+16:31:09.089:     obs-outputs
+16:31:09.089:     obs-filters
+16:31:09.089:     obs-ffmpeg
+16:31:09.089:     obs-browser
+16:31:09.089:     mac-virtualcam
+16:31:09.089:     mac-videotoolbox
+16:31:09.089:     mac-syphon
+16:31:09.089:     mac-capture
+16:31:09.089:     mac-avcapture
+16:31:09.089:     mac-avcapture-legacy
+16:31:09.089:     image-source
+16:31:09.089:     frontend-tools
+16:31:09.089:     decklink-output-ui
+16:31:09.089:     decklink-captions
+16:31:09.089:     coreaudio-encoder
+16:31:09.089: ---------------------------------
+16:31:09.089: [VideoToolbox encoder]: Added VideoToolbox encoders
+16:31:09.089: ---------------------------------
+16:31:09.089: Available Encoders:
+16:31:09.089:   Video Encoders:
+16:31:09.089: 	- ffmpeg_aom_av1 (AOM AV1)
+16:31:09.089: 	- obs_x264 (x264)
+16:31:09.089: 	- com.apple.videotoolbox.videoencoder.prores-422 (Apple VT ProRes Software Encoder)
+16:31:09.089: 	- com.apple.videotoolbox.videoencoder.appleproreshw.422 (Apple VT ProRes Hardware Encoder)
+16:31:09.089: 	- com.apple.videotoolbox.videoencoder.ave.avc (Apple VT H264 Hardware Encoder)
+16:31:09.089: 	- com.apple.videotoolbox.videoencoder.h264 (Apple VT H264 Software Encoder)
+16:31:09.089: 	- com.apple.videotoolbox.videoencoder.ave.hevc (Apple VT HEVC Hardware Encoder)
+16:31:09.089: 	- com.apple.videotoolbox.videoencoder.hevc.vcp (Apple VT HEVC Software Encoder)
+16:31:09.089:   Audio Encoders:
+16:31:09.089: 	- CoreAudio_AAC (CoreAudio AAC)
+16:31:09.089: 	- ffmpeg_aac (FFmpeg AAC)
+16:31:09.090: 	- ffmpeg_opus (FFmpeg Opus)
+16:31:09.090: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+16:31:09.090: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+16:31:09.090: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+16:31:09.090: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+16:31:09.090: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+16:31:09.090: ==== Startup complete ===============================================
+16:31:09.141: All scene data cleared
+16:31:09.141: ------------------------------------------------
+16:31:09.145: [Media Source 'intro_video']: settings:
+16:31:09.145: 	input:                   /Users/insert/Documents/stream_stuff/pre_stream/intro_music.mp4
+16:31:09.145: 	input_format:            (null)
+16:31:09.145: 	speed:                   100
+16:31:09.145: 	is_looping:              yes
+16:31:09.145: 	is_linear_alpha:         no
+16:31:09.145: 	is_hw_decoding:          yes
+16:31:09.145: 	is_clear_on_media_end:   no
+16:31:09.145: 	restart_on_activate:     yes
+16:31:09.145: 	close_when_inactive:     no
+16:31:09.145: 	full_decode:             no
+16:31:09.145: 	ffmpeg_options:          
+16:31:09.147: [Media Source 'background_bubbles']: settings:
+16:31:09.147: 	input:                   /Users/insert/Documents/stream_stuff/stream_background/stream_background.mov
+16:31:09.147: 	input_format:            (null)
+16:31:09.147: 	speed:                   100
+16:31:09.147: 	is_looping:              no
+16:31:09.147: 	is_linear_alpha:         no
+16:31:09.147: 	is_hw_decoding:          yes
+16:31:09.147: 	is_clear_on_media_end:   no
+16:31:09.147: 	restart_on_activate:     yes
+16:31:09.147: 	close_when_inactive:     no
+16:31:09.147: 	full_decode:             no
+16:31:09.147: 	ffmpeg_options:          
+16:31:09.324: [Media Source 'bg-mid_bitrate.m4v']: settings:
+16:31:09.324: 	input:                   /Users/insert/dotfiles/obs-studio/media_assets/bg-mid_bitrate.m4v
+16:31:09.324: 	input_format:            (null)
+16:31:09.324: 	speed:                   100
+16:31:09.324: 	is_looping:              no
+16:31:09.324: 	is_linear_alpha:         no
+16:31:09.324: 	is_hw_decoding:          no
+16:31:09.324: 	is_clear_on_media_end:   yes
+16:31:09.324: 	restart_on_activate:     yes
+16:31:09.324: 	close_when_inactive:     no
+16:31:09.324: 	full_decode:             no
+16:31:09.324: 	ffmpeg_options:          
+16:31:09.350: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  25124
+16:31:09.350: 
+16:31:09.376: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  1881
+16:31:09.376: 
+16:31:09.400: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  1883
+16:31:09.400: 
+16:31:09.428: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  25598
+16:31:09.428: 
+16:31:09.448: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  213
+16:31:09.448: 
+16:31:09.449: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:09.449: coreaudio: failed to find device uid: AppleUSBAudioEngine:DJI Technology Co., Ltd.:DJI MIC MINI:XSP12345678B:3, waiting for connection
+16:31:09.486: Switched to scene 'intro'
+16:31:09.486: ------------------------------------------------
+16:31:09.486: Loaded scenes:
+16:31:09.486: - scene 'intro':
+16:31:09.486:     - source: 'persistent' (group)
+16:31:09.486:         - source: 'background_bubbles' (ffmpeg_source)
+16:31:09.486:             - filter: 'Color Correction' (color_filter_v2)
+16:31:09.486:     - source: 'intro_video' (ffmpeg_source)
+16:31:09.486:         - filter: 'Luma Key' (luma_key_filter_v2)
+16:31:09.486: - scene 'chat':
+16:31:09.486:     - source: 'reference-background' (scene)
+16:31:09.486:     - source: 'reference-guest' (scene)
+16:31:09.486:     - source: 'reference-window_capture' (scene)
+16:31:09.486:     - source: 'reference-capture_card' (scene)
+16:31:09.486:     - source: 'reference-vulbyte' (scene)
+16:31:09.486:     - source: 'reference-tib_stuff' (scene)
+16:31:09.486:     - source: 'Browser' (browser_source)
+16:31:09.486: - scene 'main':
+16:31:09.486:     - source: 'reference-background' (scene)
+16:31:09.486:     - source: 'reference-guest' (scene)
+16:31:09.486:     - source: 'reference-window_capture' (scene)
+16:31:09.486:     - source: 'reference-capture_card' (scene)
+16:31:09.486:     - source: 'reference-vulbyte' (scene)
+16:31:09.486:     - source: 'reference-tib_stuff' (scene)
+16:31:09.486:     - source: 'Browser' (browser_source)
+16:31:09.486: - scene '--------REFERENCE_SCENES--------':
+16:31:09.486: - scene 'reference-background':
+16:31:09.486:     - source: 'tech_issues.jpg' (image_source)
+16:31:09.486:     - source: 'bg-mid_bitrate.m4v' (ffmpeg_source)
+16:31:09.486: - scene 'reference-capture_card':
+16:31:09.486:     - source: 'tech_issues.jpg' (image_source)
+16:31:09.486:     - source: 'Video Capture Device' (macos-avcapture)
+16:31:09.486: - scene 'reference-guest':
+16:31:09.486:     - source: 'group_chat' (screen_capture)
+16:31:09.486: - scene 'reference-tib_stuff':
+16:31:09.486:     - source: 'tech_issues.jpg' (image_source)
+16:31:09.486:     - source: 'chat_capture' (screen_capture)
+16:31:09.486:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+16:31:09.486:     - source: 'event_capture' (screen_capture)
+16:31:09.486: - scene 'reference-vulbyte':
+16:31:09.486:     - source: 'macos-veado_tube_mini' (screen_capture)
+16:31:09.486:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+16:31:09.486:         - filter: 'Luma Key' (luma_key_filter_v2)
+16:31:09.486:     - source: 'main_mic' (coreaudio_input_capture)
+16:31:09.486:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+16:31:09.486: - scene 'reference-window_capture':
+16:31:09.486:     - source: 'tech_issues.jpg' (image_source)
+16:31:09.486:     - source: 'macOS Screen Capture' (screen_capture)
+16:31:09.486: ------------------------------------------------
+16:31:09.489: Video Capture Device: Unable to initialize device with unique ID '430DCFC5-017B-4295-B6F9-DEA767487A85'
+16:31:09.569: YT: InitYTUserUrl() User is not signed
+16:31:09.569: YT: InitYTUserUrl() User is not signed
+16:31:09.811: [mac-virtualcam] mac-camera-extension: OBS cannot install the virtual camera if it's not in "/Applications". Please move OBS to the "/Applications" directory.
+16:31:10.425: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/cbba170b/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+16:31:10.427: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/cbba170b/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+16:31:11.454: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:13.459: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:15.464: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:16.045: User switched to scene 'chat'
+16:31:16.608: User switched to scene 'main'
+16:31:17.469: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:19.471: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:21.473: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:23.476: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:25.477: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:27.477: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:29.479: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:31.485: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:33.489: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:35.494: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:37.500: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:39.504: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:41.505: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:43.508: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:45.509: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:47.509: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:49.519: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:51.522: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:53.527: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:55.532: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:57.533: [coreaudio_get_device_name] failed to get name: 560947818
+16:31:59.538: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:01.543: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:03.548: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:05.550: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:07.555: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:09.563: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:11.564: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:13.566: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:15.570: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:17.575: [coreaudio_get_device_name] failed to get name: 560947818
+16:55:57.913: Last log entry repeated for 708 more lines
+16:55:57.914: User switched to scene 'reference-background'
+16:55:58.356: User switched to scene 'chat'
+16:55:58.705: [coreaudio_get_device_name] failed to get name: 560947818
+16:55:59.415: User switched to scene 'main'
+16:56:00.381: User switched to scene 'chat'
+16:56:00.710: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:01.831: User switched to scene 'intro'
+16:56:02.466: User switched to scene 'chat'
+16:56:02.715: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:02.773: User switched to scene 'main'
+16:56:04.633: User switched to scene 'reference-capture_card'
+16:56:04.718: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:06.723: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:08.726: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:10.731: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:12.736: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:14.737: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:16.742: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:18.743: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:20.748: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:22.754: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:24.759: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:26.759: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:28.764: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:30.769: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:32.773: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:34.778: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:36.782: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:38.788: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:40.020: Video Capture Device: Selected device 'FaceTime HD Camera'
+16:56:40.792: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:42.797: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:44.636: Video Capture Device: Selected device 'insert’s iPhone (2) Camera'
+16:56:44.798: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:46.803: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:48.808: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:49.120: Video Capture Device: Selected device 'FaceTime HD Camera'
+16:56:50.813: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:52.818: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:54.818: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:56.823: [coreaudio_get_device_name] failed to get name: 560947818
+16:56:58.826: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:00.831: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:02.836: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:04.840: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:06.843: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:08.848: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:10.852: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:12.857: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:14.860: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:16.865: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:18.869: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:20.875: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:22.879: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:24.882: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:26.886: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:28.892: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:30.897: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:32.902: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:34.907: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:36.910: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:38.912: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:40.914: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:42.918: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:44.925: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:46.930: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:48.935: [coreaudio_get_device_name] failed to get name: 560947818
+16:57:50.939: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:34.599: Last log entry repeated for 21 more lines
+16:58:34.599: Source 'Video Capture Device' renamed to 'FACECAM'
+16:58:35.026: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:37.032: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:39.037: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:41.039: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:43.043: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:45.049: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:47.051: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:49.057: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:51.060: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:53.065: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:55.070: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:57.075: [coreaudio_get_device_name] failed to get name: 560947818
+16:58:59.080: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:01.085: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:03.087: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:04.032: Populating font family aliases took 106 ms. Replace uses of missing font family "MS Shell Dlg" with one that exists to avoid this cost. 
+16:59:05.093: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:06.256: YT: InitYTUserUrl() User is not signed
+16:59:07.094: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:09.099: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:11.104: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:13.109: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:15.109: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:17.116: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:19.121: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:21.122: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:23.126: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:25.130: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:27.136: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:29.141: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:31.145: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:33.109: User switched to scene 'chat'
+16:59:33.145: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:34.215: User switched to scene '--------REFERENCE_SCENES--------'
+16:59:34.991: User switched to scene 'main'
+16:59:35.150: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:35.375: User switched to scene 'chat'
+16:59:35.932: User switched to scene 'intro'
+16:59:36.717: User switched to scene 'main'
+16:59:37.152: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:37.244: User switched to scene 'chat'
+16:59:39.153: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:39.201: User switched to scene 'main'
+16:59:39.661: User switched to scene 'chat'
+16:59:40.316: User switched to scene 'intro'
+16:59:41.090: User switched to scene 'chat'
+16:59:41.156: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:41.648: User switched to scene 'main'
+16:59:42.165: User switched to scene 'chat'
+16:59:43.017: User switched to scene 'intro'
+16:59:43.162: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:45.166: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:47.169: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:49.176: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:51.180: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:53.186: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:55.191: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:57.195: [coreaudio_get_device_name] failed to get name: 560947818
+16:59:59.200: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:01.202: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:03.206: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:05.212: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:07.217: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:09.219: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:11.220: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:13.226: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:15.231: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:17.235: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:19.240: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:21.244: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:23.249: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:25.255: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:27.260: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:29.267: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:31.269: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:33.274: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:35.280: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:37.285: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:39.286: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:41.292: [coreaudio_get_device_name] failed to get name: 560947818
+17:00:43.298: [coreaudio_get_device_name] failed to get name: 560947818
+20:16:44.887: Last log entry repeated for 5866 more lines
+20:16:44.888: FACECAM: Received connect event for device 'Reine’s AirPods Pro' (UUID CC-08-FA-D5-67-17:input)
+20:16:46.051: [coreaudio_get_device_name] failed to get name: 560947818
+20:16:48.053: [coreaudio_get_device_name] failed to get name: 560947818
+20:16:50.055: [coreaudio_get_device_name] failed to get name: 560947818
+20:16:52.057: [coreaudio_get_device_name] failed to get name: 560947818
+20:16:54.063: [coreaudio_get_device_name] failed to get name: 560947818
+20:16:56.070: [coreaudio_get_device_name] failed to get name: 560947818
+20:16:58.075: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:00.079: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:02.083: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:04.088: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:06.093: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:08.102: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:10.107: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:12.113: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:14.117: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:16.120: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:18.125: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:20.127: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:22.132: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:24.135: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:26.136: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:28.142: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:30.142: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:32.147: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:34.153: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:36.157: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:38.162: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:40.168: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:42.173: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:44.175: [coreaudio_get_device_name] failed to get name: 560947818
+20:17:46.180: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:26.573: Last log entry repeated for 290 more lines
+20:39:26.575: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+20:39:26.577: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+20:39:26.789: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+20:39:27.892: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:29.896: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:31.901: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:33.907: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:35.912: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:37.917: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:39.921: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:41.926: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:43.931: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:45.935: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:47.940: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:49.945: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:51.950: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:53.953: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:55.958: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:57.962: [coreaudio_get_device_name] failed to get name: 560947818
+20:39:59.966: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:01.971: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:03.976: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:05.981: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:07.987: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:09.992: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:11.996: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:14.000: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:16.002: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:18.004: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:20.005: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:22.010: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:24.013: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:26.019: [coreaudio_get_device_name] failed to get name: 560947818
+20:40:28.025: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:28.907: Last log entry repeated for 120 more lines
+20:44:28.907: User switched to scene 'reference-vulbyte'
+20:44:30.533: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:32.538: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:34.541: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:36.542: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:38.548: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:40.552: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:41.355: User added source 'Image' (image_source) to scene 'reference-vulbyte'
+20:44:42.557: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:44.561: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:46.568: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:48.569: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:50.572: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:52.576: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:54.580: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:56.585: [coreaudio_get_device_name] failed to get name: 560947818
+20:44:58.589: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:00.595: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:02.600: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:04.603: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:06.607: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:08.608: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:10.614: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:12.615: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:14.618: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:16.623: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:18.627: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:20.632: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:22.635: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:24.637: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:25.520: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: macos-veado_tube_mini)
+20:45:25.520: 
+20:45:26.641: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:28.642: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:30.647: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:32.652: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:34.653: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:36.657: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:38.662: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:40.664: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:42.668: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:44.673: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:46.675: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:48.679: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:50.679: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:52.681: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:54.685: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:56.687: [coreaudio_get_device_name] failed to get name: 560947818
+20:45:58.688: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:00.693: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:02.696: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:04.697: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:06.702: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:08.703: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:10.704: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:12.704: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:14.707: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:16.712: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:18.717: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:20.720: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:22.725: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:24.727: [coreaudio_get_device_name] failed to get name: 560947818
+20:46:26.732: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:12.547: Last log entry repeated for 22 more lines
+20:47:12.547: User added filter 'HDR Tone Mapping (Override)' (hdr_tonemap_filter) to source 'Image'
+20:47:12.816: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:14.819: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:15.802: User removed filter 'HDR Tone Mapping (Override)' (hdr_tonemap_filter) from source 'Image'
+20:47:16.824: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:18.824: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:20.807: User added filter 'Image Mask/Blend' (mask_filter_v2) to source 'Image'
+20:47:20.826: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:22.828: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:24.834: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:26.549: User removed filter 'Image Mask/Blend' (mask_filter_v2) from source 'Image'
+20:47:26.837: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:28.842: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:30.843: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:32.844: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:34.846: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:36.850: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:38.854: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:40.859: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:42.866: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:44.872: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:46.873: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:48.876: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:50.713: User switched to scene 'reference-background'
+20:47:50.881: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:51.382: User switched to scene 'main'
+20:47:52.881: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:54.885: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:56.890: [coreaudio_get_device_name] failed to get name: 560947818
+20:47:58.894: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:00.897: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:02.902: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:04.907: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:06.908: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:08.912: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:10.917: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:12.918: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:14.924: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:16.928: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:18.932: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:20.937: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:22.938: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:24.943: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:25.065: User switched to scene 'reference-vulbyte'
+20:48:26.944: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:28.944: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:30.948: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:32.954: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:34.958: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:36.961: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:38.963: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:40.964: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:42.965: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:44.970: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:46.970: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:48.973: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:50.979: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:52.987: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:54.992: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:56.992: [coreaudio_get_device_name] failed to get name: 560947818
+20:48:58.936: User added scene 'reference-chat'
+20:48:58.940: User switched to scene 'reference-chat'
+20:48:58.997: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:01.002: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:03.006: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:05.008: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:07.012: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:09.017: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:11.022: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:13.028: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:15.034: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:17.039: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:19.044: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:21.049: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:23.054: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:25.054: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:27.058: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:29.063: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:31.068: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:33.071: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:35.073: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:37.076: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:39.078: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:41.083: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:43.087: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:45.092: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:47.098: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:49.101: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:51.101: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:53.104: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:55.106: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:57.110: [coreaudio_get_device_name] failed to get name: 560947818
+20:49:59.110: [coreaudio_get_device_name] failed to get name: 560947818
+20:58:37.802: Last log entry repeated for 258 more lines
+20:58:37.803: User switched to scene 'chat'
+20:58:38.103: [coreaudio_get_device_name] failed to get name: 560947818
+20:58:40.107: [coreaudio_get_device_name] failed to get name: 560947818
+20:58:41.838: User switched to scene 'intro'
+20:58:42.110: [coreaudio_get_device_name] failed to get name: 560947818
+20:58:43.349: User switched to scene '--------REFERENCE_SCENES--------'
+20:58:43.952: User switched to scene 'main'
+20:58:44.114: [coreaudio_get_device_name] failed to get name: 560947818
+20:58:46.116: [coreaudio_get_device_name] failed to get name: 560947818
+20:58:48.117: [coreaudio_get_device_name] failed to get name: 560947818
+20:58:50.122: [coreaudio_get_device_name] failed to get name: 560947818
+20:58:51.406: User switched to scene 'reference-chat'
+20:58:52.126: [coreaudio_get_device_name] failed to get name: 560947818
+20:58:54.127: [coreaudio_get_device_name] failed to get name: 560947818
+20:58:55.866: User added source 'Browser' (browser_source) to scene 'reference-chat'
+20:58:56.128: [coreaudio_get_device_name] failed to get name: 560947818
+20:58:58.131: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:00.136: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:02.139: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:04.141: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:06.147: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:08.147: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:10.151: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:11.332: User added filter 'Luma Key' (luma_key_filter_v2) to source 'Browser'
+20:59:12.155: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:14.157: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:16.161: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:18.165: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:20.168: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:22.173: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:24.178: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:26.183: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:28.188: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:30.190: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:32.194: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:34.199: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:36.201: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:38.207: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:40.211: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:42.215: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:44.218: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:46.221: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:48.227: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:50.232: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:52.237: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:54.242: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:56.247: [coreaudio_get_device_name] failed to get name: 560947818
+20:59:58.251: [coreaudio_get_device_name] failed to get name: 560947818
+21:00:00.256: [coreaudio_get_device_name] failed to get name: 560947818
+21:00:02.258: [coreaudio_get_device_name] failed to get name: 560947818
+21:00:04.262: [coreaudio_get_device_name] failed to get name: 560947818
+21:00:06.267: [coreaudio_get_device_name] failed to get name: 560947818
+21:00:08.272: [coreaudio_get_device_name] failed to get name: 560947818
+21:00:10.277: [coreaudio_get_device_name] failed to get name: 560947818
+21:00:12.281: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:14.515: Last log entry repeated for 31 more lines
+21:01:14.516: User added source 'Image 2' (image_source) to scene 'reference-chat'
+21:01:16.417: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:18.422: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:20.426: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:22.431: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:24.436: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:26.442: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:28.445: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:30.449: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:32.454: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:34.459: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:36.464: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:38.470: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:40.478: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:42.482: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:44.487: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:46.491: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:48.492: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:50.496: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:52.497: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:54.497: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:56.501: [coreaudio_get_device_name] failed to get name: 560947818
+21:01:58.506: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:00.511: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:02.513: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:04.518: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:06.523: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:08.526: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:10.531: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:12.536: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:14.539: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:16.544: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:19.422: Last log entry repeated for 1 more lines
+21:02:19.422: User switched to scene 'reference-tib_stuff'
+21:02:20.401: User switched to scene 'reference-guest'
+21:02:20.554: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:20.868: User switched to scene 'reference-chat'
+21:02:22.119: User switched to scene 'intro'
+21:02:22.554: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:22.802: User switched to scene 'chat'
+21:02:24.558: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:26.563: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:28.567: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:30.572: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:32.577: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:33.752: User Removed source 'Browser' (browser_source) from scene 'chat'
+21:02:34.577: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:36.579: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:38.584: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:40.588: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:42.592: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:44.597: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:46.602: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:48.607: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:50.612: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:52.613: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:54.613: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:54.812: User added source 'reference-chat' (scene) to scene 'chat'
+21:02:56.615: [coreaudio_get_device_name] failed to get name: 560947818
+21:02:58.620: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:00.622: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:02.622: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:04.627: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:06.632: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:08.633: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:10.638: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:12.641: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:14.647: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:16.651: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:18.652: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:20.658: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:22.662: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:24.666: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:26.668: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:28.673: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:30.677: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:32.681: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:34.684: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:36.689: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:38.696: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:40.697: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:42.702: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:44.707: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:46.707: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:48.709: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:50.709: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:52.712: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:54.713: [coreaudio_get_device_name] failed to get name: 560947818
+21:03:56.714: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:03.902: Last log entry repeated for 3 more lines
+21:04:03.902: User switched to scene 'reference-capture_card'
+21:04:04.719: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:05.600: User switched to scene 'reference-tib_stuff'
+21:04:06.081: User switched to scene 'reference-chat'
+21:04:06.718: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:08.722: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:10.727: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:12.730: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:14.733: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:16.738: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:18.738: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:20.738: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:22.738: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:24.743: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:26.133: User switched to scene 'main'
+21:04:26.748: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:27.960: User switched to scene 'chat'
+21:04:28.749: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:30.754: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:32.101: User switched to scene 'reference-background'
+21:04:32.507: User switched to scene 'main'
+21:04:32.759: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:34.762: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:36.767: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:38.771: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:40.775: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:42.585: User Removed source 'Browser' (browser_source) from scene 'main'
+21:04:42.780: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:44.783: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:46.787: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:48.792: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:50.794: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:52.801: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:54.806: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:56.810: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:58.815: [coreaudio_get_device_name] failed to get name: 560947818
+21:04:59.738: User Removed source 'reference-capture_card' (scene) from scene 'main'
+21:05:00.816: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:02.818: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:04.821: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:06.827: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:08.831: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:10.832: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:12.836: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:14.839: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:16.843: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:18.848: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:20.853: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:22.858: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:24.862: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:25.786: User added source 'reference-chat' (scene) to scene 'main'
+21:05:26.864: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:28.870: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:30.875: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:32.878: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:34.879: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:36.884: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:38.888: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:40.889: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:42.895: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:44.900: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:46.088: User switched to scene 'reference-vulbyte'
+21:05:46.903: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:47.405: User switched to scene 'reference-window_capture'
+21:05:48.907: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:50.910: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:52.915: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:54.917: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:56.922: [coreaudio_get_device_name] failed to get name: 560947818
+21:05:58.927: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:00.929: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:02.934: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:04.939: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:06.943: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:08.948: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:10.949: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:12.950: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:14.951: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:16.953: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:18.959: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:19.924: User switched to scene 'reference-tib_stuff'
+21:06:20.314: User switched to scene 'reference-guest'
+21:06:20.965: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:20.982: User switched to scene 'main'
+21:06:22.969: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:24.970: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:26.971: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:28.975: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:30.977: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:32.978: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:34.982: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:36.985: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:38.989: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:40.993: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:42.997: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:44.998: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:47.003: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:49.005: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:51.010: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:53.016: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:55.022: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:57.026: [coreaudio_get_device_name] failed to get name: 560947818
+21:06:59.032: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:00.650: User switched to scene 'reference-vulbyte'
+21:07:01.035: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:03.040: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:05.045: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:07.050: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:09.054: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:11.059: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:13.065: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:15.070: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:17.074: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:19.076: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:21.080: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:23.085: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:25.090: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:27.093: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:29.093: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:31.098: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:31.562: User switched to scene 'reference-tib_stuff'
+21:07:32.012: User switched to scene 'reference-vulbyte'
+21:07:33.104: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:35.106: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:37.106: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:39.107: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:41.112: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:43.117: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:45.121: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:47.126: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:49.129: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:51.133: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:53.135: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:55.137: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:57.145: [coreaudio_get_device_name] failed to get name: 560947818
+21:07:57.819: User switched to scene 'chat'
+21:07:58.216: User switched to scene 'main'
+21:07:59.150: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:01.154: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:03.154: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:05.155: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:07.161: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:09.161: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:11.167: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:12.492: User switched to scene 'reference-vulbyte'
+21:08:13.172: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:15.177: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:17.182: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:19.185: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:21.191: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:23.194: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:25.199: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:26.675: User switched to scene 'chat'
+21:08:27.009: User switched to scene 'main'
+21:08:27.205: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:29.210: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:31.215: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:33.217: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:35.222: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:37.225: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:39.229: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:41.234: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:43.238: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:45.239: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:47.240: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:49.245: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:51.246: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:53.251: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:55.253: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:57.256: [coreaudio_get_device_name] failed to get name: 560947818
+21:08:59.258: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:01.263: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:03.268: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:05.273: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:07.275: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:08.752: [ mac-screencapture ]: Stream stopped as no capture source was not found.
+21:09:09.280: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:11.286: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:13.291: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:15.294: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:17.299: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:19.303: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:21.308: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:23.313: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:25.319: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:27.321: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:29.326: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:31.329: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:33.330: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:35.335: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:37.341: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:39.347: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:41.359: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:43.367: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:45.372: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:47.373: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:49.377: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:51.378: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:53.383: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:55.386: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:57.390: [coreaudio_get_device_name] failed to get name: 560947818
+21:09:59.394: [coreaudio_get_device_name] failed to get name: 560947818
+21:10:01.400: [coreaudio_get_device_name] failed to get name: 560947818
+21:10:03.403: [coreaudio_get_device_name] failed to get name: 560947818
+21:10:05.407: [coreaudio_get_device_name] failed to get name: 560947818
+21:10:07.411: [coreaudio_get_device_name] failed to get name: 560947818
+21:10:09.415: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:20.411: Last log entry repeated for 8629 more lines
+01:58:20.412: [ mac-screencapture ]: Stream stopped as no capture source was not found.
+01:58:21.808: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:23.816: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:25.818: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:27.824: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:29.834: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:31.843: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:33.845: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:35.854: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:37.865: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:39.875: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:41.885: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:43.887: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:45.896: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:47.933: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:49.947: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:51.957: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:53.968: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:55.978: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:57.988: [coreaudio_get_device_name] failed to get name: 560947818
+01:58:59.998: [coreaudio_get_device_name] failed to get name: 560947818
+01:59:02.006: [coreaudio_get_device_name] failed to get name: 560947818
+01:59:04.015: [coreaudio_get_device_name] failed to get name: 560947818
+01:59:06.024: [coreaudio_get_device_name] failed to get name: 560947818
+01:59:08.034: [coreaudio_get_device_name] failed to get name: 560947818
+01:59:10.040: [coreaudio_get_device_name] failed to get name: 560947818
+01:59:12.050: [coreaudio_get_device_name] failed to get name: 560947818
+01:59:14.057: [coreaudio_get_device_name] failed to get name: 560947818
+01:59:16.067: [coreaudio_get_device_name] failed to get name: 560947818
+01:59:18.076: [coreaudio_get_device_name] failed to get name: 560947818
+01:59:20.085: [coreaudio_get_device_name] failed to get name: 560947818
+01:59:22.086: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:16.543: Last log entry repeated for 5226 more lines
+04:54:16.543: [ mac-screencapture ]: Stream stopped with error -3805 ("Failed during stream due to application connection being interrupted")
+04:54:16.544: [ mac-screencapture ]: Stream stopped with error -3805 ("Failed during stream due to application connection being interrupted")
+04:54:17.390: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:19.395: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:21.396: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:23.398: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:25.411: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:27.418: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:29.424: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:31.434: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:33.443: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:35.444: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:37.457: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:39.468: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:41.476: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:43.481: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:45.487: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:47.497: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:49.500: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:51.509: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:53.516: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:55.527: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:57.535: [coreaudio_get_device_name] failed to get name: 560947818
+04:54:59.545: [coreaudio_get_device_name] failed to get name: 560947818
+04:55:01.556: [coreaudio_get_device_name] failed to get name: 560947818
+04:55:03.561: [coreaudio_get_device_name] failed to get name: 560947818
+04:55:05.571: [coreaudio_get_device_name] failed to get name: 560947818
+04:55:07.578: [coreaudio_get_device_name] failed to get name: 560947818
+04:55:09.588: [coreaudio_get_device_name] failed to get name: 560947818
+04:55:11.596: [coreaudio_get_device_name] failed to get name: 560947818
+04:55:13.613: [coreaudio_get_device_name] failed to get name: 560947818
+04:55:15.620: [coreaudio_get_device_name] failed to get name: 560947818
+04:55:17.627: [coreaudio_get_device_name] failed to get name: 560947818
+05:36:49.109: Last log entry repeated for 1240 more lines
+05:36:49.110: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+05:36:49.111: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+05:36:49.149: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+05:36:49.159: [coreaudio_get_device_name] failed to get name: 560947818
+05:36:51.169: [coreaudio_get_device_name] failed to get name: 560947818
+05:36:53.172: [coreaudio_get_device_name] failed to get name: 560947818
+05:36:55.177: [coreaudio_get_device_name] failed to get name: 560947818
+05:36:57.186: [coreaudio_get_device_name] failed to get name: 560947818
+05:36:59.187: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:01.196: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:03.203: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:05.205: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:07.218: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:09.222: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:11.224: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:13.235: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:15.239: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:17.249: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:19.251: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:21.260: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:23.270: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:25.280: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:27.285: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:29.292: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:31.301: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:33.311: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:35.314: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:37.318: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:39.327: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:41.333: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:43.341: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:45.350: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:47.364: [coreaudio_get_device_name] failed to get name: 560947818
+05:37:49.374: [coreaudio_get_device_name] failed to get name: 560947818
+09:19:39.768: Last log entry repeated for 6629 more lines
+09:19:39.768: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+09:19:39.770: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+09:19:39.803: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+09:19:41.277: [coreaudio_get_device_name] failed to get name: 560947818
+09:19:43.287: [coreaudio_get_device_name] failed to get name: 560947818
+09:19:45.295: [coreaudio_get_device_name] failed to get name: 560947818
+09:19:47.301: [coreaudio_get_device_name] failed to get name: 560947818
+09:19:49.312: [coreaudio_get_device_name] failed to get name: 560947818
+09:19:51.321: [coreaudio_get_device_name] failed to get name: 560947818
+09:19:53.331: [coreaudio_get_device_name] failed to get name: 560947818
+09:19:55.340: [coreaudio_get_device_name] failed to get name: 560947818
+09:19:57.347: [coreaudio_get_device_name] failed to get name: 560947818
+09:19:59.350: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:01.360: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:03.361: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:05.368: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:07.372: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:09.380: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:11.390: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:13.399: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:15.409: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:17.416: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:19.426: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:21.435: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:23.443: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:25.453: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:27.458: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:29.463: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:31.467: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:33.488: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:35.499: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:37.509: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:39.519: [coreaudio_get_device_name] failed to get name: 560947818
+09:20:41.529: [coreaudio_get_device_name] failed to get name: 560947818
+13:42:53.968: Last log entry repeated for 7835 more lines
+13:42:53.969: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+13:42:53.969: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+13:42:54.025: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+13:42:55.395: [coreaudio_get_device_name] failed to get name: 560947818
+13:42:57.405: [coreaudio_get_device_name] failed to get name: 560947818
+13:42:59.414: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:01.416: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:03.417: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:05.422: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:07.430: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:09.439: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:11.447: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:13.459: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:15.469: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:17.471: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:19.475: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:21.481: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:23.481: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:25.489: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:27.491: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:29.501: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:31.507: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:33.516: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:35.525: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:37.532: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:39.535: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:41.549: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:43.559: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:45.566: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:47.576: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:49.586: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:51.591: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:53.600: [coreaudio_get_device_name] failed to get name: 560947818
+13:43:55.609: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:10.004: Last log entry repeated for 7 more lines
+13:44:10.004: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+13:44:10.005: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+13:44:10.029: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+13:44:11.678: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:13.688: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:15.694: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:17.703: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:19.707: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:21.714: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:23.716: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:25.724: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:27.734: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:29.743: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:31.750: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:33.759: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:35.770: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:37.778: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:39.790: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:41.800: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:43.809: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:45.817: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:47.818: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:49.828: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:51.832: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:53.844: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:55.851: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:57.862: [coreaudio_get_device_name] failed to get name: 560947818
+13:44:59.875: [coreaudio_get_device_name] failed to get name: 560947818
+13:45:01.883: [coreaudio_get_device_name] failed to get name: 560947818
+13:45:03.892: [coreaudio_get_device_name] failed to get name: 560947818
+13:45:05.901: [coreaudio_get_device_name] failed to get name: 560947818
+13:45:07.910: [coreaudio_get_device_name] failed to get name: 560947818
+13:45:09.914: [coreaudio_get_device_name] failed to get name: 560947818
+13:45:11.922: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:26.254: Last log entry repeated for 156 more lines
+13:50:26.255: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+13:50:26.256: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+13:50:26.291: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+13:50:27.142: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:29.144: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:31.154: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:33.163: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:35.175: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:37.183: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:39.194: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:41.201: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:43.203: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:45.213: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:47.229: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:49.235: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:51.247: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:53.253: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:55.263: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:57.271: [coreaudio_get_device_name] failed to get name: 560947818
+13:50:59.280: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:01.291: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:03.296: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:05.306: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:07.309: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:09.319: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:11.328: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:13.339: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:15.349: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:17.359: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:19.369: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:21.377: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:23.387: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:25.391: [coreaudio_get_device_name] failed to get name: 560947818
+13:51:27.402: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:35.803: Last log entry repeated for 303 more lines
+14:01:35.803: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+14:01:35.804: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+14:01:35.834: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+14:01:37.704: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:39.714: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:41.719: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:43.746: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:45.746: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:47.756: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:49.758: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:51.772: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:53.780: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:55.788: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:57.788: [coreaudio_get_device_name] failed to get name: 560947818
+14:01:59.794: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:01.801: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:03.807: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:05.817: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:07.828: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:09.838: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:11.845: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:13.846: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:15.853: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:17.860: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:19.867: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:21.878: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:23.883: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:25.884: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:27.894: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:29.904: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:31.913: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:33.923: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:35.934: [coreaudio_get_device_name] failed to get name: 560947818
+14:02:37.944: [coreaudio_get_device_name] failed to get name: 560947818
+14:09:56.862: Last log entry repeated for 218 more lines
+14:09:56.863: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+14:09:56.864: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+14:09:56.885: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+14:09:57.590: [coreaudio_get_device_name] failed to get name: 560947818
+14:09:59.600: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:01.608: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:03.618: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:05.627: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:07.634: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:09.643: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:11.652: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:13.658: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:15.660: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:17.670: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:19.678: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:21.686: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:23.693: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:25.704: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:27.727: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:29.736: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:31.746: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:33.752: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:35.754: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:37.762: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:39.772: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:41.783: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:43.791: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:45.806: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:47.807: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:49.818: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:51.826: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:53.829: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:55.840: [coreaudio_get_device_name] failed to get name: 560947818
+14:10:57.850: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:24.042: Last log entry repeated for 999 more lines
+14:44:24.043: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+14:44:24.044: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+14:44:24.080: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+14:44:25.625: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:27.635: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:29.644: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:31.644: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:33.651: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:35.659: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:37.670: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:39.680: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:41.685: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:43.686: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:45.696: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:47.702: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:49.710: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:51.720: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:53.728: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:55.738: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:57.740: [coreaudio_get_device_name] failed to get name: 560947818
+14:44:59.742: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:01.745: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:03.747: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:05.753: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:07.761: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:09.773: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:11.782: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:13.784: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:15.794: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:17.802: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:19.812: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:21.823: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:23.833: [coreaudio_get_device_name] failed to get name: 560947818
+14:45:25.842: [coreaudio_get_device_name] failed to get name: 560947818
+14:55:45.584: Last log entry repeated for 308 more lines
+14:55:45.585: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+14:55:45.587: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+14:55:45.622: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+14:55:46.223: [coreaudio_get_device_name] failed to get name: 560947818
+14:55:48.225: [coreaudio_get_device_name] failed to get name: 560947818
+14:55:50.235: [coreaudio_get_device_name] failed to get name: 560947818
+14:55:52.243: [coreaudio_get_device_name] failed to get name: 560947818
+14:55:54.253: [coreaudio_get_device_name] failed to get name: 560947818
+14:55:56.264: [coreaudio_get_device_name] failed to get name: 560947818
+14:55:58.273: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:00.283: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:02.293: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:04.300: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:06.301: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:08.312: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:10.323: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:12.329: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:14.337: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:16.346: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:18.356: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:20.357: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:22.369: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:24.380: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:26.390: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:28.400: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:30.405: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:32.414: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:34.417: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:36.430: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:38.438: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:40.445: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:42.453: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:44.464: [coreaudio_get_device_name] failed to get name: 560947818
+14:56:46.473: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:01.601: Last log entry repeated for 67 more lines
+14:59:01.601: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+14:59:01.601: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+14:59:01.631: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+14:59:02.958: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:04.968: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:06.970: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:08.980: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:10.989: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:12.991: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:15.006: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:17.021: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:19.031: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:21.045: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:23.048: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:25.059: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:27.067: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:29.073: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:31.079: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:33.089: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:35.096: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:37.107: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:39.117: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:41.126: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:43.134: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:45.145: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:47.154: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:49.162: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:51.173: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:53.178: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:55.188: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:57.200: [coreaudio_get_device_name] failed to get name: 560947818
+14:59:59.222: [coreaudio_get_device_name] failed to get name: 560947818
+15:00:01.233: [coreaudio_get_device_name] failed to get name: 560947818
+15:00:03.238: [coreaudio_get_device_name] failed to get name: 560947818
+15:49:42.079: Last log entry repeated for 1483 more lines
+15:49:42.080: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+15:49:42.082: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+15:49:42.112: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+15:49:43.201: [coreaudio_get_device_name] failed to get name: 560947818
+15:49:45.210: [coreaudio_get_device_name] failed to get name: 560947818
+15:49:47.220: [coreaudio_get_device_name] failed to get name: 560947818
+15:49:49.231: [coreaudio_get_device_name] failed to get name: 560947818
+15:49:51.237: [coreaudio_get_device_name] failed to get name: 560947818
+15:49:53.248: [coreaudio_get_device_name] failed to get name: 560947818
+15:49:55.263: [coreaudio_get_device_name] failed to get name: 560947818
+15:49:57.275: [coreaudio_get_device_name] failed to get name: 560947818
+15:49:59.279: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:01.289: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:03.294: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:05.306: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:07.313: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:09.317: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:11.326: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:13.343: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:15.354: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:17.364: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:19.375: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:21.380: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:23.389: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:25.396: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:27.406: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:29.416: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:31.420: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:33.431: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:35.445: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:37.456: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:39.466: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:41.469: [coreaudio_get_device_name] failed to get name: 560947818
+15:50:43.478: [coreaudio_get_device_name] failed to get name: 560947818
+15:59:50.571: Last log entry repeated for 272 more lines
+15:59:50.571: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+15:59:50.573: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+15:59:50.613: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+15:59:51.443: [coreaudio_get_device_name] failed to get name: 560947818
+15:59:53.447: [coreaudio_get_device_name] failed to get name: 560947818
+15:59:55.448: [coreaudio_get_device_name] failed to get name: 560947818
+15:59:57.448: [coreaudio_get_device_name] failed to get name: 560947818
+15:59:59.449: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:01.450: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:03.450: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:05.457: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:07.462: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:09.464: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:11.467: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:13.474: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:15.479: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:17.483: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:19.489: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:21.493: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:23.498: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:25.502: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:27.507: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:29.511: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:31.513: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:33.516: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:35.520: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:37.524: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:39.530: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:41.535: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:43.541: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:45.542: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:47.548: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:49.549: [coreaudio_get_device_name] failed to get name: 560947818
+16:00:51.550: [coreaudio_get_device_name] failed to get name: 560947818
+16:03:59.377: Last log entry repeated for 93 more lines
+16:03:59.378: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+16:03:59.380: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+16:03:59.421: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+16:03:59.925: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:01.926: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:03.928: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:05.934: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:07.939: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:09.939: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:11.943: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:13.948: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:15.948: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:17.953: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:19.957: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:21.962: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:23.971: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:25.976: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:27.976: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:29.981: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:31.986: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:33.992: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:35.997: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:38.002: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:40.006: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:42.010: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:44.012: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:46.013: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:48.015: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:50.019: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:52.022: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:54.026: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:56.029: [coreaudio_get_device_name] failed to get name: 560947818
+16:04:58.032: [coreaudio_get_device_name] failed to get name: 560947818
+16:05:00.034: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:17.655: Last log entry repeated for 817 more lines
+16:32:17.656: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+16:32:17.658: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+16:32:17.686: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+16:32:19.275: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:21.285: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:23.298: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:25.309: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:27.318: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:29.324: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:31.334: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:33.345: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:35.351: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:37.357: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:39.358: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:41.368: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:43.374: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:45.383: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:47.390: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:49.397: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:51.407: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:53.417: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:55.427: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:57.444: [coreaudio_get_device_name] failed to get name: 560947818
+16:32:59.451: [coreaudio_get_device_name] failed to get name: 560947818
+16:33:01.460: [coreaudio_get_device_name] failed to get name: 560947818
+16:33:03.470: [coreaudio_get_device_name] failed to get name: 560947818
+16:33:05.481: [coreaudio_get_device_name] failed to get name: 560947818
+16:33:07.491: [coreaudio_get_device_name] failed to get name: 560947818
+16:33:09.493: [coreaudio_get_device_name] failed to get name: 560947818
+16:33:11.501: [coreaudio_get_device_name] failed to get name: 560947818
+16:33:13.508: [coreaudio_get_device_name] failed to get name: 560947818
+16:33:15.518: [coreaudio_get_device_name] failed to get name: 560947818
+16:33:17.531: [coreaudio_get_device_name] failed to get name: 560947818
+16:33:19.540: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:16.841: Last log entry repeated for 88 more lines
+16:36:16.841: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+16:36:16.841: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+16:36:16.876: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+16:36:18.194: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:20.211: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:22.221: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:24.228: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:26.233: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:28.243: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:30.256: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:32.267: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:34.277: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:36.287: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:38.294: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:40.309: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:42.309: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:44.317: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:46.327: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:48.328: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:50.338: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:52.338: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:54.349: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:56.359: [coreaudio_get_device_name] failed to get name: 560947818
+16:36:58.370: [coreaudio_get_device_name] failed to get name: 560947818
+16:37:02.701: [coreaudio_get_device_name] failed to get name: 560947818
+16:37:04.712: [coreaudio_get_device_name] failed to get name: 560947818
+16:37:06.721: [coreaudio_get_device_name] failed to get name: 560947818
+16:37:08.730: [coreaudio_get_device_name] failed to get name: 560947818
+16:37:10.740: [coreaudio_get_device_name] failed to get name: 560947818
+16:37:12.742: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:37.374: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:39.377: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:39.442: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+16:53:39.447: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+16:53:39.465: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+16:53:41.384: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:43.384: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:45.385: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:47.386: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:49.390: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:51.393: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:53.403: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:55.406: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:57.410: [coreaudio_get_device_name] failed to get name: 560947818
+16:53:59.414: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:01.417: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:03.421: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:05.425: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:07.429: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:09.435: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:11.439: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:13.444: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:15.448: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:17.453: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:19.457: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:21.458: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:23.462: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:25.466: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:27.467: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:29.470: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:31.471: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:33.476: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:35.481: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:37.482: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:39.485: [coreaudio_get_device_name] failed to get name: 560947818
+16:54:41.490: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:25.571: Last log entry repeated for 2653 more lines
+18:39:25.572: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+18:39:25.576: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+18:39:25.701: FACECAM: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+18:39:26.870: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:28.878: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:30.883: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:32.888: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:34.891: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:36.892: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:38.905: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:40.913: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:42.915: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:43.019: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+18:39:44.922: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:46.924: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:48.929: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:50.934: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:52.937: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:54.941: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:56.946: [coreaudio_get_device_name] failed to get name: 560947818
+18:39:58.951: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:00.956: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:02.962: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:04.967: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:06.972: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:08.976: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:10.979: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:12.983: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:14.985: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:16.986: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:18.987: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:20.992: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:22.997: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:24.999: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:27.003: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:29.010: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:31.015: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:33.019: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:35.023: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:37.028: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:39.030: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:41.033: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:43.038: [coreaudio_get_device_name] failed to get name: 560947818
+18:40:45.043: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:08.437: Last log entry repeated for 131 more lines
+18:45:08.438: User switched to scene 'reference-capture_card'
+18:45:09.354: User switched to scene 'reference-background'
+18:45:09.499: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:10.023: User switched to scene 'reference-chat'
+18:45:11.050: User switched to scene 'reference-guest'
+18:45:11.501: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:12.233: User switched to scene 'reference-tib_stuff'
+18:45:13.025: User switched to scene 'reference-guest'
+18:45:13.507: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:15.512: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:17.517: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:19.519: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:21.523: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:23.528: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:25.478: User switched to scene 'reference-vulbyte'
+18:45:25.533: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:26.169: User switched to scene 'reference-tib_stuff'
+18:45:26.895: User switched to scene 'reference-vulbyte'
+18:45:27.537: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:29.540: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:31.545: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:33.549: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:35.554: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:37.560: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:39.565: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:41.570: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:42.201: User switched to scene 'reference-guest'
+18:45:43.574: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:45.579: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:47.250: Switched to scene 'reference-tib_stuff'
+18:45:47.255: User Removed scene 'reference-guest'
+18:45:47.581: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:47.839: User switched to scene 'reference-window_capture'
+18:45:48.571: User switched to scene 'reference-vulbyte'
+18:45:49.586: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:51.587: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:53.590: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:55.595: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:56.963: User added scene 'reference-guest'
+18:45:56.963: User added source 'main_mic' (coreaudio_input_capture) to scene 'reference-guest'
+18:45:56.963: User added source 'Image' (image_source) to scene 'reference-guest'
+18:45:56.963: User added source 'macos-veado_tube_mini' (screen_capture) to scene 'reference-guest'
+18:45:56.970: Switched to scene 'reference-guest'
+18:45:57.599: [coreaudio_get_device_name] failed to get name: 560947818
+18:45:59.603: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:01.605: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:03.610: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:05.615: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:07.620: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:09.630: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:11.636: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:13.641: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:15.645: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:17.649: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:19.655: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:21.657: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:23.660: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:25.664: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:27.670: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:29.673: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:31.678: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:33.683: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:35.689: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:37.693: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:39.163: User switched to scene 'reference-capture_card'
+18:46:39.576: User switched to scene 'reference-chat'
+18:46:39.698: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:40.718: User switched to scene 'reference-guest'
+18:46:41.699: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:43.702: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:45.711: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:47.716: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:49.717: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:51.723: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:52.339: User Removed source 'main_mic' (coreaudio_input_capture) from scene 'reference-guest'
+18:46:53.728: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:55.732: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:57.737: [coreaudio_get_device_name] failed to get name: 560947818
+18:46:59.741: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:01.746: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:03.751: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:05.756: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:07.761: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:09.763: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:11.765: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:12.270: Source 'macos-veado_tube_mini' renamed to 'guest_capture'
+18:47:13.771: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:14.072: User switched to scene 'reference-tib_stuff'
+18:47:15.775: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:15.974: User switched to scene 'reference-vulbyte'
+18:47:17.528: User switched to scene 'reference-guest'
+18:47:17.781: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:17.863: User switched to scene 'reference-vulbyte'
+18:47:18.256: User switched to scene 'reference-tib_stuff'
+18:47:18.874: User switched to scene 'reference-vulbyte'
+18:47:19.786: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:21.790: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:23.795: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:25.800: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:27.804: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:29.806: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:31.811: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:33.817: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:35.820: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:35.838: Source 'main_mic' renamed to 'vulbyte_mic'
+18:47:37.822: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:39.823: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:41.830: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:43.835: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:45.840: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:46.035: Source 'Image' renamed to 'size_ref'
+18:47:47.844: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:49.845: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:51.847: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:53.852: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:55.437: Source 'guest_capture' renamed to 'vulbyte_capture'
+18:47:55.855: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:57.017: User switched to scene 'reference-guest'
+18:47:57.859: [coreaudio_get_device_name] failed to get name: 560947818
+18:47:59.865: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:01.867: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:03.870: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:05.875: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:07.877: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:09.882: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:11.885: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:13.891: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:15.896: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:17.897: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:19.902: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:21.904: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:22.698: User Removed source 'vulbyte_capture' (screen_capture) from scene 'reference-guest'
+18:48:23.908: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:25.912: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:27.917: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:29.920: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:30.181: User switched to scene 'reference-vulbyte'
+18:48:31.926: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:33.930: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:34.846: User switched to scene 'reference-chat'
+18:48:35.278: User switched to scene 'reference-guest'
+18:48:35.936: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:36.911: User added source 'vulbyte_capture' (screen_capture) to scene 'reference-guest'
+18:48:37.939: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:39.940: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:41.945: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:43.949: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:45.954: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:47.515: Source 'vulbyte_capture' renamed to 'guest_capture'
+18:48:47.956: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:49.385: User switched to scene 'reference-vulbyte'
+18:48:49.958: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:51.961: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:53.966: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:55.636: Source 'guest_capture' renamed to 'vulbyte_capture'
+18:48:55.971: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:56.992: User switched to scene 'reference-tib_stuff'
+18:48:57.472: User switched to scene 'reference-guest'
+18:48:57.976: [coreaudio_get_device_name] failed to get name: 560947818
+18:48:59.981: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:01.982: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:02.609: User Removed source 'vulbyte_capture' (screen_capture) from scene 'reference-guest'
+18:49:03.985: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:05.991: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:07.996: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:10.002: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:10.927: [ mac-screencapture ]: init_screen_stream: Invalid target display ID:  0
+18:49:10.927: 
+18:49:10.928: User added source 'macOS Screen Capture 2' (screen_capture) to scene 'reference-guest'
+18:49:12.004: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:14.010: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:16.012: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:17.279: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  0
+18:49:17.279: 
+18:49:18.017: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:20.021: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:22.023: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:23.073: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  0
+18:49:23.073: 
+18:49:24.026: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:26.030: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:28.034: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:30.039: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:32.044: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:33.010: Source 'macOS Screen Capture 2' renamed to 'guest_capture'
+18:49:34.047: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:36.051: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:38.056: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:40.061: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:40.687: User switched to scene 'reference-vulbyte'
+18:49:42.065: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:44.068: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:46.072: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:48.076: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:50.081: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:52.081: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:54.084: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:55.171: User switched to scene 'reference-tib_stuff'
+18:49:56.090: [coreaudio_get_device_name] failed to get name: 560947818
+18:49:58.095: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:00.101: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:00.544: User switched to scene 'reference-chat'
+18:50:02.106: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:04.110: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:06.115: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:08.119: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:08.389: Source 'reference-chat' renamed to 'reference-youtube_chat'
+18:50:10.124: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:12.124: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:14.129: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:16.134: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:18.139: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:20.143: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:22.147: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:24.149: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:26.153: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:28.156: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:30.161: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:32.164: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:34.169: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:35.977: User switched to scene 'reference-vulbyte'
+18:50:36.173: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:36.319: User switched to scene 'reference-window_capture'
+18:50:38.176: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:40.181: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:42.186: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:44.188: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:46.193: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:48.197: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:50.202: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:52.205: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:54.211: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:54.469: User switched to scene 'reference-vulbyte'
+18:50:55.642: User switched to scene 'reference-tib_stuff'
+18:50:56.213: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:56.337: User switched to scene 'reference-guest'
+18:50:56.908: User switched to scene 'reference-capture_card'
+18:50:58.217: [coreaudio_get_device_name] failed to get name: 560947818
+18:50:58.337: User switched to scene 'reference-background'
+18:51:00.223: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:02.230: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:04.053: User switched to scene 'reference-capture_card'
+18:51:04.235: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:06.238: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:08.244: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:10.248: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:12.251: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:14.257: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:16.261: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:18.263: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:20.265: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:22.269: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:24.274: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:26.276: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:28.281: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:30.286: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:32.291: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:34.292: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:36.295: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:38.301: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:40.306: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:42.311: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:44.314: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:46.318: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:48.323: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:50.328: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:52.330: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:54.335: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:56.339: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:58.345: [coreaudio_get_device_name] failed to get name: 560947818
+18:51:59.180: User switched to scene 'reference-background'
+18:52:00.348: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:02.348: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:04.351: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:04.369: User switched to scene 'reference-capture_card'
+18:52:06.352: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:08.355: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:10.360: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:12.361: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:13.334: User switched to scene 'reference-guest'
+18:52:14.366: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:16.371: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:17.920: User switched to scene 'reference-tib_stuff'
+18:52:18.377: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:20.380: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:22.385: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:24.393: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:24.484: User switched to scene 'reference-vulbyte'
+18:52:26.399: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:28.404: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:29.784: User switched to scene 'reference-window_capture'
+18:52:30.411: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:32.415: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:34.417: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:36.418: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:38.423: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:40.426: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:42.431: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:44.436: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:46.441: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:48.446: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:50.450: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:52.455: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:54.460: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:56.462: [coreaudio_get_device_name] failed to get name: 560947818
+18:52:58.465: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:00.307: Source 'reference-window_capture' renamed to 'reference-screen_capture'
+18:53:00.470: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:02.474: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:04.476: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:06.481: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:08.486: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:08.963: User switched to scene 'chat'
+18:53:10.489: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:10.625: User switched to scene 'main'
+18:53:12.494: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:14.500: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:15.201: User switched to scene 'chat'
+18:53:16.092: User switched to scene 'main'
+18:53:16.501: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:18.505: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:20.510: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:22.512: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:24.517: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:26.522: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:28.527: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:30.528: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:32.532: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:34.533: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:36.538: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:38.540: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:40.545: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:42.547: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:44.551: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:44.804: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+18:53:44.804: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+18:53:44.865: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+18:53:44.901: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+18:53:44.936: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+18:53:44.971: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+18:53:44.991: Switched to Preview/Program mode
+18:53:44.991: ------------------------------------------------
+18:53:46.556: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:48.558: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:50.563: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:52.569: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:54.570: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:56.575: [coreaudio_get_device_name] failed to get name: 560947818
+18:53:58.578: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:00.583: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:02.588: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:04.593: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:06.596: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:08.601: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:10.602: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:12.606: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:13.618: Settings changed (general)
+18:54:13.618: ------------------------------------------------
+18:54:13.618: YT: InitYTUserUrl() User is not signed
+18:54:14.607: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:15.171: YT: InitYTUserUrl() User is not signed
+18:54:16.609: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:18.613: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:20.614: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:22.619: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:24.621: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:26.622: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:28.627: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:30.631: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:32.635: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:34.640: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:36.645: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:38.650: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:40.655: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:42.661: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:44.663: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:46.669: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:48.671: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:50.672: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:52.675: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:54.679: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:56.684: [coreaudio_get_device_name] failed to get name: 560947818
+18:54:58.687: [coreaudio_get_device_name] failed to get name: 560947818
+18:55:00.692: [coreaudio_get_device_name] failed to get name: 560947818
+18:55:02.694: [coreaudio_get_device_name] failed to get name: 560947818
+18:55:04.699: [coreaudio_get_device_name] failed to get name: 560947818
+18:55:06.700: [coreaudio_get_device_name] failed to get name: 560947818
+18:55:08.702: [coreaudio_get_device_name] failed to get name: 560947818
+18:55:10.707: [coreaudio_get_device_name] failed to get name: 560947818
+18:55:12.710: [coreaudio_get_device_name] failed to get name: 560947818
+18:55:14.715: [coreaudio_get_device_name] failed to get name: 560947818
+18:55:16.720: [coreaudio_get_device_name] failed to get name: 560947818
+19:07:40.220: Last log entry repeated for 371 more lines
+19:07:40.221: User added source 'Image' (image_source) to scene 'main'
+19:07:42.033: [coreaudio_get_device_name] failed to get name: 560947818
+19:07:44.038: [coreaudio_get_device_name] failed to get name: 560947818
+19:07:46.039: [coreaudio_get_device_name] failed to get name: 560947818
+19:07:48.044: [coreaudio_get_device_name] failed to get name: 560947818
+19:07:50.049: [coreaudio_get_device_name] failed to get name: 560947818
+19:07:52.049: [coreaudio_get_device_name] failed to get name: 560947818
+19:07:54.052: [coreaudio_get_device_name] failed to get name: 560947818
+19:07:56.054: [coreaudio_get_device_name] failed to get name: 560947818
+19:07:58.056: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:00.060: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:02.065: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:03.875: User added filter 'Luma Key' (luma_key_filter_v2) to source 'Image'
+19:08:04.070: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:06.075: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:08.078: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:10.080: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:12.085: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:14.088: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:16.092: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:18.097: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:20.102: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:22.104: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:24.109: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:26.112: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:28.117: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:30.121: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:32.124: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:34.125: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:36.131: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:38.134: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:38.789: Source 'Image' renamed to 'overlay'
+19:08:40.139: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:40.196: User switched to scene '--------REFERENCE_SCENES--------'
+19:08:40.576: User switched to scene 'reference-background'
+19:08:40.897: User switched to scene 'reference-capture_card'
+19:08:41.198: User switched to scene 'reference-guest'
+19:08:41.541: User switched to scene 'reference-screen_capture'
+19:08:41.951: User switched to scene 'reference-capture_card'
+19:08:42.144: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:42.273: User switched to scene 'reference-background'
+19:08:44.147: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:46.150: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:48.154: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:50.156: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:52.157: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:54.161: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:56.164: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:58.169: [coreaudio_get_device_name] failed to get name: 560947818
+19:08:58.368: User switched to scene 'main'
+19:09:00.174: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:01.601: User switched to scene 'reference-guest'
+19:09:01.952: User switched to scene 'reference-capture_card'
+19:09:02.178: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:02.337: User switched to scene 'reference-background'
+19:09:04.183: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:06.187: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:08.189: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:09.829: [Media Source 'bg-mid_bitrate.m4v']: settings:
+19:09:09.829: 	input:                   /Users/insert/dotfiles/obs-studio/media_assets/bg-mid_bitrate.m4v
+19:09:09.829: 	input_format:            (null)
+19:09:09.829: 	speed:                   100
+19:09:09.829: 	is_looping:              yes
+19:09:09.829: 	is_linear_alpha:         no
+19:09:09.829: 	is_hw_decoding:          no
+19:09:09.829: 	is_clear_on_media_end:   yes
+19:09:09.829: 	restart_on_activate:     yes
+19:09:09.829: 	close_when_inactive:     no
+19:09:09.829: 	full_decode:             no
+19:09:09.829: 	ffmpeg_options:          
+19:09:10.194: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:12.199: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:14.200: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:15.263: User switched to scene 'main'
+19:09:16.206: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:16.301: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:16.301: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:16.342: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:16.375: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:16.408: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:16.442: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:16.481: User faded from scene 'main' to black
+19:09:17.777: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:17.777: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:17.823: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:17.858: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:17.884: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:17.917: Attempted to add Scene without specifying a canvas! Using default canvas instead.
+19:09:17.951: User faded from black to scene 'main'
+19:09:18.210: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:20.212: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:22.217: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:23.695: User switched to scene 'reference-screen_capture'
+19:09:24.099: User switched to scene 'reference-guest'
+19:09:24.220: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:24.418: User switched to scene 'reference-background'
+19:09:25.278: User switched to scene 'chat'
+19:09:25.769: User switched to scene 'main'
+19:09:26.223: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:28.227: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:30.232: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:32.237: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:34.242: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:36.246: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:38.250: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:40.256: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:42.261: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:44.264: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:46.267: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:48.272: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:50.278: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:52.280: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:54.284: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:56.288: [coreaudio_get_device_name] failed to get name: 560947818
+19:09:58.289: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:00.294: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:02.297: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:04.303: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:06.308: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:08.311: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:10.316: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:12.320: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:14.324: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:16.329: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:18.333: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:20.333: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:22.338: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:24.343: [coreaudio_get_device_name] failed to get name: 560947818
+19:10:26.343: [coreaudio_get_device_name] failed to get name: 560947818
+19:19:09.456: Last log entry repeated for 261 more lines
+19:19:09.457: ==== Shutting down ==================================================
+19:19:09.720: All scene data cleared
+19:19:09.720: ------------------------------------------------
+19:19:09.773: Tried to call obs_frontend_remove_event_callback with no callbacks!
+19:19:09.843: [obs-websocket] [obs_module_unload] Shutting down...
+19:19:09.843: Tried to call obs_frontend_remove_event_callback with no callbacks!
+19:19:09.843: [obs-websocket] [obs_module_unload] Finished shutting down.
+19:19:09.897: [Scripting] Total detached callbacks: 0
+19:19:09.897: Freeing OBS context data
+19:19:09.918: == Profiler Results =============================
+19:19:09.918: run_program_init: 4012.02 ms
+19:19:09.918:  ┣OBSApp::AppInit: 22.18 ms
+19:19:09.918:  ┃ ┗OBSApp::InitLocale: 1.388 ms
+19:19:09.918:  ┗OBSApp::OBSInit: 3680.9 ms
+19:19:09.918:    ┣obs_startup: 5.773 ms
+19:19:09.918:    ┗OBSBasic::OBSInit: 3457.54 ms
+19:19:09.918:      ┣OBSBasic::InitBasicConfig: 3.965 ms
+19:19:09.918:      ┣OBSBasic::ResetAudio: 0.139 ms
+19:19:09.918:      ┣OBSBasic::ResetVideo: 290.29 ms
+19:19:09.918:      ┃ ┗obs_init_graphics: 284.947 ms
+19:19:09.918:      ┃   ┗shader compilation: 214.27 ms
+19:19:09.918:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+19:19:09.918:      ┣OBSBasic::InitHotkeys: 0.028 ms
+19:19:09.918:      ┣obs_load_all_modules2: 2623.72 ms
+19:19:09.918:      ┃ ┣obs_init_module(aja-output-ui): 1.056 ms
+19:19:09.919:      ┃ ┣obs_init_module(aja): 1.143 ms
+19:19:09.919:      ┃ ┣obs_init_module(coreaudio-encoder): 0 ms
+19:19:09.919:      ┃ ┣obs_init_module(decklink-captions): 0 ms
+19:19:09.919:      ┃ ┣obs_init_module(decklink-output-ui): 0 ms
+19:19:09.919:      ┃ ┣obs_init_module(decklink): 0.075 ms
+19:19:09.919:      ┃ ┣obs_init_module(frontend-tools): 227.549 ms
+19:19:09.919:      ┃ ┣obs_init_module(image-source): 0.013 ms
+19:19:09.919:      ┃ ┣obs_init_module(mac-avcapture-legacy): 124.943 ms
+19:19:09.919:      ┃ ┣obs_init_module(mac-avcapture): 0.002 ms
+19:19:09.919:      ┃ ┣obs_init_module(mac-capture): 0.022 ms
+19:19:09.919:      ┃ ┣obs_init_module(mac-syphon): 0.002 ms
+19:19:09.919:      ┃ ┣obs_init_module(mac-videotoolbox): 0.004 ms
+19:19:09.919:      ┃ ┣obs_init_module(mac-virtualcam): 0.001 ms
+19:19:09.919:      ┃ ┣obs_init_module(obs-browser): 1741.63 ms
+19:19:09.919:      ┃ ┣obs_init_module(obs-ffmpeg): 0.343 ms
+19:19:09.919:      ┃ ┣obs_init_module(obs-filters): 0.04 ms
+19:19:09.919:      ┃ ┣obs_init_module(obs-outputs): 0.015 ms
+19:19:09.919:      ┃ ┣obs_init_module(obs-transitions): 0.007 ms
+19:19:09.919:      ┃ ┣obs_init_module(obs-vst): 0.002 ms
+19:19:09.919:      ┃ ┣obs_init_module(obs-webrtc): 0.003 ms
+19:19:09.919:      ┃ ┣obs_init_module(obs-websocket): 3.625 ms
+19:19:09.919:      ┃ ┣obs_init_module(obs-x264): 0.001 ms
+19:19:09.919:      ┃ ┣obs_init_module(rtmp-services): 0.162 ms
+19:19:09.919:      ┃ ┣obs_init_module(text-freetype2): 0.025 ms
+19:19:09.919:      ┃ ┗obs_init_module(vlc-video): 0.805 ms
+19:19:09.919:      ┣OBSBasic::InitService: 2.229 ms
+19:19:09.919:      ┣OBSBasic::ResetOutputs: 22.356 ms
+19:19:09.919:      ┣OBSBasic::CreateHotkeys: 0.056 ms
+19:19:09.919:      ┣OBSBasic::InitPrimitives: 0.049 ms
+19:19:09.919:      ┗OBSBasic::Load: 373.396 ms
+19:19:09.919: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=19.264 ms, 99th percentile=0.003 ms, 100% below 25 ms
+19:19:09.919: audio_thread(Audio): min=0.003 ms, median=0.037 ms, max=1024.46 ms, 99th percentile=4.318 ms
+19:19:09.919: obs_graphics_thread(16.6667 ms): min=0.061 ms, median=4.707 ms, max=1027.65 ms, 99th percentile=11.09 ms, 99.7163% below 16.667 ms
+19:19:09.919:  ┣tick_sources: min=0 ms, median=0.105 ms, max=198.042 ms, 99th percentile=1.927 ms
+19:19:09.919:  ┣output_frame: min=0.044 ms, median=2.612 ms, max=1018.83 ms, 99th percentile=7.659 ms
+19:19:09.919:  ┃ ┗gs_context(video->graphics): min=0.044 ms, median=2.609 ms, max=1018.82 ms, 99th percentile=7.652 ms
+19:19:09.919:  ┃   ┣render_video: min=0.006 ms, median=2.344 ms, max=1017.6 ms, 99th percentile=7.362 ms
+19:19:09.919:  ┃   ┃ ┗render_main_texture: min=0.006 ms, median=2.334 ms, max=1017.59 ms, 99th percentile=7.335 ms
+19:19:09.919:  ┃   ┗gs_flush: min=0.02 ms, median=0.173 ms, max=172.313 ms, 99th percentile=0.998 ms
+19:19:09.919:  ┗render_displays: min=0 ms, median=1.201 ms, max=546.855 ms, 99th percentile=7.702 ms
+19:19:09.919: OBSBasicSettings::LoadThemeList: min=0.121 ms, median=0 ms, max=0.177 ms, 99th percentile=0.177 ms
+19:19:09.919: =================================================
+19:19:09.919: == Profiler Time Between Calls ==================
+19:19:09.919: obs_hotkey_thread(25 ms): min=25.008 ms, median=30.034 ms, max=825.749 ms, 2.7272% within ±2% of 25 ms (0% lower, 97.2728% higher)
+19:19:09.919: obs_graphics_thread(16.6667 ms): min=0.405 ms, median=16.668 ms, max=1028.19 ms, 46.9666% within ±2% of 16.667 ms (25.9371% lower, 27.0963% higher)
+19:19:09.919: =================================================
+19:19:10.057: Number of memory leaks: 0

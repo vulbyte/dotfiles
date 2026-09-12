@@ -1,0 +1,1148 @@
+19:15:47.187: [macOS] Permission for audio device access granted.
+19:15:47.191: [macOS] Permission for video device access granted.
+19:15:47.191: [macOS] Permission for input monitoring granted.
+19:15:47.199: [macOS] Permission for screen capture granted.
+19:15:47.199: CPU Name: Apple M1 Max
+19:15:47.199: Physical Cores: 10, Logical Cores: 10
+19:15:47.199: Physical Memory: 32768MB Total
+19:15:47.199: Model Identifier: MacBookPro18,2
+19:15:47.199: OS Name: macOS
+19:15:47.200: OS Version: Version 26.6.1 (Build 25G76)
+19:15:47.200: Rosetta translation used: false
+19:15:47.200: Kernel Version: 25.6.0
+19:15:47.201: hotkeys-cocoa: Using keyboard layout 'com.apple.keylayout.Canadian'
+19:15:47.204: Current Date/Time: 2026-09-01, 19:15:47
+19:15:47.204: Browser Hardware Acceleration: true
+19:15:47.204: Qt Version: 6.11.1 (runtime), 6.11.1 (compiled)
+19:15:47.204: Portable mode: false
+19:15:47.442: OBS 32.2.2 (mac)
+19:15:47.442: ---------------------------------
+19:15:47.444: ---------------------------------
+19:15:47.444: audio settings reset:
+19:15:47.444: 	samples per sec: 48000
+19:15:47.444: 	speakers:        2
+19:15:47.444: 	max buffering:   960 milliseconds
+19:15:47.444: 	buffering type:  dynamically increasing
+19:15:47.461: ---------------------------------
+19:15:47.461: Initializing OpenGL...
+19:15:47.508: Loading up OpenGL on adapter Apple Apple M1 Max
+19:15:47.508: OpenGL loaded successfully, version 4.1 Metal - 90.5, shading language 4.10
+19:15:47.718: ---------------------------------
+19:15:47.718: video settings reset:
+19:15:47.718: 	base resolution:   3840x1920
+19:15:47.718: 	output resolution: 3840x1920
+19:15:47.718: 	downscale filter:  Bicubic
+19:15:47.718: 	fps:               60/1
+19:15:47.718: 	format:            NV12
+19:15:47.718: 	YUV mode:          Rec. 709/Partial
+19:15:47.718: NV12 texture support enabled
+19:15:47.719: P010 texture support not available
+19:15:47.724: Audio monitoring device:
+19:15:47.724: 	name: Default
+19:15:47.724: 	id: default
+19:15:47.729: ---------------------------------
+19:15:47.757: No AJA devices found, skipping loading AJA UI plugin
+19:15:47.757: Failed to initialize module 'aja-output-ui'
+19:15:47.785: No AJA devices found, skipping loading AJA plugin
+19:15:47.785: Failed to initialize module 'aja'
+19:15:47.824: Failed to load 'en-US' text for module: 'decklink-captions'
+19:15:47.841: Failed to load 'en-US' text for module: 'decklink-output-ui'
+19:15:47.860: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:15:47.860: Failed to initialize module 'decklink'
+19:15:48.409: [obs-browser]: Version 2.26.9
+19:15:48.409: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.0.0-6533-fix-stutter.3039+g2b7d20b+chromium-127.0.6533.120 (compiled)
+19:15:48.575: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.4 | RPC Version: 1)
+19:15:48.575: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.1
+19:15:48.575: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+19:15:48.581: [obs-websocket] [obs_module_load] Module loaded.
+19:15:48.666: os_dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib->/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib): dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib, 0x0106): tried: '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64'))
+19:15:48.666: 
+19:15:48.667: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+19:15:48.667: ---------------------------------
+19:15:48.667:   Loaded Modules:
+19:15:48.667:     vlc-video
+19:15:48.667:     text-freetype2
+19:15:48.667:     rtmp-services
+19:15:48.667:     obs-x264
+19:15:48.667:     obs-websocket
+19:15:48.667:     obs-webrtc
+19:15:48.667:     obs-vst
+19:15:48.667:     obs-transitions
+19:15:48.667:     obs-outputs
+19:15:48.667:     obs-filters
+19:15:48.667:     obs-ffmpeg
+19:15:48.667:     obs-browser
+19:15:48.667:     mac-virtualcam
+19:15:48.667:     mac-videotoolbox
+19:15:48.667:     mac-syphon
+19:15:48.667:     mac-capture
+19:15:48.667:     mac-avcapture
+19:15:48.667:     mac-avcapture-legacy
+19:15:48.667:     image-source
+19:15:48.667:     frontend-tools
+19:15:48.667:     decklink-output-ui
+19:15:48.667:     decklink-captions
+19:15:48.667:     coreaudio-encoder
+19:15:48.667: ---------------------------------
+19:15:48.667: [VideoToolbox encoder]: Added VideoToolbox encoders
+19:15:48.667: ---------------------------------
+19:15:48.667: Available Encoders:
+19:15:48.667:   Video Encoders:
+19:15:48.668: 	- ffmpeg_aom_av1 (AOM AV1)
+19:15:48.668: 	- obs_x264 (x264)
+19:15:48.668: 	- com.apple.videotoolbox.videoencoder.prores-422 (Apple VT ProRes Software Encoder)
+19:15:48.668: 	- com.apple.videotoolbox.videoencoder.appleproreshw.422 (Apple VT ProRes Hardware Encoder)
+19:15:48.668: 	- com.apple.videotoolbox.videoencoder.ave.avc (Apple VT H264 Hardware Encoder)
+19:15:48.668: 	- com.apple.videotoolbox.videoencoder.h264 (Apple VT H264 Software Encoder)
+19:15:48.668: 	- com.apple.videotoolbox.videoencoder.ave.hevc (Apple VT HEVC Hardware Encoder)
+19:15:48.668: 	- com.apple.videotoolbox.videoencoder.hevc.vcp (Apple VT HEVC Software Encoder)
+19:15:48.668:   Audio Encoders:
+19:15:48.668: 	- CoreAudio_AAC (CoreAudio AAC)
+19:15:48.668: 	- ffmpeg_aac (FFmpeg AAC)
+19:15:48.668: 	- ffmpeg_opus (FFmpeg Opus)
+19:15:48.668: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+19:15:48.668: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+19:15:48.668: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+19:15:48.668: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+19:15:48.668: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+19:15:48.668: ==== Startup complete ===============================================
+19:15:48.728: All scene data cleared
+19:15:48.729: ------------------------------------------------
+19:15:48.733: [Media Source 'intro_video']: settings:
+19:15:48.733: 	input:                   /Users/insert/Documents/stream_stuff/pre_stream/intro_music.mp4
+19:15:48.733: 	input_format:            (null)
+19:15:48.733: 	speed:                   100
+19:15:48.733: 	is_looping:              yes
+19:15:48.733: 	is_linear_alpha:         no
+19:15:48.733: 	is_hw_decoding:          yes
+19:15:48.733: 	is_clear_on_media_end:   no
+19:15:48.733: 	restart_on_activate:     yes
+19:15:48.733: 	close_when_inactive:     no
+19:15:48.733: 	full_decode:             no
+19:15:48.733: 	ffmpeg_options:          
+19:15:48.735: [Media Source 'background_bubbles']: settings:
+19:15:48.735: 	input:                   /Users/insert/Documents/stream_stuff/stream_background/stream_background.mov
+19:15:48.735: 	input_format:            (null)
+19:15:48.735: 	speed:                   100
+19:15:48.735: 	is_looping:              no
+19:15:48.735: 	is_linear_alpha:         no
+19:15:48.735: 	is_hw_decoding:          yes
+19:15:48.735: 	is_clear_on_media_end:   no
+19:15:48.735: 	restart_on_activate:     yes
+19:15:48.735: 	close_when_inactive:     no
+19:15:48.735: 	full_decode:             no
+19:15:48.735: 	ffmpeg_options:          
+19:15:48.793: [Media Source 'bg-mid_bitrate.m4v']: settings:
+19:15:48.793: 	input:                   /Users/insert/dotfiles/obs-studio/media_assets/bg-mid_bitrate.m4v
+19:15:48.793: 	input_format:            (null)
+19:15:48.793: 	speed:                   100
+19:15:48.793: 	is_looping:              yes
+19:15:48.793: 	is_linear_alpha:         no
+19:15:48.793: 	is_hw_decoding:          no
+19:15:48.793: 	is_clear_on_media_end:   yes
+19:15:48.793: 	restart_on_activate:     yes
+19:15:48.793: 	close_when_inactive:     no
+19:15:48.793: 	full_decode:             no
+19:15:48.793: 	ffmpeg_options:          
+19:15:48.849: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  65913
+19:15:48.849: 
+19:15:48.872: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  1881
+19:15:48.872: 
+19:15:48.891: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  1883
+19:15:48.891: 
+19:15:49.027: [ mac-screencapture ]: init_screen_stream: Invalid target display ID:  0
+19:15:49.027: 
+19:15:49.028: [coreaudio_get_device_name] failed to get name: 560947818
+19:15:49.028: coreaudio: failed to find device uid: AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2, waiting for connection
+19:15:49.058: FACECAM: Selected device 'FaceTime HD Camera'
+19:15:49.298: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  0
+19:15:49.298: 
+19:15:49.319: Switched to scene 'main'
+19:15:49.319: ------------------------------------------------
+19:15:49.319: Loaded scenes:
+19:15:49.319: - scene 'intro':
+19:15:49.319:     - source: 'persistent' (group)
+19:15:49.319:         - source: 'background_bubbles' (ffmpeg_source)
+19:15:49.319:             - filter: 'Color Correction' (color_filter_v2)
+19:15:49.319:     - source: 'intro_video' (ffmpeg_source)
+19:15:49.319:         - filter: 'Luma Key' (luma_key_filter_v2)
+19:15:49.319: - scene 'chat':
+19:15:49.319:     - source: 'reference-background' (scene)
+19:15:49.319:     - source: 'reference-screen_capture' (scene)
+19:15:49.319:     - source: 'reference-capture_card' (scene)
+19:15:49.319:     - source: 'reference-youtube_chat' (scene)
+19:15:49.319:     - source: 'reference-vulbyte' (scene)
+19:15:49.319:     - source: 'reference-tib_stuff' (scene)
+19:15:49.319: - scene 'main':
+19:15:49.319:     - source: 'reference-background' (scene)
+19:15:49.319:     - source: 'reference-screen_capture' (scene)
+19:15:49.319:     - source: 'reference-vulbyte' (scene)
+19:15:49.319:     - source: 'reference-tib_stuff' (scene)
+19:15:49.319:     - source: 'reference-youtube_chat' (scene)
+19:15:49.319:     - source: 'overlay' (image_source)
+19:15:49.319:         - filter: 'Luma Key' (luma_key_filter_v2)
+19:15:49.319: - scene '--------REFERENCE_SCENES--------':
+19:15:49.319: - scene 'reference-background':
+19:15:49.319:     - source: 'tech_issues.jpg' (image_source)
+19:15:49.319:     - source: 'bg-mid_bitrate.m4v' (ffmpeg_source)
+19:15:49.319: - scene 'reference-capture_card':
+19:15:49.319:     - source: 'tech_issues.jpg' (image_source)
+19:15:49.319:     - source: 'FACECAM' (macos-avcapture)
+19:15:49.319: - scene 'reference-guest':
+19:15:49.319:     - source: 'size_ref' (image_source)
+19:15:49.319:     - source: 'guest_capture' (screen_capture)
+19:15:49.319: - scene 'reference-screen_capture':
+19:15:49.319:     - source: 'tech_issues.jpg' (image_source)
+19:15:49.319:     - source: 'macOS Screen Capture' (screen_capture)
+19:15:49.319: - scene 'reference-tib_stuff':
+19:15:49.319:     - source: 'tech_issues.jpg' (image_source)
+19:15:49.319:     - source: 'chat_capture' (screen_capture)
+19:15:49.319:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+19:15:49.319:     - source: 'event_capture' (screen_capture)
+19:15:49.319: - scene 'reference-vulbyte':
+19:15:49.319:     - source: 'vulbyte_mic' (coreaudio_input_capture)
+19:15:49.319:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+19:15:49.319:     - source: 'size_ref' (image_source)
+19:15:49.319:     - source: 'vulbyte_capture' (screen_capture)
+19:15:49.319:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+19:15:49.319:         - filter: 'Luma Key' (luma_key_filter_v2)
+19:15:49.319: - scene 'reference-youtube_chat':
+19:15:49.319:     - source: 'Image 2' (image_source)
+19:15:49.319:     - source: 'Browser' (browser_source)
+19:15:49.319:         - filter: 'Luma Key' (luma_key_filter_v2)
+19:15:49.319: ------------------------------------------------
+19:15:49.464: YT: InitYTUserUrl() User is not signed
+19:15:49.464: YT: InitYTUserUrl() User is not signed
+19:15:50.024: [mac-virtualcam] mac-camera-extension: OBS cannot install the virtual camera if it's not in "/Applications". Please move OBS to the "/Applications" directory.
+19:15:50.652: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/295c97e3/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1921)
+19:15:51.033: [coreaudio_get_device_name] failed to get name: 560947818
+19:15:53.036: [coreaudio_get_device_name] failed to get name: 560947818
+19:15:55.042: [coreaudio_get_device_name] failed to get name: 560947818
+19:15:57.046: [coreaudio_get_device_name] failed to get name: 560947818
+19:15:59.051: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:01.055: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:03.058: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:05.063: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:07.066: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:09.069: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:11.076: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:13.082: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:15.087: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:17.092: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:19.098: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:21.104: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:23.107: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:25.109: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:27.109: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:29.114: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:31.119: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:33.125: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:35.130: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:37.131: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:39.136: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:41.137: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:43.141: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:45.143: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:47.148: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:49.148: [coreaudio_get_device_name] failed to get name: 560947818
+19:16:51.151: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:35.343: Last log entry repeated for 3969 more lines
+21:29:35.343: FACECAM: Received connect event for device 'insert’s iPhone (2)' (UUID 22980DA5-8391-4EE6-AF15-FA0D710A716A)
+21:29:36.337: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:38.347: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:40.347: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:42.356: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:44.367: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:46.374: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:48.382: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:50.392: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:52.399: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:54.404: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:56.412: [coreaudio_get_device_name] failed to get name: 560947818
+21:29:58.422: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:00.423: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:02.434: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:04.445: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:06.455: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:08.464: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:10.471: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:12.478: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:14.479: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:16.490: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:18.495: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:20.499: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:22.500: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:24.502: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:26.513: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:28.518: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:30.527: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:32.535: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:34.543: [coreaudio_get_device_name] failed to get name: 560947818
+21:30:36.546: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:25.404: Last log entry repeated for 114 more lines
+21:34:25.405: FACECAM: Received connect event for device 'insert’s iPhone (2)' (UUID 22980DA5-8391-4EE6-AF15-FA0D710A716A)
+21:34:27.168: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:29.171: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:31.175: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:33.180: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:35.183: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:37.184: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:39.188: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:41.193: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:43.197: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:45.201: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:47.202: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:49.204: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:51.209: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:53.213: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:55.219: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:57.220: [coreaudio_get_device_name] failed to get name: 560947818
+21:34:59.221: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:01.226: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:03.231: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:05.236: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:07.238: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:09.243: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:11.245: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:13.248: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:15.249: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:17.253: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:19.253: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:21.258: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:23.263: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:25.268: [coreaudio_get_device_name] failed to get name: 560947818
+21:35:27.270: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:06.103: Last log entry repeated for 4418 more lines
+00:03:06.104: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+00:03:06.105: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+00:03:07.824: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:09.825: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:11.836: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:13.842: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:15.846: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:17.848: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:19.857: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:21.857: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:23.858: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:25.867: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:27.874: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:29.879: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:31.889: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:33.894: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:35.907: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:37.916: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:39.918: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:41.923: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:43.928: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:45.936: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:47.944: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:49.953: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:51.961: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:53.971: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:55.982: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:57.983: [coreaudio_get_device_name] failed to get name: 560947818
+00:03:59.992: [coreaudio_get_device_name] failed to get name: 560947818
+00:04:01.997: [coreaudio_get_device_name] failed to get name: 560947818
+00:04:04.005: [coreaudio_get_device_name] failed to get name: 560947818
+00:04:06.010: [coreaudio_get_device_name] failed to get name: 560947818
+00:04:08.018: [coreaudio_get_device_name] failed to get name: 560947818
+00:04:50.201: Last log entry repeated for 21 more lines
+00:04:50.201: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+00:04:50.202: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+00:04:52.181: [coreaudio_get_device_name] failed to get name: 560947818
+00:04:54.182: [coreaudio_get_device_name] failed to get name: 560947818
+00:04:56.190: [coreaudio_get_device_name] failed to get name: 560947818
+00:04:58.199: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:00.208: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:02.213: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:04.218: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:06.220: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:08.221: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:10.226: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:12.229: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:14.234: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:16.239: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:18.245: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:20.250: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:22.255: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:24.259: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:26.264: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:28.270: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:30.275: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:32.276: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:34.281: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:36.287: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:38.292: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:40.295: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:42.296: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:44.301: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:46.306: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:48.312: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:50.317: [coreaudio_get_device_name] failed to get name: 560947818
+00:05:52.323: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:18.911: Last log entry repeated for 282 more lines
+00:15:18.911: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+00:15:18.912: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+00:15:19.385: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:21.390: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:23.394: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:25.398: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:27.403: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:29.406: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:31.409: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:33.415: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:35.418: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:37.423: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:39.428: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:41.431: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:43.436: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:45.439: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:47.444: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:49.451: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:51.452: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:53.457: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:55.460: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:57.465: [coreaudio_get_device_name] failed to get name: 560947818
+00:15:59.471: [coreaudio_get_device_name] failed to get name: 560947818
+00:16:01.474: [coreaudio_get_device_name] failed to get name: 560947818
+00:16:03.479: [coreaudio_get_device_name] failed to get name: 560947818
+00:16:05.485: [coreaudio_get_device_name] failed to get name: 560947818
+00:16:07.490: [coreaudio_get_device_name] failed to get name: 560947818
+00:16:09.493: [coreaudio_get_device_name] failed to get name: 560947818
+00:16:11.495: [coreaudio_get_device_name] failed to get name: 560947818
+00:16:13.497: [coreaudio_get_device_name] failed to get name: 560947818
+00:16:15.502: [coreaudio_get_device_name] failed to get name: 560947818
+00:16:17.507: [coreaudio_get_device_name] failed to get name: 560947818
+00:16:19.518: [coreaudio_get_device_name] failed to get name: 560947818
+00:32:54.052: Last log entry repeated for 495 more lines
+00:32:54.053: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+00:32:56.573: Downmix enabled: 2 to 2 channels.
+00:32:56.622: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+00:32:56.663: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+00:32:56.716: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: vulbyte_mic)
+00:32:56.716: 
+09:35:04.001: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+09:35:06.012: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:08.017: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:10.025: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:12.032: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:14.042: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:16.144: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:22.479: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:24.581: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:26.612: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:28.907: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:30.918: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:32.928: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:34.938: [coreaudio_get_device_name] failed to get name: 560947818
+09:35:59.705: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:01.954: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:03.964: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:04.272: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+09:36:04.273: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+09:36:05.965: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:07.971: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:09.976: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:11.998: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:14.002: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:16.006: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:18.011: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:20.016: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:22.020: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:24.025: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:26.030: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:28.032: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:30.039: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:32.044: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:34.049: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:36.049: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:38.056: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:40.061: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:42.065: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:44.065: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:46.071: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:48.075: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:50.080: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:52.080: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:54.083: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:56.091: [coreaudio_get_device_name] failed to get name: 560947818
+09:36:58.096: [coreaudio_get_device_name] failed to get name: 560947818
+09:37:00.099: [coreaudio_get_device_name] failed to get name: 560947818
+09:37:02.104: [coreaudio_get_device_name] failed to get name: 560947818
+09:37:04.109: [coreaudio_get_device_name] failed to get name: 560947818
+09:37:06.112: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:42.005: Last log entry repeated for 1067 more lines
+11:18:42.006: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+11:18:42.006: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+11:18:43.573: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:45.577: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:47.583: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:49.585: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:51.587: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:53.591: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:55.595: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:57.598: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:59.598: [coreaudio_get_device_name] failed to get name: 560947818
+11:18:59.626: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+11:18:59.635: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+11:19:01.627: Downmix enabled: 2 to 2 channels.
+11:19:01.712: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+11:19:19.805: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+11:19:21.811: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:23.814: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:25.816: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:27.818: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:29.822: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:31.824: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:33.829: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:35.831: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:37.835: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:39.836: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:41.841: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:43.846: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:45.847: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:47.848: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:49.851: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:50.096: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+11:19:51.854: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:53.856: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:55.857: [coreaudio_get_device_name] failed to get name: 560947818
+11:19:57.492: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+11:19:57.875: Downmix enabled: 2 to 2 channels.
+11:19:57.942: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+11:19:58.942: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+11:25:05.419: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+11:25:07.424: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:09.427: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:11.428: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:13.434: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:15.439: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:17.443: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:19.448: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:21.452: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:23.457: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:25.458: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:27.459: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:29.465: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:31.469: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:33.470: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:35.475: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:37.476: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:39.480: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:41.483: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:43.487: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:45.491: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:47.495: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:49.497: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:51.502: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:53.508: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:55.512: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:57.517: [coreaudio_get_device_name] failed to get name: 560947818
+11:25:59.522: [coreaudio_get_device_name] failed to get name: 560947818
+11:26:01.525: [coreaudio_get_device_name] failed to get name: 560947818
+11:26:03.530: [coreaudio_get_device_name] failed to get name: 560947818
+11:26:05.535: [coreaudio_get_device_name] failed to get name: 560947818
+11:26:07.536: [coreaudio_get_device_name] failed to get name: 560947818
+11:37:55.090: Last log entry repeated for 353 more lines
+11:37:55.091: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+11:37:56.616: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+11:37:56.772: Downmix enabled: 2 to 2 channels.
+11:37:56.839: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+11:37:59.013: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+11:38:01.018: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:03.023: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:05.026: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:07.033: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:09.036: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:11.041: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:13.045: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:15.047: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:17.050: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:19.053: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:21.058: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:23.060: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:25.063: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:27.067: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:29.072: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:31.077: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:32.692: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+11:38:33.081: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:35.085: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:37.090: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:39.095: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:41.100: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:43.105: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:45.109: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:47.114: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:49.119: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:51.122: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:53.126: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:55.131: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:57.132: [coreaudio_get_device_name] failed to get name: 560947818
+11:38:59.134: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:01.138: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:03.141: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:05.146: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:07.149: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:09.151: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:11.156: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:13.158: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:15.162: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:17.166: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:19.170: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:21.175: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:23.178: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:25.181: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:27.185: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:29.189: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:31.195: [coreaudio_get_device_name] failed to get name: 560947818
+11:39:33.199: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:30.923: Last log entry repeated for 298 more lines
+11:49:30.923: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+11:49:32.898: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:34.903: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:36.906: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:37.613: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+11:49:38.910: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:40.915: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:42.915: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:44.919: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:46.924: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:48.928: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:50.931: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:52.932: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:54.936: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:56.940: [coreaudio_get_device_name] failed to get name: 560947818
+11:49:58.944: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:00.946: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:02.947: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:04.953: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:06.958: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:08.960: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:10.965: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:12.970: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:14.973: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:16.978: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:18.982: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:20.983: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:22.988: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:24.990: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:26.994: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:29.000: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:31.003: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:33.008: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:35.012: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:37.017: [coreaudio_get_device_name] failed to get name: 560947818
+11:50:39.021: [coreaudio_get_device_name] failed to get name: 560947818
+11:52:20.427: Last log entry repeated for 50 more lines
+11:52:20.427: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+11:52:21.222: Downmix enabled: 2 to 2 channels.
+11:52:21.293: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+11:52:22.083: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+11:52:24.086: [coreaudio_get_device_name] failed to get name: 560947818
+11:52:26.090: [coreaudio_get_device_name] failed to get name: 560947818
+11:52:28.096: [coreaudio_get_device_name] failed to get name: 560947818
+11:52:29.136: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+11:52:30.170: Downmix enabled: 2 to 2 channels.
+11:52:30.272: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+11:52:30.617: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+11:52:45.677: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+11:52:47.682: [coreaudio_get_device_name] failed to get name: 560947818
+11:52:49.688: [coreaudio_get_device_name] failed to get name: 560947818
+11:52:51.694: [coreaudio_get_device_name] failed to get name: 560947818
+11:52:53.552: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+11:52:53.663: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+11:52:53.711: Downmix enabled: 2 to 2 channels.
+11:52:53.778: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+11:54:17.504: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+11:54:19.505: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:21.507: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:23.511: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:25.514: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:27.515: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:29.520: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:31.524: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:33.530: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:35.535: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:37.540: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:39.542: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:41.547: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:43.549: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:45.552: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:47.556: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:49.556: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:51.559: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:53.561: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:55.562: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:57.567: [coreaudio_get_device_name] failed to get name: 560947818
+11:54:59.570: [coreaudio_get_device_name] failed to get name: 560947818
+11:55:01.576: [coreaudio_get_device_name] failed to get name: 560947818
+11:55:03.578: [coreaudio_get_device_name] failed to get name: 560947818
+11:55:05.581: [coreaudio_get_device_name] failed to get name: 560947818
+11:55:07.584: [coreaudio_get_device_name] failed to get name: 560947818
+11:55:09.587: [coreaudio_get_device_name] failed to get name: 560947818
+11:55:11.592: [coreaudio_get_device_name] failed to get name: 560947818
+11:55:13.598: [coreaudio_get_device_name] failed to get name: 560947818
+11:55:15.602: [coreaudio_get_device_name] failed to get name: 560947818
+11:55:17.606: [coreaudio_get_device_name] failed to get name: 560947818
+11:55:19.611: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:11.545: Last log entry repeated for 175 more lines
+12:01:11.546: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+12:01:11.651: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+12:01:12.881: Downmix enabled: 2 to 2 channels.
+12:01:13.090: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+12:01:19.856: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+12:01:21.859: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:23.859: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:25.860: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:27.865: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:29.870: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:31.873: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:33.878: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:35.880: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:37.885: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:39.887: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:41.892: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:43.895: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:45.900: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:47.900: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:49.901: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:51.905: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:53.910: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:55.915: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:57.919: [coreaudio_get_device_name] failed to get name: 560947818
+12:01:59.924: [coreaudio_get_device_name] failed to get name: 560947818
+12:02:01.930: [coreaudio_get_device_name] failed to get name: 560947818
+12:02:03.931: [coreaudio_get_device_name] failed to get name: 560947818
+12:02:05.933: [coreaudio_get_device_name] failed to get name: 560947818
+12:02:07.939: [coreaudio_get_device_name] failed to get name: 560947818
+12:02:09.944: [coreaudio_get_device_name] failed to get name: 560947818
+12:02:11.948: [coreaudio_get_device_name] failed to get name: 560947818
+12:02:13.952: [coreaudio_get_device_name] failed to get name: 560947818
+12:02:15.954: [coreaudio_get_device_name] failed to get name: 560947818
+12:02:17.957: [coreaudio_get_device_name] failed to get name: 560947818
+12:02:19.957: [coreaudio_get_device_name] failed to get name: 560947818
+12:02:21.958: [coreaudio_get_device_name] failed to get name: 560947818
+12:37:56.101: Last log entry repeated for 1063 more lines
+12:37:56.101: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+12:37:56.102: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+12:37:56.616: [coreaudio_get_device_name] failed to get name: 560947818
+12:37:58.626: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:00.636: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:02.642: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:04.650: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:06.660: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:08.670: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:10.680: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:12.690: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:14.694: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:16.705: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:18.716: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:20.722: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:22.724: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:24.728: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:26.729: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:28.734: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:30.739: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:32.741: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:34.743: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:36.748: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:38.755: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:40.760: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:42.761: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:44.765: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:46.768: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:48.773: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:50.780: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:52.786: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:54.786: [coreaudio_get_device_name] failed to get name: 560947818
+12:38:56.791: [coreaudio_get_device_name] failed to get name: 560947818
+12:39:35.778: Last log entry repeated for 19 more lines
+12:39:35.778: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+12:39:37.059: Downmix enabled: 2 to 2 channels.
+12:39:37.085: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+12:39:37.134: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+12:39:45.870: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+12:39:47.872: [coreaudio_get_device_name] failed to get name: 560947818
+12:39:49.874: [coreaudio_get_device_name] failed to get name: 560947818
+12:39:51.877: [coreaudio_get_device_name] failed to get name: 560947818
+12:39:53.881: [coreaudio_get_device_name] failed to get name: 560947818
+12:39:55.886: [coreaudio_get_device_name] failed to get name: 560947818
+12:39:57.891: [coreaudio_get_device_name] failed to get name: 560947818
+12:39:59.897: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:01.900: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:03.906: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:05.911: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:07.914: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:09.918: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:11.926: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:13.928: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:15.933: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:17.936: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:19.941: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:21.944: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:23.945: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:25.949: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:27.954: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:29.960: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:31.966: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:33.967: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:35.972: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:37.973: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:39.978: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:41.981: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:43.984: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:45.989: [coreaudio_get_device_name] failed to get name: 560947818
+12:40:47.992: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:27.282: Last log entry repeated for 19 more lines
+12:41:27.282: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+12:41:28.078: Downmix enabled: 2 to 2 channels.
+12:41:28.282: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+12:41:28.628: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+12:41:30.360: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+12:41:32.365: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:34.368: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:36.372: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:38.377: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:40.381: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:42.382: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:44.388: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:46.394: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:48.397: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:50.408: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:52.413: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:54.414: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:56.417: [coreaudio_get_device_name] failed to get name: 560947818
+12:41:58.422: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:00.427: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:02.432: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:04.438: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:06.443: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:08.445: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:10.450: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:12.451: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:14.454: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:16.455: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:18.462: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:20.466: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:22.471: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:24.474: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:26.476: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:28.477: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:30.477: [coreaudio_get_device_name] failed to get name: 560947818
+12:42:32.478: [coreaudio_get_device_name] failed to get name: 560947818
+12:46:47.778: Last log entry repeated for 127 more lines
+12:46:47.778: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+12:46:49.062: Downmix enabled: 2 to 2 channels.
+12:46:49.094: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+12:46:49.136: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+12:48:37.244: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+12:48:39.249: [coreaudio_get_device_name] failed to get name: 560947818
+12:48:41.252: [coreaudio_get_device_name] failed to get name: 560947818
+12:48:43.253: [coreaudio_get_device_name] failed to get name: 560947818
+12:48:45.256: [coreaudio_get_device_name] failed to get name: 560947818
+12:48:47.261: [coreaudio_get_device_name] failed to get name: 560947818
+12:48:49.262: [coreaudio_get_device_name] failed to get name: 560947818
+12:48:51.266: [coreaudio_get_device_name] failed to get name: 560947818
+12:48:53.271: [coreaudio_get_device_name] failed to get name: 560947818
+12:48:55.276: [coreaudio_get_device_name] failed to get name: 560947818
+12:48:57.282: [coreaudio_get_device_name] failed to get name: 560947818
+12:48:59.282: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:01.285: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:03.289: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:05.294: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:07.296: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:09.301: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:11.306: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:13.311: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:15.315: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:17.318: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:19.320: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:21.322: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:23.328: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:25.332: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:27.336: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:29.341: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:31.347: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:33.351: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:35.352: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:37.355: [coreaudio_get_device_name] failed to get name: 560947818
+12:49:39.361: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:16.728: Last log entry repeated for 4058 more lines
+15:05:16.729: FACECAM: Received connect event for device 'USB Audio CODEC' (UUID AppleUSBAudioEngine:Burr-Brown from TI:USB Audio CODEC:2122000:2)
+15:05:18.107: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+15:05:18.344: Downmix enabled: 2 to 2 channels.
+15:05:18.409: coreaudio: Device 'USB Audio CODEC' [48000 Hz] initialized
+15:05:31.881: coreaudio: device 'USB Audio CODEC' disconnected or changed.  attempting to reconnect
+15:05:33.887: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:35.891: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:37.895: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:39.896: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:41.901: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:43.906: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:45.909: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:47.911: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:49.916: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:51.922: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:53.925: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:55.931: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:57.936: [coreaudio_get_device_name] failed to get name: 560947818
+15:05:59.941: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:01.945: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:03.947: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:05.947: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:07.952: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:09.957: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:11.960: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:13.965: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:15.970: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:17.975: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:19.978: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:21.980: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:23.985: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:25.990: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:27.992: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:29.997: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:32.002: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:34.007: [coreaudio_get_device_name] failed to get name: 560947818
+17:27:49.152: Last log entry repeated for 4222 more lines
+17:27:49.153: FACECAM: Received connect event for device 'insert’s iPhone (2)' (UUID 22980DA5-8391-4EE6-AF15-FA0D710A716A)
+17:27:49.243: [coreaudio_get_device_name] failed to get name: 560947818
+17:27:51.253: [coreaudio_get_device_name] failed to get name: 560947818
+17:27:53.262: [coreaudio_get_device_name] failed to get name: 560947818
+17:27:55.272: [coreaudio_get_device_name] failed to get name: 560947818
+17:27:57.276: [coreaudio_get_device_name] failed to get name: 560947818
+17:27:59.283: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:01.293: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:03.304: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:05.313: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:07.321: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:09.330: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:11.341: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:13.344: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:15.345: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:17.356: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:19.358: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:21.368: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:23.378: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:25.388: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:27.393: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:29.409: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:31.421: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:33.423: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:35.433: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:37.436: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:39.441: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:41.446: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:43.447: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:45.447: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:47.449: [coreaudio_get_device_name] failed to get name: 560947818
+17:28:49.451: [coreaudio_get_device_name] failed to get name: 560947818
+20:02:53.849: Last log entry repeated for 4611 more lines
+20:02:53.850: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+20:02:53.851: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+20:02:54.990: [coreaudio_get_device_name] failed to get name: 560947818
+20:02:56.991: [coreaudio_get_device_name] failed to get name: 560947818
+20:02:58.994: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:01.004: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:03.014: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:05.018: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:07.028: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:09.038: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:11.043: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:13.052: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:15.054: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:17.059: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:19.065: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:21.093: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:23.104: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:25.112: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:27.119: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:29.123: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:31.133: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:33.134: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:35.138: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:37.160: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:39.171: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:41.181: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:43.184: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:45.187: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:47.188: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:49.198: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:51.201: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:53.208: [coreaudio_get_device_name] failed to get name: 560947818
+20:03:55.219: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:10.505: Last log entry repeated for 127 more lines
+20:08:10.505: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+20:08:10.505: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+20:08:12.119: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:14.128: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:16.136: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:18.146: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:20.156: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:22.166: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:24.176: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:26.183: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:28.192: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:30.198: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:32.207: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:34.216: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:36.225: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:38.227: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:40.237: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:42.244: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:44.254: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:46.266: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:48.274: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:50.275: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:52.285: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:54.294: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:56.304: [coreaudio_get_device_name] failed to get name: 560947818
+20:08:58.310: [coreaudio_get_device_name] failed to get name: 560947818
+20:09:00.323: [coreaudio_get_device_name] failed to get name: 560947818
+20:09:02.336: [coreaudio_get_device_name] failed to get name: 560947818
+20:09:04.350: [coreaudio_get_device_name] failed to get name: 560947818
+20:09:06.351: [coreaudio_get_device_name] failed to get name: 560947818
+20:09:08.352: [coreaudio_get_device_name] failed to get name: 560947818
+20:09:10.361: [coreaudio_get_device_name] failed to get name: 560947818
+20:09:12.370: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:04.859: Last log entry repeated for 8220 more lines
+00:44:04.859: FACECAM: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+00:44:05.787: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:07.788: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:09.793: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:11.797: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:13.803: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:15.808: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:17.808: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:19.813: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:21.815: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:23.815: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:25.819: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:27.820: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:29.825: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:31.827: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:33.832: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:35.834: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:37.839: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:39.844: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:41.848: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:43.852: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:45.857: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:47.866: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:49.871: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:51.887: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:53.892: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:55.898: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:57.903: [coreaudio_get_device_name] failed to get name: 560947818
+00:44:59.904: [coreaudio_get_device_name] failed to get name: 560947818
+00:45:01.907: [coreaudio_get_device_name] failed to get name: 560947818
+00:45:03.909: [coreaudio_get_device_name] failed to get name: 560947818
+00:45:05.915: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:06.950: Last log entry repeated for 290 more lines
+01:10:06.950: FACECAM: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+01:10:06.951: FACECAM: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+01:10:07.533: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:09.535: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:11.535: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:13.544: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:15.547: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:17.548: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:19.549: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:21.553: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:23.558: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:25.562: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:27.566: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:29.570: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:31.574: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:33.579: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:35.583: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:37.588: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:39.592: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:41.597: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:43.600: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:45.608: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:47.613: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:49.614: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:51.619: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:53.624: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:55.629: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:57.634: [coreaudio_get_device_name] failed to get name: 560947818
+01:10:59.638: [coreaudio_get_device_name] failed to get name: 560947818
+01:11:01.644: [coreaudio_get_device_name] failed to get name: 560947818
+01:11:03.648: [coreaudio_get_device_name] failed to get name: 560947818
+01:11:05.654: [coreaudio_get_device_name] failed to get name: 560947818
+01:11:07.670: [coreaudio_get_device_name] failed to get name: 560947818
+01:17:54.344: Last log entry repeated for 202 more lines
+01:17:54.344: ==== Shutting down ==================================================
+01:17:54.435: [coreaudio_get_device_name] failed to get name: 560947818
+01:17:54.595: All scene data cleared
+01:17:54.595: ------------------------------------------------
+01:17:54.661: Tried to call obs_frontend_remove_event_callback with no callbacks!
+01:17:54.717: [obs-websocket] [obs_module_unload] Shutting down...
+01:17:54.718: Tried to call obs_frontend_remove_event_callback with no callbacks!
+01:17:54.718: [obs-websocket] [obs_module_unload] Finished shutting down.
+01:17:54.782: [Scripting] Total detached callbacks: 0
+01:17:54.783: Freeing OBS context data
+01:17:54.803: == Profiler Results =============================
+01:17:54.803: run_program_init: 2658.7 ms
+01:17:54.803:  ┣OBSApp::AppInit: 25.869 ms
+01:17:54.803:  ┃ ┗OBSApp::InitLocale: 1.705 ms
+01:17:54.803:  ┗OBSApp::OBSInit: 2360.43 ms
+01:17:54.803:    ┣obs_startup: 4.721 ms
+01:17:54.803:    ┗OBSBasic::OBSInit: 2116.81 ms
+01:17:54.803:      ┣OBSBasic::InitBasicConfig: 1.878 ms
+01:17:54.803:      ┣OBSBasic::ResetAudio: 0.267 ms
+01:17:54.803:      ┣OBSBasic::ResetVideo: 279.569 ms
+01:17:54.803:      ┃ ┗obs_init_graphics: 273.743 ms
+01:17:54.803:      ┃   ┗shader compilation: 210.352 ms
+01:17:54.803:      ┣OBSBasic::InitOBSCallbacks: 0.002 ms
+01:17:54.803:      ┣OBSBasic::InitHotkeys: 0.026 ms
+01:17:54.803:      ┣obs_load_all_modules2: 937.834 ms
+01:17:54.803:      ┃ ┣obs_init_module(aja-output-ui): 1.628 ms
+01:17:54.803:      ┃ ┣obs_init_module(aja): 1.766 ms
+01:17:54.803:      ┃ ┣obs_init_module(coreaudio-encoder): 0.001 ms
+01:17:54.803:      ┃ ┣obs_init_module(decklink-captions): 0 ms
+01:17:54.803:      ┃ ┣obs_init_module(decklink-output-ui): 0 ms
+01:17:54.803:      ┃ ┣obs_init_module(decklink): 0.08 ms
+01:17:54.803:      ┃ ┣obs_init_module(frontend-tools): 108.527 ms
+01:17:54.803:      ┃ ┣obs_init_module(image-source): 0.009 ms
+01:17:54.803:      ┃ ┣obs_init_module(mac-avcapture-legacy): 143.251 ms
+01:17:54.803:      ┃ ┣obs_init_module(mac-avcapture): 0.002 ms
+01:17:54.803:      ┃ ┣obs_init_module(mac-capture): 0.005 ms
+01:17:54.803:      ┃ ┣obs_init_module(mac-syphon): 0.002 ms
+01:17:54.803:      ┃ ┣obs_init_module(mac-videotoolbox): 0.008 ms
+01:17:54.803:      ┃ ┣obs_init_module(mac-virtualcam): 0.001 ms
+01:17:54.803:      ┃ ┣obs_init_module(obs-browser): 114.243 ms
+01:17:54.803:      ┃ ┣obs_init_module(obs-ffmpeg): 1.136 ms
+01:17:54.803:      ┃ ┣obs_init_module(obs-filters): 0.067 ms
+01:17:54.803:      ┃ ┣obs_init_module(obs-outputs): 0.144 ms
+01:17:54.803:      ┃ ┣obs_init_module(obs-transitions): 0.006 ms
+01:17:54.803:      ┃ ┣obs_init_module(obs-vst): 0.002 ms
+01:17:54.803:      ┃ ┣obs_init_module(obs-webrtc): 0.007 ms
+01:17:54.803:      ┃ ┣obs_init_module(obs-websocket): 6.349 ms
+01:17:54.803:      ┃ ┣obs_init_module(obs-x264): 0.001 ms
+01:17:54.803:      ┃ ┣obs_init_module(rtmp-services): 0.195 ms
+01:17:54.803:      ┃ ┣obs_init_module(text-freetype2): 0.048 ms
+01:17:54.803:      ┃ ┗obs_init_module(vlc-video): 1.667 ms
+01:17:54.803:      ┣OBSBasic::InitService: 2.579 ms
+01:17:54.803:      ┣OBSBasic::ResetOutputs: 27.598 ms
+01:17:54.803:      ┣OBSBasic::CreateHotkeys: 0.033 ms
+01:17:54.803:      ┣OBSBasic::InitPrimitives: 0.054 ms
+01:17:54.803:      ┗OBSBasic::Load: 632.651 ms
+01:17:54.803: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=36.033 ms, 99th percentile=0.001 ms, 100% below 25 ms
+01:17:54.803: audio_thread(Audio): min=0.003 ms, median=0.029 ms, max=3106.92 ms, 99th percentile=3.271 ms
+01:17:54.803: obs_graphics_thread(16.6667 ms): min=0.083 ms, median=3.41 ms, max=3151.48 ms, 99th percentile=10.346 ms, 99.8812% below 16.667 ms
+01:17:54.803:  ┣tick_sources: min=0 ms, median=0.025 ms, max=172.104 ms, 99th percentile=0.239 ms
+01:17:54.803:  ┣output_frame: min=0.073 ms, median=1.451 ms, max=3037.79 ms, 99th percentile=5.835 ms
+01:17:54.803:  ┃ ┗gs_context(video->graphics): min=0.073 ms, median=1.45 ms, max=3037.77 ms, 99th percentile=5.831 ms
+01:17:54.803:  ┃   ┣render_video: min=0.016 ms, median=1.356 ms, max=3036.19 ms, 99th percentile=5.624 ms
+01:17:54.803:  ┃   ┃ ┗render_main_texture: min=0.013 ms, median=1.354 ms, max=3036.18 ms, 99th percentile=5.607 ms
+01:17:54.803:  ┃   ┗gs_flush: min=0.017 ms, median=0.086 ms, max=671.644 ms, 99th percentile=0.375 ms
+01:17:54.803:  ┗render_displays: min=0 ms, median=1.08 ms, max=1420.07 ms, 99th percentile=7.531 ms
+01:17:54.803: =================================================
+01:17:54.803: == Profiler Time Between Calls ==================
+01:17:54.804: obs_hotkey_thread(25 ms): min=25.008 ms, median=30.312 ms, max=2720.7 ms, 3.15691% within ±2% of 25 ms (0% lower, 96.8431% higher)
+01:17:54.804: obs_graphics_thread(16.6667 ms): min=0.983 ms, median=16.667 ms, max=3151.99 ms, 49.3434% within ±2% of 16.667 ms (24.7329% lower, 25.9238% higher)
+01:17:54.804: =================================================
+01:17:54.930: Number of memory leaks: 0

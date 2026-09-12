@@ -1,0 +1,977 @@
+15:00:59.264: [macOS] Permission for audio device access granted.
+15:00:59.268: [macOS] Permission for video device access granted.
+15:00:59.268: [macOS] Permission for input monitoring granted.
+15:00:59.276: [macOS] Permission for screen capture granted.
+15:00:59.276: CPU Name: Apple M1 Max
+15:00:59.276: Physical Cores: 10, Logical Cores: 10
+15:00:59.276: Physical Memory: 32768MB Total
+15:00:59.276: Model Identifier: MacBookPro18,2
+15:00:59.276: OS Name: macOS
+15:00:59.277: OS Version: Version 26.6 (Build 25G72)
+15:00:59.277: Rosetta translation used: false
+15:00:59.277: Kernel Version: 25.6.0
+15:00:59.278: hotkeys-cocoa: Using keyboard layout 'com.apple.keylayout.Canadian'
+15:00:59.278: Current Date/Time: 2026-08-10, 15:00:59
+15:00:59.278: Browser Hardware Acceleration: true
+15:00:59.278: Qt Version: 6.11.1 (runtime), 6.11.1 (compiled)
+15:00:59.278: Portable mode: false
+15:00:59.493: OBS 32.2.1 (mac)
+15:00:59.493: ---------------------------------
+15:00:59.497: ---------------------------------
+15:00:59.497: audio settings reset:
+15:00:59.497: 	samples per sec: 48000
+15:00:59.497: 	speakers:        2
+15:00:59.497: 	max buffering:   960 milliseconds
+15:00:59.497: 	buffering type:  dynamically increasing
+15:00:59.517: ---------------------------------
+15:00:59.517: Initializing OpenGL...
+15:00:59.562: Loading up OpenGL on adapter Apple Apple M1 Max
+15:00:59.562: OpenGL loaded successfully, version 4.1 Metal - 90.5, shading language 4.10
+15:00:59.766: ---------------------------------
+15:00:59.766: video settings reset:
+15:00:59.766: 	base resolution:   4320x2160
+15:00:59.766: 	output resolution: 2160x1080
+15:00:59.766: 	downscale filter:  Bicubic
+15:00:59.766: 	fps:               60/1
+15:00:59.766: 	format:            NV12
+15:00:59.766: 	YUV mode:          Rec. 709/Partial
+15:00:59.767: NV12 texture support enabled
+15:00:59.767: P010 texture support not available
+15:00:59.773: Audio monitoring device:
+15:00:59.773: 	name: Default
+15:00:59.773: 	id: default
+15:00:59.777: ---------------------------------
+15:00:59.838: No AJA devices found, skipping loading AJA UI plugin
+15:00:59.838: Failed to initialize module 'aja-output-ui'
+15:00:59.887: No AJA devices found, skipping loading AJA plugin
+15:00:59.887: Failed to initialize module 'aja'
+15:00:59.912: Failed to load 'en-US' text for module: 'decklink-captions'
+15:00:59.927: Failed to load 'en-US' text for module: 'decklink-output-ui'
+15:00:59.942: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:00:59.942: Failed to initialize module 'decklink'
+15:01:02.343: [obs-browser]: Version 2.26.9
+15:01:02.344: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.0.0-6533-fix-stutter.3039+g2b7d20b+chromium-127.0.6533.120 (compiled)
+15:01:02.608: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.4 | RPC Version: 1)
+15:01:02.608: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.1
+15:01:02.608: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+15:01:02.612: [obs-websocket] [obs_module_load] Module loaded.
+15:01:02.692: os_dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib->/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib): dlopen(/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib, 0x0106): tried: '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64')), '/System/Volumes/Preboot/Cryptexes/OS/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (no such file), '/Applications/VLC.app/Contents/MacOS/lib/libvlccore.9.dylib' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64e.v1' or 'arm64' or 'arm64'))
+15:01:02.692: 
+15:01:02.692: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+15:01:02.692: ---------------------------------
+15:01:02.692:   Loaded Modules:
+15:01:02.692:     vlc-video
+15:01:02.692:     text-freetype2
+15:01:02.692:     rtmp-services
+15:01:02.692:     obs-x264
+15:01:02.692:     obs-websocket
+15:01:02.692:     obs-webrtc
+15:01:02.692:     obs-vst
+15:01:02.692:     obs-transitions
+15:01:02.692:     obs-outputs
+15:01:02.692:     obs-filters
+15:01:02.692:     obs-ffmpeg
+15:01:02.692:     obs-browser
+15:01:02.692:     mac-virtualcam
+15:01:02.692:     mac-videotoolbox
+15:01:02.692:     mac-syphon
+15:01:02.692:     mac-capture
+15:01:02.692:     mac-avcapture
+15:01:02.692:     mac-avcapture-legacy
+15:01:02.692:     image-source
+15:01:02.692:     frontend-tools
+15:01:02.692:     decklink-output-ui
+15:01:02.692:     decklink-captions
+15:01:02.692:     coreaudio-encoder
+15:01:02.692: ---------------------------------
+15:01:02.692: [VideoToolbox encoder]: Added VideoToolbox encoders
+15:01:02.693: ---------------------------------
+15:01:02.693: Available Encoders:
+15:01:02.693:   Video Encoders:
+15:01:02.693: 	- ffmpeg_aom_av1 (AOM AV1)
+15:01:02.693: 	- obs_x264 (x264)
+15:01:02.693: 	- com.apple.videotoolbox.videoencoder.prores-422 (Apple VT ProRes Software Encoder)
+15:01:02.693: 	- com.apple.videotoolbox.videoencoder.appleproreshw.422 (Apple VT ProRes Hardware Encoder)
+15:01:02.693: 	- com.apple.videotoolbox.videoencoder.ave.avc (Apple VT H264 Hardware Encoder)
+15:01:02.693: 	- com.apple.videotoolbox.videoencoder.h264 (Apple VT H264 Software Encoder)
+15:01:02.693: 	- com.apple.videotoolbox.videoencoder.ave.hevc (Apple VT HEVC Hardware Encoder)
+15:01:02.693: 	- com.apple.videotoolbox.videoencoder.hevc.vcp (Apple VT HEVC Software Encoder)
+15:01:02.693:   Audio Encoders:
+15:01:02.693: 	- CoreAudio_AAC (CoreAudio AAC)
+15:01:02.693: 	- ffmpeg_aac (FFmpeg AAC)
+15:01:02.693: 	- ffmpeg_opus (FFmpeg Opus)
+15:01:02.693: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+15:01:02.693: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+15:01:02.693: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+15:01:02.693: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+15:01:02.693: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+15:01:02.693: ==== Startup complete ===============================================
+15:01:02.741: All scene data cleared
+15:01:02.741: ------------------------------------------------
+15:01:02.747: [Media Source 'intro_video']: settings:
+15:01:02.747: 	input:                   /Users/insert/Documents/stream_stuff/pre_stream/intro_music.mp4
+15:01:02.747: 	input_format:            (null)
+15:01:02.747: 	speed:                   100
+15:01:02.747: 	is_looping:              yes
+15:01:02.747: 	is_linear_alpha:         no
+15:01:02.747: 	is_hw_decoding:          yes
+15:01:02.747: 	is_clear_on_media_end:   no
+15:01:02.747: 	restart_on_activate:     yes
+15:01:02.747: 	close_when_inactive:     no
+15:01:02.747: 	full_decode:             no
+15:01:02.747: 	ffmpeg_options:          
+15:01:02.749: [Media Source 'background_bubbles']: settings:
+15:01:02.749: 	input:                   /Users/insert/Documents/stream_stuff/stream_background/stream_background.mov
+15:01:02.749: 	input_format:            (null)
+15:01:02.749: 	speed:                   100
+15:01:02.749: 	is_looping:              no
+15:01:02.749: 	is_linear_alpha:         no
+15:01:02.749: 	is_hw_decoding:          yes
+15:01:02.749: 	is_clear_on_media_end:   no
+15:01:02.749: 	restart_on_activate:     yes
+15:01:02.749: 	close_when_inactive:     no
+15:01:02.749: 	full_decode:             no
+15:01:02.749: 	ffmpeg_options:          
+15:01:02.930: [Media Source 'bg-mid_bitrate.m4v']: settings:
+15:01:02.930: 	input:                   /Users/insert/dotfiles/obs-studio/media_assets/bg-mid_bitrate.m4v
+15:01:02.930: 	input_format:            (null)
+15:01:02.930: 	speed:                   100
+15:01:02.930: 	is_looping:              no
+15:01:02.930: 	is_linear_alpha:         no
+15:01:02.930: 	is_hw_decoding:          no
+15:01:02.930: 	is_clear_on_media_end:   yes
+15:01:02.930: 	restart_on_activate:     yes
+15:01:02.930: 	close_when_inactive:     no
+15:01:02.930: 	full_decode:             no
+15:01:02.930: 	ffmpeg_options:          
+15:01:02.955: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  25124
+15:01:02.955: 
+15:01:02.980: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  1881
+15:01:02.980: 
+15:01:03.005: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  1883
+15:01:03.005: 
+15:01:03.024: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  25598
+15:01:03.024: 
+15:01:03.040: [ mac-screencapture ]: init_screen_stream: Invalid target window ID:  213
+15:01:03.040: 
+15:01:03.040: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:03.040: coreaudio: failed to find device uid: AppleUSBAudioEngine:DJI Technology Co., Ltd.:DJI MIC MINI:XSP12345678B:3, waiting for connection
+15:01:03.077: Switched to scene 'main'
+15:01:03.077: ------------------------------------------------
+15:01:03.077: Loaded scenes:
+15:01:03.077: - scene 'intro':
+15:01:03.077:     - source: 'persistent' (group)
+15:01:03.077:         - source: 'background_bubbles' (ffmpeg_source)
+15:01:03.077:             - filter: 'Color Correction' (color_filter_v2)
+15:01:03.077:     - source: 'intro_video' (ffmpeg_source)
+15:01:03.077:         - filter: 'Luma Key' (luma_key_filter_v2)
+15:01:03.077: - scene 'main':
+15:01:03.077:     - source: 'reference-background' (scene)
+15:01:03.077:     - source: 'reference-guest' (scene)
+15:01:03.077:     - source: 'reference-window_capture' (scene)
+15:01:03.077:     - source: 'reference-capture_card' (scene)
+15:01:03.077:     - source: 'reference-vulbyte' (scene)
+15:01:03.077:     - source: 'reference-tib_stuff' (scene)
+15:01:03.077:     - source: 'Browser' (browser_source)
+15:01:03.077: - scene '--------REFERENCE_SCENES--------':
+15:01:03.077: - scene 'reference-background':
+15:01:03.077:     - source: 'tech_issues.jpg' (image_source)
+15:01:03.077:     - source: 'bg-mid_bitrate.m4v' (ffmpeg_source)
+15:01:03.077: - scene 'reference-capture_card':
+15:01:03.077:     - source: 'tech_issues.jpg' (image_source)
+15:01:03.077:     - source: 'Video Capture Device' (macos-avcapture)
+15:01:03.077: - scene 'reference-guest':
+15:01:03.077:     - source: 'group_chat' (screen_capture)
+15:01:03.077: - scene 'reference-tib_stuff':
+15:01:03.077:     - source: 'tech_issues.jpg' (image_source)
+15:01:03.077:     - source: 'chat_capture' (screen_capture)
+15:01:03.077:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+15:01:03.077:     - source: 'event_capture' (screen_capture)
+15:01:03.077: - scene 'reference-vulbyte':
+15:01:03.077:     - source: 'macos-veado_tube_mini' (screen_capture)
+15:01:03.077:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+15:01:03.077:         - filter: 'Luma Key' (luma_key_filter_v2)
+15:01:03.077:     - source: 'main_mic' (coreaudio_input_capture)
+15:01:03.077:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+15:01:03.077: - scene 'reference-window_capture':
+15:01:03.077:     - source: 'tech_issues.jpg' (image_source)
+15:01:03.077:     - source: 'macOS Screen Capture' (screen_capture)
+15:01:03.077: ------------------------------------------------
+15:01:03.084: Video Capture Device: Unable to initialize device with unique ID '430DCFC5-017B-4295-B6F9-DEA767487A85'
+15:01:03.185: YT: InitYTUserUrl() User is not signed
+15:01:03.185: YT: InitYTUserUrl() User is not signed
+15:01:03.411: [mac-virtualcam] mac-camera-extension: OBS cannot install the virtual camera if it's not in "/Applications". Please move OBS to the "/Applications" directory.
+15:01:05.041: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:07.046: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:09.053: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:11.056: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:13.058: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:15.063: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:17.068: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:19.071: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:21.074: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:23.079: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:25.084: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:27.089: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:29.091: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:31.096: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:32.644: [rtmp-services plugin] Remote update of URL "https://obsproject.com/obs2_update/rtmp-services/v5/package.json" failed: Could not resolve host: obsproject.com
+15:01:33.105: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:33.237: run: Failed to fetch branches file: Could not resolve host: obsproject.com
+15:01:33.251: run: Failed to fetch whatsnew file: Could not resolve host: obsproject.com
+15:01:35.107: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:37.113: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:39.115: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:41.120: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:43.125: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:45.126: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:47.132: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:49.136: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:51.141: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:53.143: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:55.148: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:57.154: [coreaudio_get_device_name] failed to get name: 560947818
+15:01:59.161: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:01.167: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:03.171: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:05.176: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:07.179: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:09.184: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:11.184: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:13.189: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:15.193: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:17.198: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:19.205: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:21.207: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:23.210: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:25.215: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:27.221: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:29.227: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:31.228: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:33.233: [coreaudio_get_device_name] failed to get name: 560947818
+15:02:35.239: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:03.458: Last log entry repeated for 103 more lines
+15:06:03.458: User switched to scene 'reference-capture_card'
+15:06:03.694: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:04.032: User switched to scene 'reference-background'
+15:06:05.039: User switched to scene 'reference-capture_card'
+15:06:05.699: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:05.822: User switched to scene 'main'
+15:06:07.700: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:09.704: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:10.405: User switched to scene 'reference-background'
+15:06:11.707: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:13.713: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:15.721: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:17.726: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:19.730: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:21.735: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:23.741: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:25.746: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:27.747: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:29.752: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:31.758: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:33.760: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:35.765: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:37.769: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:39.774: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:41.777: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:43.786: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:45.792: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:47.797: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:49.802: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:51.807: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:52.305: User switched to scene 'reference-capture_card'
+15:06:53.812: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:55.817: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:57.822: [coreaudio_get_device_name] failed to get name: 560947818
+15:06:59.828: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:01.833: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:03.839: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:05.844: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:07.850: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:09.856: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:11.861: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:13.867: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:15.873: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:17.878: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:19.883: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:21.889: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:23.892: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:25.898: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:27.902: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:29.505: User switched to scene 'reference-guest'
+15:07:29.907: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:30.905: User switched to scene 'reference-tib_stuff'
+15:07:31.429: User switched to scene 'reference-vulbyte'
+15:07:31.912: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:33.915: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:35.920: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:37.353: User added scene 'chat'
+15:07:37.354: User switched to scene 'chat'
+15:07:37.925: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:39.927: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:41.932: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:43.938: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:45.943: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:47.954: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:49.957: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:51.962: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:53.967: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:54.438: Switched to scene 'main'
+15:07:54.457: User Removed scene 'chat'
+15:07:55.286: User switched to scene '--------REFERENCE_SCENES--------'
+15:07:55.938: User switched to scene 'main'
+15:07:55.971: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:57.975: [coreaudio_get_device_name] failed to get name: 560947818
+15:07:59.976: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:01.981: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:03.986: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:05.992: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:07.996: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:10.001: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:12.006: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:14.012: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:16.015: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:18.020: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:20.024: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:22.029: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:24.034: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:26.039: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:28.042: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:30.048: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:32.053: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:34.059: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:36.070: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:37.236: User added scene 'chat'
+15:08:37.236: User added source 'reference-background' (scene) to scene 'chat'
+15:08:37.236: User added source 'reference-guest' (scene) to scene 'chat'
+15:08:37.236: User added source 'reference-window_capture' (scene) to scene 'chat'
+15:08:37.237: User added source 'reference-capture_card' (scene) to scene 'chat'
+15:08:37.237: User added source 'reference-vulbyte' (scene) to scene 'chat'
+15:08:37.237: User added source 'reference-tib_stuff' (scene) to scene 'chat'
+15:08:37.237: User added source 'Browser' (browser_source) to scene 'chat'
+15:08:37.250: Switched to scene 'chat'
+15:08:38.075: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:40.080: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:41.337: User switched to scene 'main'
+15:08:41.754: User switched to scene 'chat'
+15:08:42.081: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:44.087: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:46.092: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:48.097: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:48.997: User switched to scene 'main'
+15:08:49.821: User switched to scene 'chat'
+15:08:50.102: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:52.108: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:54.109: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:54.779: User switched to scene 'main'
+15:08:55.379: User switched to scene 'chat'
+15:08:56.115: [coreaudio_get_device_name] failed to get name: 560947818
+15:08:57.055: User switched to scene '--------REFERENCE_SCENES--------'
+15:08:57.579: User switched to scene 'main'
+15:08:58.119: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:00.120: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:02.123: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:04.130: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:06.136: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:08.139: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:10.141: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:12.146: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:14.152: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:16.157: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:18.163: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:20.164: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:22.167: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:24.172: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:26.175: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:28.180: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:30.181: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:32.187: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:34.190: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:36.195: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:38.068: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:09:38.083: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:09:38.201: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:38.848: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:09:38.854: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:09:40.201: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:42.207: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:44.210: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:46.215: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:48.220: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:50.224: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:52.229: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:54.235: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:56.238: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:58.243: [coreaudio_get_device_name] failed to get name: 560947818
+15:09:59.099: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:09:59.107: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:10:00.248: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:02.253: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:04.255: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:06.260: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:08.266: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:10.271: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:10.933: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:10:10.941: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:10:12.276: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:14.282: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:16.287: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:18.292: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:20.297: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:22.302: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:24.308: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:26.313: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:28.318: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:30.325: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:32.329: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:34.334: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:36.339: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:38.344: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:40.350: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:42.351: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:44.355: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:46.359: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:48.364: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:50.364: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:52.369: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:54.374: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:56.378: [coreaudio_get_device_name] failed to get name: 560947818
+15:10:58.381: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:00.386: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:02.391: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:04.396: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:06.397: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:08.403: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:10.408: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:12.413: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:25.632: Last log entry repeated for 6 more lines
+15:11:25.632: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:11:25.641: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:11:26.441: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:28.446: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:30.446: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:32.261: User switched to scene 'chat'
+15:11:32.450: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:32.795: User switched to scene '--------REFERENCE_SCENES--------'
+15:11:33.336: User switched to scene 'main'
+15:11:34.360: User switched to scene 'chat'
+15:11:34.453: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:36.455: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:38.460: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:40.465: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:42.470: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:44.471: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:46.476: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:48.482: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:50.487: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:52.493: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:54.493: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:56.497: [coreaudio_get_device_name] failed to get name: 560947818
+15:11:58.502: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:00.508: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:02.514: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:04.520: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:06.523: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:08.525: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:10.530: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:12.536: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:14.541: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:16.547: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:18.549: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:20.555: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:22.557: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:24.564: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:26.566: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:28.571: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:30.571: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:32.576: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:34.581: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:50.710: Last log entry repeated for 8 more lines
+15:12:50.710: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:12:50.719: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:12:52.618: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:53.393: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:12:53.396: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:12:54.621: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:56.626: [coreaudio_get_device_name] failed to get name: 560947818
+15:12:58.631: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:00.636: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:02.642: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:04.646: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:06.651: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:07.148: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:13:07.156: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:13:08.656: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:10.661: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:12.666: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:14.671: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:16.677: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:18.680: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:20.685: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:22.691: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:24.698: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:26.700: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:28.701: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:30.705: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:32.710: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:34.715: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:36.720: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:38.725: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:40.730: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:42.734: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:44.740: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:46.743: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:48.748: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:50.754: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:52.759: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:54.764: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:56.771: [coreaudio_get_device_name] failed to get name: 560947818
+15:13:58.776: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:00.781: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:02.786: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:04.791: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:06.796: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:08.801: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:16.593: Last log entry repeated for 3 more lines
+15:14:16.594: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:14:16.598: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:14:16.818: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:17.598: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:14:17.607: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:14:18.821: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:20.826: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:22.830: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:24.084: User switched to scene 'reference-guest'
+15:14:24.835: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:25.050: User switched to scene 'reference-capture_card'
+15:14:26.209: User switched to scene 'reference-background'
+15:14:26.775: User switched to scene 'reference-guest'
+15:14:26.840: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:27.293: User switched to scene 'reference-tib_stuff'
+15:14:27.942: User switched to scene 'reference-vulbyte'
+15:14:28.568: User switched to scene 'reference-window_capture'
+15:14:28.845: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:30.693: User switched to scene 'chat'
+15:14:30.851: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:31.101: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:14:31.105: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:14:32.854: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:34.855: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:36.860: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:38.865: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:40.870: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:42.215: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:14:42.220: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:14:42.876: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:44.881: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:45.084: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:14:45.089: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:14:46.262: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+15:14:46.270: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+15:14:46.886: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:48.891: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:50.896: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:52.901: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:54.905: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:56.911: [coreaudio_get_device_name] failed to get name: 560947818
+15:14:58.913: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:00.914: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:02.920: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:04.925: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:06.929: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:08.934: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:10.938: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:12.943: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:14.948: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:16.950: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:18.956: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:20.956: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:22.959: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:24.960: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:26.407: Populating font family aliases took 107 ms. Replace uses of missing font family "MS Shell Dlg" with one that exists to avoid this cost. 
+15:15:26.965: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:28.969: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:30.171: YT: InitYTUserUrl() User is not signed
+15:15:30.972: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:32.977: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:34.980: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:36.985: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:38.986: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:40.991: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:42.995: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:44.999: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:47.004: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:49.009: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:51.011: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:53.016: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:55.021: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:57.027: [coreaudio_get_device_name] failed to get name: 560947818
+15:15:59.032: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:01.036: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:03.041: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:05.046: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:07.051: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:09.056: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:11.061: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:13.066: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:13.317: User switched to scene 'reference-vulbyte'
+15:16:15.071: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:17.076: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:19.079: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:21.087: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:23.091: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:25.094: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:27.099: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:29.104: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:31.109: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:33.111: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:35.114: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:37.119: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:39.123: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:41.129: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:43.133: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:45.135: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:47.140: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:49.144: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:51.148: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:53.154: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:55.157: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:57.162: [coreaudio_get_device_name] failed to get name: 560947818
+15:16:59.165: [coreaudio_get_device_name] failed to get name: 560947818
+15:17:01.169: [coreaudio_get_device_name] failed to get name: 560947818
+15:17:03.174: [coreaudio_get_device_name] failed to get name: 560947818
+15:17:05.180: [coreaudio_get_device_name] failed to get name: 560947818
+15:17:07.185: [coreaudio_get_device_name] failed to get name: 560947818
+15:17:09.190: [coreaudio_get_device_name] failed to get name: 560947818
+15:17:11.194: [coreaudio_get_device_name] failed to get name: 560947818
+15:17:13.200: [coreaudio_get_device_name] failed to get name: 560947818
+15:17:15.204: [coreaudio_get_device_name] failed to get name: 560947818
+16:25:59.707: Last log entry repeated for 1767 more lines
+16:25:59.707: Video Capture Device: Received connect event for device 'insert’s iPhone (2) Camera' (UUID DB39408A-936F-4696-9917-1A3B00000001)
+16:25:59.710: Video Capture Device: Received connect event for device 'insert’s iPhone (2) Desk View Camera' (UUID DB39408A-936F-4696-9917-1A3B00000002)
+16:26:00.017: Video Capture Device: Received connect event for device 'insert’s iPhone (2) Microphone' (UUID DB39408A-936F-4696-9917-1A3B00000003)
+16:26:00.696: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:02.702: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:04.707: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:06.712: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:08.715: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:10.715: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:12.715: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:14.725: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:16.730: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:18.736: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:20.741: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:22.746: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:24.752: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:26.756: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:28.762: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:30.765: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:32.769: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:34.774: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:36.779: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:38.783: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:40.789: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:42.791: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:44.796: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:46.801: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:48.803: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:50.808: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:52.813: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:54.817: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:56.817: [coreaudio_get_device_name] failed to get name: 560947818
+16:26:58.822: [coreaudio_get_device_name] failed to get name: 560947818
+16:27:00.827: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:36.912: Last log entry repeated for 6266 more lines
+19:56:36.913: Video Capture Device: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+19:56:37.897: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:39.899: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:41.902: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:43.903: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:45.909: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:47.913: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:49.917: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:51.922: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:53.927: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:55.932: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:57.937: [coreaudio_get_device_name] failed to get name: 560947818
+19:56:59.939: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:01.944: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:03.947: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:05.948: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:07.954: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:09.959: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:11.960: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:13.964: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:15.969: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:17.970: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:19.976: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:21.980: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:23.986: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:25.989: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:27.990: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:29.995: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:32.000: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:34.006: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:36.010: [coreaudio_get_device_name] failed to get name: 560947818
+19:57:38.013: [coreaudio_get_device_name] failed to get name: 560947818
+19:58:58.398: Last log entry repeated for 40 more lines
+19:58:58.398: User switched to scene 'reference-capture_card'
+19:58:58.733: User switched to scene 'main'
+19:58:59.667: User switched to scene 'chat'
+19:59:00.170: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:02.171: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:04.171: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:06.176: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:08.180: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:10.185: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:12.190: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:14.196: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:16.206: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:18.208: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:20.212: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:22.218: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:24.219: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:26.224: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:28.226: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:30.230: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:32.230: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:34.237: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:36.242: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:38.246: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:40.248: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:42.250: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:44.255: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:46.260: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:48.260: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:50.263: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:52.266: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:54.270: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:56.274: [coreaudio_get_device_name] failed to get name: 560947818
+19:59:58.278: [coreaudio_get_device_name] failed to get name: 560947818
+20:00:00.280: [coreaudio_get_device_name] failed to get name: 560947818
+20:29:53.103: Last log entry repeated for 894 more lines
+20:29:53.104: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+20:29:53.120: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+20:29:53.875: [coreaudio_get_device_name] failed to get name: 560947818
+20:29:55.879: [coreaudio_get_device_name] failed to get name: 560947818
+20:29:57.880: [coreaudio_get_device_name] failed to get name: 560947818
+20:29:59.885: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:01.886: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:03.891: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:05.896: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:07.901: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:09.902: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:11.908: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:13.911: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:15.916: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:17.922: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:19.926: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:21.931: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:23.932: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:25.937: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:27.941: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:29.943: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:29.959: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(VISIBILITY_OBSERVER) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:2219)
+20:30:29.968: [obs-browser: 'Browser'] Error: Uncaught Error: No provider for: InjectionToken(SHEET_CONTROLLER_TOKEN) (https://www.youtube.com/s/desktop/8e3d9e40/jsbin/live_chat_polymer.vflset/live_chat_polymer.js:1901)
+20:30:31.948: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:33.953: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:35.957: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:37.962: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:39.966: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:41.971: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:43.972: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:45.973: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:47.974: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:49.975: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:51.976: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:53.977: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:55.982: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:57.984: [coreaudio_get_device_name] failed to get name: 560947818
+20:30:59.989: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:01.993: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:03.998: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:06.003: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:08.004: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:10.009: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:12.012: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:14.017: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:16.021: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:18.025: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:20.031: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:22.036: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:24.040: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:26.045: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:28.050: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:30.051: [coreaudio_get_device_name] failed to get name: 560947818
+20:31:32.052: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:08.128: Last log entry repeated for 317 more lines
+20:42:08.129: [obs-browser: 'Browser'] Error: Not allowed to load local resource: file:///Users/insert/Documents/stream_stuff/noiseTexture.png (https://www.youtube.com/live_chat?is_popout=1&v=t17PTIRZPbY:0)
+20:42:09.289: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:11.294: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:13.299: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:15.304: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:17.309: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:19.310: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:21.315: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:23.318: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:25.322: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:27.326: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:28.693: [obs-browser: 'Browser'] Error: Not allowed to load local resource: file:///Users/insert/Documents/stream_stuff/noiseTexture.png (https://www.youtube.com/live_chat?is_popout=1&v=t17PTIRZPbY:0)
+20:42:29.329: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:31.334: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:33.340: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:35.344: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:37.349: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:39.353: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:41.358: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:43.360: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:45.365: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:47.367: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:49.372: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:51.378: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:53.381: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:55.387: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:57.390: [coreaudio_get_device_name] failed to get name: 560947818
+20:42:59.392: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:01.393: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:03.399: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:05.404: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:07.412: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:09.417: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:11.420: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:13.425: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:15.427: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:17.431: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:19.436: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:21.437: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:23.441: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:25.450: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:27.452: [coreaudio_get_device_name] failed to get name: 560947818
+20:43:29.457: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:34.936: Last log entry repeated for 362 more lines
+20:55:34.938: User switched to scene 'reference-background'
+20:55:36.804: User switched to scene 'main'
+20:55:36.838: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:37.670: User switched to scene 'chat'
+20:55:38.844: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:40.849: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:42.854: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:44.858: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:46.858: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:48.861: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:50.864: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:52.869: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:54.870: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:56.299: User switched to scene 'reference-vulbyte'
+20:55:56.875: [coreaudio_get_device_name] failed to get name: 560947818
+20:55:58.877: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:00.882: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:01.247: User switched to scene 'intro'
+20:56:02.887: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:04.889: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:06.894: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:08.904: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:10.909: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:12.914: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:14.919: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:16.923: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:18.923: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:20.928: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:22.930: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:24.933: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:26.938: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:28.940: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:30.940: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:32.943: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:34.944: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:36.950: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:38.955: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:40.960: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:42.964: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:44.970: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:46.975: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:48.980: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:50.985: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:52.986: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:54.989: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:56.994: [coreaudio_get_device_name] failed to get name: 560947818
+20:56:58.997: [coreaudio_get_device_name] failed to get name: 560947818
+20:57:01.001: [coreaudio_get_device_name] failed to get name: 560947818
+20:57:03.006: [coreaudio_get_device_name] failed to get name: 560947818
+20:57:43.689: Last log entry repeated for 20 more lines
+20:57:43.689: Video Capture Device: Received connect event for device 'USB Audio Device' (UUID AppleUSBAudioEngine:C-Media Electronics Inc.:USB Audio Device:2121000:2,1)
+20:57:45.077: [coreaudio_get_device_name] failed to get name: 560947818
+20:57:46.030: ==== Shutting down ==================================================
+20:57:46.106: All scene data cleared
+20:57:46.106: ------------------------------------------------
+20:57:46.147: Tried to call obs_frontend_remove_event_callback with no callbacks!
+20:57:46.212: [obs-websocket] [obs_module_unload] Shutting down...
+20:57:46.213: Tried to call obs_frontend_remove_event_callback with no callbacks!
+20:57:46.213: [obs-websocket] [obs_module_unload] Finished shutting down.
+20:57:46.293: [Scripting] Total detached callbacks: 0
+20:57:46.294: Freeing OBS context data
+20:57:46.313: == Profiler Results =============================
+20:57:46.313: run_program_init: 4295.83 ms
+20:57:46.313:  ┣OBSApp::AppInit: 20.843 ms
+20:57:46.313:  ┃ ┗OBSApp::InitLocale: 1.362 ms
+20:57:46.313:  ┗OBSApp::OBSInit: 3971.67 ms
+20:57:46.313:    ┣obs_startup: 1.765 ms
+20:57:46.313:    ┗OBSBasic::OBSInit: 3753.81 ms
+20:57:46.313:      ┣OBSBasic::InitBasicConfig: 3.532 ms
+20:57:46.313:      ┣OBSBasic::ResetAudio: 0.131 ms
+20:57:46.313:      ┣OBSBasic::ResetVideo: 275.133 ms
+20:57:46.313:      ┃ ┗obs_init_graphics: 268.829 ms
+20:57:46.313:      ┃   ┗shader compilation: 204.33 ms
+20:57:46.313:      ┣OBSBasic::InitOBSCallbacks: 0.002 ms
+20:57:46.313:      ┣OBSBasic::InitHotkeys: 0.025 ms
+20:57:46.313:      ┣obs_load_all_modules2: 2915.53 ms
+20:57:46.313:      ┃ ┣obs_init_module(aja-output-ui): 1.135 ms
+20:57:46.313:      ┃ ┣obs_init_module(aja): 1.082 ms
+20:57:46.313:      ┃ ┣obs_init_module(coreaudio-encoder): 0 ms
+20:57:46.313:      ┃ ┣obs_init_module(decklink-captions): 0 ms
+20:57:46.313:      ┃ ┣obs_init_module(decklink-output-ui): 0 ms
+20:57:46.313:      ┃ ┣obs_init_module(decklink): 0.084 ms
+20:57:46.313:      ┃ ┣obs_init_module(frontend-tools): 257.973 ms
+20:57:46.313:      ┃ ┣obs_init_module(image-source): 0.007 ms
+20:57:46.313:      ┃ ┣obs_init_module(mac-avcapture-legacy): 140.668 ms
+20:57:46.313:      ┃ ┣obs_init_module(mac-avcapture): 0.003 ms
+20:57:46.313:      ┃ ┣obs_init_module(mac-capture): 0.031 ms
+20:57:46.313:      ┃ ┣obs_init_module(mac-syphon): 0.003 ms
+20:57:46.313:      ┃ ┣obs_init_module(mac-videotoolbox): 0.008 ms
+20:57:46.313:      ┃ ┣obs_init_module(mac-virtualcam): 0.001 ms
+20:57:46.313:      ┃ ┣obs_init_module(obs-browser): 1767.53 ms
+20:57:46.313:      ┃ ┣obs_init_module(obs-ffmpeg): 0.304 ms
+20:57:46.313:      ┃ ┣obs_init_module(obs-filters): 0.037 ms
+20:57:46.313:      ┃ ┣obs_init_module(obs-outputs): 0.017 ms
+20:57:46.313:      ┃ ┣obs_init_module(obs-transitions): 0.006 ms
+20:57:46.313:      ┃ ┣obs_init_module(obs-vst): 0.002 ms
+20:57:46.313:      ┃ ┣obs_init_module(obs-webrtc): 0.003 ms
+20:57:46.313:      ┃ ┣obs_init_module(obs-websocket): 3.507 ms
+20:57:46.313:      ┃ ┣obs_init_module(obs-x264): 0 ms
+20:57:46.313:      ┃ ┣obs_init_module(rtmp-services): 0.177 ms
+20:57:46.313:      ┃ ┣obs_init_module(text-freetype2): 0.028 ms
+20:57:46.313:      ┃ ┗obs_init_module(vlc-video): 1.687 ms
+20:57:46.313:      ┣OBSBasic::InitService: 1.888 ms
+20:57:46.313:      ┣OBSBasic::ResetOutputs: 22.217 ms
+20:57:46.313:      ┣OBSBasic::CreateHotkeys: 0.055 ms
+20:57:46.313:      ┣OBSBasic::InitPrimitives: 0.065 ms
+20:57:46.313:      ┗OBSBasic::Load: 366.02 ms
+20:57:46.313: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=26.545 ms, 99th percentile=0.002 ms, 99.9999% below 25 ms
+20:57:46.313: audio_thread(Audio): min=0.003 ms, median=0.025 ms, max=602.722 ms, 99th percentile=1.894 ms
+20:57:46.313: obs_graphics_thread(16.6667 ms): min=0.082 ms, median=3.55 ms, max=1552.82 ms, 99th percentile=26.024 ms, 97.8585% below 16.667 ms
+20:57:46.313:  ┣tick_sources: min=0 ms, median=0.037 ms, max=338.28 ms, 99th percentile=0.469 ms
+20:57:46.313:  ┣output_frame: min=0.043 ms, median=0.506 ms, max=766.417 ms, 99th percentile=4.607 ms
+20:57:46.313:  ┃ ┗gs_context(video->graphics): min=0.043 ms, median=0.506 ms, max=766.416 ms, 99th percentile=4.597 ms
+20:57:46.313:  ┃   ┣render_video: min=0.006 ms, median=0.096 ms, max=765.89 ms, 99th percentile=3.086 ms
+20:57:46.313:  ┃   ┃ ┗render_main_texture: min=0.006 ms, median=0.086 ms, max=765.881 ms, 99th percentile=3.058 ms
+20:57:46.313:  ┃   ┗gs_flush: min=0.025 ms, median=0.344 ms, max=575.308 ms, 99th percentile=3.403 ms
+20:57:46.313:  ┗render_displays: min=0 ms, median=2.595 ms, max=1552.24 ms, 99th percentile=21.642 ms
+20:57:46.313: OBSBasicSettings::LoadThemeList: 0.055 ms
+20:57:46.313: =================================================
+20:57:46.313: == Profiler Time Between Calls ==================
+20:57:46.313: obs_hotkey_thread(25 ms): min=25.009 ms, median=29.186 ms, max=1363.39 ms, 3.21031% within ±2% of 25 ms (0% lower, 96.7897% higher)
+20:57:46.314: obs_graphics_thread(16.6667 ms): min=1.005 ms, median=16.669 ms, max=1552.84 ms, 44.1017% within ±2% of 16.667 ms (26.9608% lower, 28.9375% higher)
+20:57:46.314: =================================================
+20:57:46.451: Number of memory leaks: 0
