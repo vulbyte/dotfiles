@@ -4,22 +4,20 @@
 START_DIR=$(pwd)
 
 # 2. Move to the dotfiles root to perform the work
-# Using the specific nested folder where your 'Library' and '.config' actually live
 echo "attempting to move to the dotfiles root"
 cd "$HOME/dotfiles/obs-studio" || { echo "Could not find dotfiles directory"; exit 1; }
 
 # 3. Clean macOS junk and conflicts
-echo "clening .DSStore files"
-find . -type f \( -name '.DS_Store' -or -name '*text*' \) -delete
+echo "cleaning .DS_Store files"
+find . -type f \( -name '.DS_Store' \) -delete
 
 # 4. Clear the current system-level links
-ech "clearing symlinks"
+echo "clearing symlinks"
 rm -rf "$HOME/Library/Application Support/obs-studio"
 rm -rf "$HOME/.config/obs-studio"
 
-# 5. Run stow from the package root
-# This ensures Library/ maps to ~/Library/
-echo "running stow --target='home'"
+# 5. Run stow from the package root pointing to your home directory
+echo "running stow"
 stow --target="$HOME" .
 
 # 6. Global Git Config
