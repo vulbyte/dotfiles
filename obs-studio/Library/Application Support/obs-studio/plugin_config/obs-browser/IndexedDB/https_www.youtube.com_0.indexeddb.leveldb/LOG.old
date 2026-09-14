@@ -1,7 +1,0 @@
-2026/08/10-15:15:42.213 29603 Reusing MANIFEST /Users/insert/dotfiles/obs-studio/Library/Application Support/obs-studio/plugin_config/obs-browser/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2026/08/10-15:15:42.213 29603 Recovering log #3
-2026/08/10-15:15:42.214 29603 Reusing old log /Users/insert/dotfiles/obs-studio/Library/Application Support/obs-studio/plugin_config/obs-browser/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
-2026/08/10-20:29:54.545 21503 Level-0 table #5: started
-2026/08/10-20:29:54.553 21503 Level-0 table #5: 2963 bytes OK
-2026/08/10-20:29:54.572 21503 Delete type=0 #3
-2026/08/10-20:29:54.573 21503 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

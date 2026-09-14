@@ -1,0 +1,4 @@
+agent.md
+auth-service/target/
+data/*.db
+.env

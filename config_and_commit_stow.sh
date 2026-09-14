@@ -4,11 +4,10 @@ set -euo pipefail
 START_DIR=$(pwd)
 DOTFILES="$HOME/dotfiles"
 
-echo "Cleaning .DS_Store files..."
-find "$DOTFILES" -type f -name '.DS_Store' -delete
 
 echo "Running stow..."
-stow -R -d "$DOTFILES" -t "$HOME" home
+# stow --target=$HOME
+stow -R -d "$DOTFILES" -t "$HOME" home fonts
 
 echo "Updating git config..."
 git config --global core.excludesfile "$DOTFILES/.gitignore"
