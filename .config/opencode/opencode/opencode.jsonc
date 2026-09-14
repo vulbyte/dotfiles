@@ -1,0 +1,25 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "read": "allow",
+    "edit": "allow",
+    "external_directory": "allow",
+    "bash": "allow",
+    "web-fetch": "allow"
+  },
+  "provider": {
+    "lmstudio": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "LM Studio (local)",
+      "options": {
+        "baseURL": "http://192.168.1.71:1234/v1"
+      },
+      "models": {
+        "qwen/qwen2.5-coder-14b": {
+          "name": "qwen2.5-coder-14b"
+        }
+      }
+    }
+  }
+}
+
