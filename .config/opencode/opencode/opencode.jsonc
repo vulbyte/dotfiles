@@ -5,7 +5,10 @@
     "edit": "allow",
     "external_directory": "allow",
     "bash": "allow",
-    "web-fetch": "allow"
+    "web-fetch": "allow",
+    "skill": {
+	    "*": "allow"
+    }
   },
   "provider": {
     "lmstudio": {
