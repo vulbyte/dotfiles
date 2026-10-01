@@ -1,0 +1,4 @@
+18:13:29.345: [macOS] Permission for audio device access granted.
+18:13:29.348: [macOS] Permission for video device access granted.
+18:13:29.348: [macOS] Permission for input monitoring granted.
+18:13:29.352: [macOS] Permission for screen capture granted.

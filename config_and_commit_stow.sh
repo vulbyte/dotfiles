@@ -22,5 +22,9 @@ else
 fi
 git push
 
+echo "updating git to listen to global ignore"
+git config --global core.excludesfile "$HOME/.git-global-ignore"
+
 cd "$START_DIR"
 echo "Stow refreshed and backed up."
+

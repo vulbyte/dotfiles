@@ -17,6 +17,8 @@
 - Use the best model for the task - premium models for complex tasks (like coding) and mid-tier models for simpler tasks, like documentation
 - After completing features (large or small), always run commands like lint, type check and next build to check code quality.
 - if it does not run or compile the task is not considered complete
+- you should access the PLANNING.md file, to check the current list of what to do, and see if any is relivant to you
+- after each task, update the PLANNING.md for what needs to be done, and remove what has been done
 
 ## DATABASE SCHEMA CHANGES
 - Whenever you make changes to the database schema, the database should be copied and that copy should be the one used for work/testing. add the copy to the .gitignore to it isn't accidentally archived.
