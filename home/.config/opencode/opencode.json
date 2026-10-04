@@ -5,7 +5,7 @@
     "edit": "allow",
     "read": "allow",
     "write": "allow",
-    "bash": "ask"
+    "bash": "allow"
   },
   "providers": {
     "lmstudio": {
